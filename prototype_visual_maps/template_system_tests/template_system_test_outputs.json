@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-06-16T06:08:30.161611+00:00",
+  "outputs": {
+    "dungeon_mine_template_test_marker_fallback": {
+      "semantic": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_marker_fallback\\semantic.json",
+      "ascii": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_marker_fallback\\semantic_ascii.txt",
+      "preview_clean": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_marker_fallback\\preview_clean.png",
+      "preview_labeled": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_marker_fallback\\preview_labeled.png",
+      "metadata": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_marker_fallback\\metadata.json",
+      "validation_report": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_marker_fallback\\validation_report.md"
+    },
+    "outdoor_template_test_marker_fallback": {
+      "semantic": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\outdoor_template_test_marker_fallback\\semantic.json",
+      "ascii": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\outdoor_template_test_marker_fallback\\semantic_ascii.txt",
+      "preview_clean": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\outdoor_template_test_marker_fallback\\preview_clean.png",
+      "preview_labeled": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\outdoor_template_test_marker_fallback\\preview_labeled.png",
+      "metadata": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\outdoor_template_test_marker_fallback\\metadata.json",
+      "validation_report": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\outdoor_template_test_marker_fallback\\validation_report.md"
+    },
+    "indoor_template_test_marker_fallback": {
+      "semantic": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\indoor_template_test_marker_fallback\\semantic.json",
+      "ascii": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\indoor_template_test_marker_fallback\\semantic_ascii.txt",
+      "preview_clean": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\indoor_template_test_marker_fallback\\preview_clean.png",
+      "preview_labeled": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\indoor_template_test_marker_fallback\\preview_labeled.png",
+      "metadata": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\indoor_template_test_marker_fallback\\metadata.json",
+      "validation_report": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\indoor_template_test_marker_fallback\\validation_report.md"
+    },
+    "dungeon_mine_template_test_visual": {
+      "tmx": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_visual\\dungeon_mine_template_test_visual.tmx",
+      "tmj": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_visual\\dungeon_mine_template_test_visual.tmj",
+      "preview_clean": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_visual\\preview_clean.png",
+      "preview_labeled": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_visual\\preview_labeled.png",
+      "metadata": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_visual\\metadata.json",
+      "validation_report": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\template_system_tests\\dungeon_mine_template_test_visual\\validation_report.md"
+    },
+    "custom_03_template_fixed": {
+      "tmx": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\custom_03\\custom_03_template_fixed.tmx",
+      "tmj": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\custom_03\\custom_03_template_fixed.tmj",
+      "preview_clean": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\custom_03\\preview_clean_template_fixed.png",
+      "preview_labeled": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\custom_03\\preview_labeled_template_fixed.png",
+      "metadata": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\custom_03\\metadata_template_fixed.json",
+      "validation_report": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\custom_03\\validation_report_template_fixed.md",
+      "before_after": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\custom_03\\before_after_custom_03_template_fix.png"
+    }
+  }
+}

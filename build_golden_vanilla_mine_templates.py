@@ -66,7 +66,7 @@ def sheet_image_path(image_source: str) -> Optional[Path]:
     for name in names:
         for root in (MINE_DIR, BASEGAME):
             cand = root / name
-            if cand.exists():
+            if cand.exists() and cand.is_file():
                 return cand
     return None
 

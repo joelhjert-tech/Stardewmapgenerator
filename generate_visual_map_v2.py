@@ -21,7 +21,7 @@ FALLBACK_RULES = ROOT / "pattern_learning" / "tile_grammar_templates" / "fallbac
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "prototypes"))
 import build_dungeon_visual_prototypes as base  # noqa: E402
-from mine_wall_pattern_resolver import MineWallPatternResolver  # noqa: E402
+from golden_mine_template_resolver import GoldenMineTemplateResolver  # noqa: E402
 
 
 def now_iso() -> str:
@@ -119,8 +119,9 @@ def finalize_template_map(p: base.PrototypeMap) -> None:
     base.add_rect(p.floor_mask, p.entrance[0] - 1, p.entrance[1] - 1, p.entrance[0] + 1, p.entrance[1] + 1)
     base.add_rect(p.floor_mask, p.exit[0] - 1, p.exit[1], p.exit[0] + 1, min(p.height - 2, p.exit[1] + 2))
     p.init_layers()
-    base.decorate_floor(p)
-    MineWallPatternResolver().apply(p)
+    result = GoldenMineTemplateResolver().apply(p)
+    if result.get("status") == "FALLBACK_REQUIRED":
+        raise RuntimeError(f"Golden mine templates unavailable; marker fallback required: {result.get('missing')}")
     # Reuse light/special placement, but after the template wall pass.
     for x, y in p.special_markers.get("torches", []):
         p.set_tile("Front", x, y, 48 if (x + y) % 2 else 80)
@@ -144,7 +145,10 @@ def write_visual_test(out_dir: Path, map_id: str = "dungeon_mine_template_test_v
     p = base.make_custom_03()
     p.map_id = map_id
     p.title = "Dungeon/Mine Template System Visual Test"
-    finalize_template_map(p)
+    try:
+        finalize_template_map(p)
+    except RuntimeError:
+        return write_marker_fallback("dungeon", out_dir)
     tilesheet = Image.open(out_dir / "tilesheets" / "mine.png").convert("RGBA")
     tmx = base.write_tmx(p, out_dir, "tilesheets/mine.png")
     tmj = base.write_tmj(p, out_dir, "tilesheets/mine.png")
@@ -160,11 +164,9 @@ def write_visual_test(out_dir: Path, map_id: str = "dungeon_mine_template_test_v
     }, validation)
     doc = json.loads(metadata.read_text(encoding="utf-8"))
     doc["generator"] = "generate_visual_map_v2.py"
-    doc["resolvedTemplates"] = [
-        "mine_basic_floor", "mine_floor_variation", "mine_straight_wall_stack",
-        "mine_shadow_under_wall", "mine_ladder_opening", "mine_clear_space_placement",
-    ]
-    doc["fallbackChainUsed"] = ["high_confidence_reference_map_template", "profile_generic_template"]
+    doc["resolvedTemplates"] = sorted({pl["templateId"] for pl in getattr(p, "golden_template_placements", [])})
+    doc["goldenTemplatePlacements"] = getattr(p, "golden_template_placements", [])
+    doc["fallbackChainUsed"] = ["exact_golden_vanilla_template"]
     doc["productionOutput"] = False
     metadata.write_text(json.dumps(doc, indent=2), encoding="utf-8")
     return {
@@ -184,7 +186,10 @@ def write_custom_03_template_fix() -> Dict[str, str]:
     p = base.make_custom_03()
     p.map_id = "custom_03_template_fixed"
     p.title = "Custom 03 - Template System Fixed"
-    finalize_template_map(p)
+    try:
+        finalize_template_map(p)
+    except RuntimeError:
+        return write_marker_fallback("dungeon", out_dir)
     tilesheet = Image.open(DUNGEON_REVIEW / "tilesheets" / "mine.png").convert("RGBA")
     tmx = base.write_tmx(p, out_dir, "../tilesheets/mine.png")
     tmj = base.write_tmj(p, out_dir, "../tilesheets/mine.png")
@@ -200,7 +205,8 @@ def write_custom_03_template_fix() -> Dict[str, str]:
     }, validation, file_name="metadata_template_fixed.json")
     doc = json.loads(metadata.read_text(encoding="utf-8"))
     doc["generator"] = "generate_visual_map_v2.py"
-    doc["resolvedTemplates"] = ["mine_basic_floor", "mine_straight_wall_stack", "mine_shadow_under_wall", "mine_ladder_opening"]
+    doc["resolvedTemplates"] = sorted({pl["templateId"] for pl in getattr(p, "golden_template_placements", [])})
+    doc["goldenTemplatePlacements"] = getattr(p, "golden_template_placements", [])
     doc["productionOutput"] = False
     metadata.write_text(json.dumps(doc, indent=2), encoding="utf-8")
     before = out_dir / "preview_clean.png"
