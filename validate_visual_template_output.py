@@ -12,7 +12,7 @@ REPORTS = ROOT / "reports"
 
 import sys
 sys.path.insert(0, str(ROOT))
-import validate_mine_visual_patterns  # noqa: E402
+import validate_golden_mine_template_output  # noqa: E402
 
 
 def load(path: Path):
@@ -63,7 +63,7 @@ def validate_visual_folder(path: Path) -> dict:
         return {"path": str(path.resolve()), "status": "FAIL", "errors": errors, "warnings": warnings}
     mine_results = []
     for tmx in tmx_files:
-        result = validate_mine_visual_patterns.validate_map(tmx)
+        result = validate_golden_mine_template_output.validate_map(tmx)
         mine_results.append(result)
         errors += [f"{tmx.name}: {e}" for e in result.get("errors", [])]
         warnings += [f"{tmx.name}: {w}" for w in result.get("warnings", [])]
@@ -89,7 +89,7 @@ def main() -> int:
         checks.append(validate_marker_folder(folder))
     checks.append(validate_visual_folder(OUT_ROOT / "dungeon_mine_template_test_visual"))
     custom_tmx = DUNGEON_REVIEW / "custom_03" / "custom_03_template_fixed.tmx"
-    custom_result = validate_mine_visual_patterns.validate_map(custom_tmx) if custom_tmx.exists() else {"status": "FAIL", "errors": ["missing custom_03_template_fixed.tmx"], "warnings": []}
+    custom_result = validate_golden_mine_template_output.validate_map(custom_tmx) if custom_tmx.exists() else {"status": "FAIL", "errors": ["missing custom_03_template_fixed.tmx"], "warnings": []}
     checks.append({
         "path": str(custom_tmx.resolve()),
         "status": custom_result["status"],

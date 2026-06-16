@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local asset/evidence folders. These may contain copied mods, unpacked
+# vanilla assets, third-party reference repos, or machine-local review data.
+mission_assets/
+unpacked_basegame/
+working_mod_mining/reference_repos/
+repaired_assets/
+backups/
+
+# Generated review images can contain rendered vanilla/base-game art. Keep them
+# local; commit the template metadata, reports, and TMX/TMJ instead.
+pattern_learning/tile_grammar_templates/golden_vanilla_mine_templates/*.png
+pattern_learning/tile_grammar_templates/golden_vanilla_mine_templates/previews/*.png
+prototype_visual_maps/**/*.png
+prototype_visual_maps/**/tilesheets/*.png
+
+# Local editor/system noise.
+.DS_Store
+Thumbs.db

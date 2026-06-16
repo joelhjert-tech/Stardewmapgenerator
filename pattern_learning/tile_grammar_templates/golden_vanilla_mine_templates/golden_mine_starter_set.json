@@ -1,0 +1,7251 @@
+{
+  "generatedAt": "2026-06-16T06:06:46.703515+00:00",
+  "starterSetPolicy": "Only starter templates with vanilla source evidence and generated previews are included. Shaft is review-required if only represented by an opening alias.",
+  "templates": [
+    {
+      "templateId": "golden_mine_floor_base",
+      "templateName": "Floor Base",
+      "role": "floor_base",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "10.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\10.tbin",
+      "sourceCoordinate": {
+        "x": 8,
+        "y": 7
+      },
+      "width": 1,
+      "height": 1,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "layersUsed": [
+        "Back"
+      ],
+      "localTileIdsUsed": [
+        1
+      ],
+      "cells": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 1,
+          "sourceX": 8,
+          "sourceY": 7
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_floor_base.png"
+    },
+    {
+      "templateId": "golden_mine_floor_variation",
+      "templateName": "Floor Variation",
+      "role": "floor_variation",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "10.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\10.tbin",
+      "sourceCoordinate": {
+        "x": 5,
+        "y": 7
+      },
+      "width": 1,
+      "height": 1,
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "layersUsed": [
+        "Back"
+      ],
+      "localTileIdsUsed": [
+        1
+      ],
+      "cells": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 1,
+          "sourceX": 5,
+          "sourceY": 7
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_floor_variation.png"
+    },
+    {
+      "templateId": "golden_mine_straight_horizontal_wall",
+      "templateName": "Straight Horizontal Wall",
+      "role": "straight_horizontal_wall",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "60.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\60.tbin",
+      "sourceCoordinate": {
+        "x": 38,
+        "y": 4
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        26,
+        31,
+        47,
+        69,
+        70,
+        76,
+        77,
+        85,
+        86,
+        92,
+        97,
+        101,
+        102,
+        108,
+        117,
+        118,
+        133,
+        134,
+        138,
+        186,
+        218
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 36,
+          "sourceY": 2
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 36,
+          "sourceY": 2
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 2
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 47,
+          "sourceX": 37,
+          "sourceY": 2
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 38,
+          "sourceY": 2
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 31,
+          "sourceX": 38,
+          "sourceY": 2
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 39,
+          "sourceY": 2
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 39,
+          "sourceY": 2
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 40,
+          "sourceY": 2
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 40,
+          "sourceY": 2
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 36,
+          "sourceY": 3
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 26,
+          "sourceX": 36,
+          "sourceY": 3
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 3
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 37,
+          "sourceY": 3
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 3
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 38,
+          "sourceY": 3
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 3
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 39,
+          "sourceY": 3
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 3
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 40,
+          "sourceY": 3
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 36,
+          "sourceY": 4
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 76,
+          "sourceX": 36,
+          "sourceY": 4
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 4
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 37,
+          "sourceY": 4
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 4
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 38,
+          "sourceY": 4
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 4
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 39,
+          "sourceY": 4
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 4
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 102,
+          "sourceX": 40,
+          "sourceY": 4
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 5
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 92,
+          "sourceX": 36,
+          "sourceY": 5
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 5
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 37,
+          "sourceY": 5
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 5
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 97,
+          "sourceX": 38,
+          "sourceY": 5
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 5
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 39,
+          "sourceY": 5
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 5
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 40,
+          "sourceY": 5
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 6
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 108,
+          "sourceX": 36,
+          "sourceY": 6
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 6
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 37,
+          "sourceY": 6
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 6
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 38,
+          "sourceY": 6
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 6
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 39,
+          "sourceY": 6
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 40,
+          "sourceY": 6
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 40,
+          "sourceY": 6
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_straight_horizontal_wall.png"
+    },
+    {
+      "templateId": "golden_mine_wall_top",
+      "templateName": "Wall Top",
+      "role": "wall_top",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "60.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\60.tbin",
+      "sourceCoordinate": {
+        "x": 38,
+        "y": 4
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        26,
+        31,
+        47,
+        69,
+        70,
+        76,
+        77,
+        85,
+        86,
+        92,
+        97,
+        101,
+        102,
+        108,
+        117,
+        118,
+        133,
+        134,
+        138,
+        186,
+        218
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 36,
+          "sourceY": 2
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 36,
+          "sourceY": 2
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 2
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 47,
+          "sourceX": 37,
+          "sourceY": 2
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 38,
+          "sourceY": 2
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 31,
+          "sourceX": 38,
+          "sourceY": 2
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 39,
+          "sourceY": 2
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 39,
+          "sourceY": 2
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 40,
+          "sourceY": 2
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 40,
+          "sourceY": 2
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 36,
+          "sourceY": 3
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 26,
+          "sourceX": 36,
+          "sourceY": 3
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 3
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 37,
+          "sourceY": 3
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 3
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 38,
+          "sourceY": 3
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 3
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 39,
+          "sourceY": 3
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 3
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 40,
+          "sourceY": 3
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 36,
+          "sourceY": 4
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 76,
+          "sourceX": 36,
+          "sourceY": 4
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 4
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 37,
+          "sourceY": 4
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 4
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 38,
+          "sourceY": 4
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 4
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 39,
+          "sourceY": 4
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 4
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 102,
+          "sourceX": 40,
+          "sourceY": 4
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 5
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 92,
+          "sourceX": 36,
+          "sourceY": 5
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 5
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 37,
+          "sourceY": 5
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 5
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 97,
+          "sourceX": 38,
+          "sourceY": 5
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 5
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 39,
+          "sourceY": 5
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 5
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 40,
+          "sourceY": 5
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 6
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 108,
+          "sourceX": 36,
+          "sourceY": 6
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 6
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 37,
+          "sourceY": 6
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 6
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 38,
+          "sourceY": 6
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 6
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 39,
+          "sourceY": 6
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 40,
+          "sourceY": 6
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 40,
+          "sourceY": 6
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_wall_top.png"
+    },
+    {
+      "templateId": "golden_mine_wall_body",
+      "templateName": "Wall Body",
+      "role": "wall_body",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "60.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\60.tbin",
+      "sourceCoordinate": {
+        "x": 36,
+        "y": 21
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        70,
+        85,
+        86,
+        97,
+        101,
+        102,
+        117,
+        118,
+        133,
+        134,
+        138,
+        170,
+        186,
+        218,
+        234,
+        235
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 34,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 35,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 36,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 37,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 102,
+          "sourceX": 38,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 34,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 35,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 97,
+          "sourceX": 36,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 37,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 38,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 21
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 102,
+          "sourceX": 34,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 35,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 36,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 37,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 38,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 38,
+          "sourceY": 21
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 22
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 34,
+          "sourceY": 22
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 22
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 35,
+          "sourceY": 22
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 36,
+          "sourceY": 22
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 36,
+          "sourceY": 22
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 37,
+          "sourceY": 22
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 235,
+          "sourceX": 38,
+          "sourceY": 22
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 34,
+          "sourceY": 23
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 34,
+          "sourceY": 23
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 35,
+          "sourceY": 23
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 235,
+          "sourceX": 36,
+          "sourceY": 23
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 23
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 170,
+          "sourceX": 38,
+          "sourceY": 23
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_wall_body.png"
+    },
+    {
+      "templateId": "golden_mine_left_edge",
+      "templateName": "Left Edge",
+      "role": "left_edge",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "53.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\53.tbin",
+      "sourceCoordinate": {
+        "x": 26,
+        "y": 19
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        7,
+        23,
+        39,
+        55,
+        69,
+        77,
+        85,
+        93,
+        94,
+        101,
+        109,
+        110,
+        117,
+        125,
+        126,
+        133,
+        141,
+        142,
+        157,
+        158,
+        185,
+        218
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 17
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 24,
+          "sourceY": 17
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 17
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 25,
+          "sourceY": 17
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 17
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 94,
+          "sourceX": 26,
+          "sourceY": 17
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 27,
+          "sourceY": 17
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 27,
+          "sourceY": 17
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 28,
+          "sourceY": 17
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 28,
+          "sourceY": 17
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 18
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 24,
+          "sourceY": 18
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 18
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 25,
+          "sourceY": 18
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 18
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 26,
+          "sourceY": 18
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 27,
+          "sourceY": 18
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 7,
+          "sourceX": 27,
+          "sourceY": 18
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 28,
+          "sourceY": 18
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 28,
+          "sourceY": 18
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 24,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 25,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 26,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 27,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 23,
+          "sourceX": 27,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 28,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 28,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 24,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 25,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 26,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 27,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 39,
+          "sourceX": 27,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 28,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 28,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 24,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 25,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 26,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 27,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 55,
+          "sourceX": 27,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 28,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 28,
+          "sourceY": 21
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_left_edge.png"
+    },
+    {
+      "templateId": "golden_mine_right_edge",
+      "templateName": "Right Edge",
+      "role": "right_edge",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "50.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\50.tbin",
+      "sourceCoordinate": {
+        "x": 68,
+        "y": 50
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        44,
+        72,
+        77,
+        88,
+        93,
+        94,
+        104,
+        109,
+        110,
+        113,
+        120,
+        125,
+        126,
+        138,
+        141,
+        142,
+        157,
+        158,
+        185,
+        202,
+        218
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 202,
+          "sourceX": 66,
+          "sourceY": 48
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 72,
+          "sourceX": 66,
+          "sourceY": 48
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 48
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 67,
+          "sourceY": 48
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 68,
+          "sourceY": 48
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 94,
+          "sourceX": 68,
+          "sourceY": 48
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 69,
+          "sourceY": 48
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 44,
+          "sourceX": 69,
+          "sourceY": 48
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 70,
+          "sourceY": 48
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 70,
+          "sourceY": 48
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 66,
+          "sourceY": 49
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 88,
+          "sourceX": 66,
+          "sourceY": 49
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 49
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 67,
+          "sourceY": 49
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 49
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 68,
+          "sourceY": 49
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 69,
+          "sourceY": 49
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 69,
+          "sourceY": 49
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 70,
+          "sourceY": 49
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 94,
+          "sourceX": 70,
+          "sourceY": 49
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 66,
+          "sourceY": 50
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 104,
+          "sourceX": 66,
+          "sourceY": 50
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 50
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 113,
+          "sourceX": 67,
+          "sourceY": 50
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 50
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 68,
+          "sourceY": 50
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 69,
+          "sourceY": 50
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 69,
+          "sourceY": 50
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 70,
+          "sourceY": 50
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 70,
+          "sourceY": 50
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 66,
+          "sourceY": 51
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 120,
+          "sourceX": 66,
+          "sourceY": 51
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 51
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 67,
+          "sourceY": 51
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 51
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 68,
+          "sourceY": 51
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 69,
+          "sourceY": 51
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 69,
+          "sourceY": 51
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 70,
+          "sourceY": 51
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 70,
+          "sourceY": 51
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 66,
+          "sourceY": 52
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 52
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 67,
+          "sourceY": 52
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 52
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 68,
+          "sourceY": 52
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 69,
+          "sourceY": 52
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 69,
+          "sourceY": 52
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 70,
+          "sourceY": 52
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 70,
+          "sourceY": 52
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_right_edge.png"
+    },
+    {
+      "templateId": "golden_mine_upper_left_corner",
+      "templateName": "Upper Left Corner",
+      "role": "upper_left_corner",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "50.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\50.tbin",
+      "sourceCoordinate": {
+        "x": 19,
+        "y": 38
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        68,
+        71,
+        84,
+        85,
+        86,
+        91,
+        100,
+        101,
+        102,
+        107,
+        116,
+        117,
+        118,
+        123,
+        133,
+        134,
+        138,
+        186,
+        218,
+        234,
+        235
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 17,
+          "sourceY": 36
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 68,
+          "sourceX": 17,
+          "sourceY": 36
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 18,
+          "sourceY": 36
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 18,
+          "sourceY": 36
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 19,
+          "sourceY": 36
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 19,
+          "sourceY": 36
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 20,
+          "sourceY": 36
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 91,
+          "sourceX": 20,
+          "sourceY": 36
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 21,
+          "sourceY": 36
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 21,
+          "sourceY": 36
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 17,
+          "sourceY": 37
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 84,
+          "sourceX": 17,
+          "sourceY": 37
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 18,
+          "sourceY": 37
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 18,
+          "sourceY": 37
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 19,
+          "sourceY": 37
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 102,
+          "sourceX": 19,
+          "sourceY": 37
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 20,
+          "sourceY": 37
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 107,
+          "sourceX": 20,
+          "sourceY": 37
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 21,
+          "sourceY": 37
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 21,
+          "sourceY": 37
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 17,
+          "sourceY": 38
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 100,
+          "sourceX": 17,
+          "sourceY": 38
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 18,
+          "sourceY": 38
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 18,
+          "sourceY": 38
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 19,
+          "sourceY": 38
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 19,
+          "sourceY": 38
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 20,
+          "sourceY": 38
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 123,
+          "sourceX": 20,
+          "sourceY": 38
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 21,
+          "sourceY": 38
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 21,
+          "sourceY": 38
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 17,
+          "sourceY": 39
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 116,
+          "sourceX": 17,
+          "sourceY": 39
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 18,
+          "sourceY": 39
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 18,
+          "sourceY": 39
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 19,
+          "sourceY": 39
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 19,
+          "sourceY": 39
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 20,
+          "sourceY": 39
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 21,
+          "sourceY": 39
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 17,
+          "sourceY": 40
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 71,
+          "sourceX": 17,
+          "sourceY": 40
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 18,
+          "sourceY": 40
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 235,
+          "sourceX": 19,
+          "sourceY": 40
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 20,
+          "sourceY": 40
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 21,
+          "sourceY": 40
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_upper_left_corner.png"
+    },
+    {
+      "templateId": "golden_mine_upper_right_corner",
+      "templateName": "Upper Right Corner",
+      "role": "upper_right_corner",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "60.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\60.tbin",
+      "sourceCoordinate": {
+        "x": 39,
+        "y": 4
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        31,
+        47,
+        69,
+        70,
+        85,
+        86,
+        97,
+        101,
+        102,
+        117,
+        118,
+        133,
+        134,
+        138,
+        186,
+        218,
+        234
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 2
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 47,
+          "sourceX": 37,
+          "sourceY": 2
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 38,
+          "sourceY": 2
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 31,
+          "sourceX": 38,
+          "sourceY": 2
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 39,
+          "sourceY": 2
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 39,
+          "sourceY": 2
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 40,
+          "sourceY": 2
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 40,
+          "sourceY": 2
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 41,
+          "sourceY": 2
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 41,
+          "sourceY": 2
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 3
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 37,
+          "sourceY": 3
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 3
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 38,
+          "sourceY": 3
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 3
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 39,
+          "sourceY": 3
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 3
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 40,
+          "sourceY": 3
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 41,
+          "sourceY": 3
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 41,
+          "sourceY": 3
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 4
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 37,
+          "sourceY": 4
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 4
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 38,
+          "sourceY": 4
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 4
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 39,
+          "sourceY": 4
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 4
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 102,
+          "sourceX": 40,
+          "sourceY": 4
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 41,
+          "sourceY": 4
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 41,
+          "sourceY": 4
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 5
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 37,
+          "sourceY": 5
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 5
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 97,
+          "sourceX": 38,
+          "sourceY": 5
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 5
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 39,
+          "sourceY": 5
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 40,
+          "sourceY": 5
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 40,
+          "sourceY": 5
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 41,
+          "sourceY": 5
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 41,
+          "sourceY": 5
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 6
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 37,
+          "sourceY": 6
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 38,
+          "sourceY": 6
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 38,
+          "sourceY": 6
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 39,
+          "sourceY": 6
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 39,
+          "sourceY": 6
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 40,
+          "sourceY": 6
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 40,
+          "sourceY": 6
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 41,
+          "sourceY": 6
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_upper_right_corner.png"
+    },
+    {
+      "templateId": "golden_mine_lower_left_corner",
+      "templateName": "Lower Left Corner",
+      "role": "lower_left_corner",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "60.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\60.tbin",
+      "sourceCoordinate": {
+        "x": 35,
+        "y": 21
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        69,
+        70,
+        85,
+        86,
+        97,
+        101,
+        102,
+        117,
+        118,
+        133,
+        134,
+        138,
+        186,
+        218,
+        234,
+        235
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 33,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 69,
+          "sourceX": 33,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 70,
+          "sourceX": 34,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 35,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 36,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 37,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 33,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 85,
+          "sourceX": 33,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 86,
+          "sourceX": 34,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 35,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 97,
+          "sourceX": 36,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 37,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 33,
+          "sourceY": 21
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 101,
+          "sourceX": 33,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 102,
+          "sourceX": 34,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 35,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 36,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 36,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 37,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 37,
+          "sourceY": 21
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 33,
+          "sourceY": 22
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 117,
+          "sourceX": 33,
+          "sourceY": 22
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 34,
+          "sourceY": 22
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 118,
+          "sourceX": 34,
+          "sourceY": 22
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 35,
+          "sourceY": 22
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 35,
+          "sourceY": 22
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 36,
+          "sourceY": 22
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 36,
+          "sourceY": 22
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 37,
+          "sourceY": 22
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 33,
+          "sourceY": 23
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 133,
+          "sourceX": 33,
+          "sourceY": 23
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 34,
+          "sourceY": 23
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 134,
+          "sourceX": 34,
+          "sourceY": 23
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 35,
+          "sourceY": 23
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 235,
+          "sourceX": 36,
+          "sourceY": 23
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 37,
+          "sourceY": 23
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_lower_left_corner.png"
+    },
+    {
+      "templateId": "golden_mine_lower_right_corner",
+      "templateName": "Lower Right Corner",
+      "role": "lower_right_corner",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "50.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\50.tbin",
+      "sourceCoordinate": {
+        "x": 68,
+        "y": 51
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        88,
+        93,
+        94,
+        104,
+        109,
+        110,
+        113,
+        120,
+        125,
+        126,
+        138,
+        141,
+        142,
+        157,
+        158,
+        185,
+        218,
+        233,
+        234
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 66,
+          "sourceY": 49
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 88,
+          "sourceX": 66,
+          "sourceY": 49
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 49
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 67,
+          "sourceY": 49
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 49
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 68,
+          "sourceY": 49
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 69,
+          "sourceY": 49
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 69,
+          "sourceY": 49
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 70,
+          "sourceY": 49
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 94,
+          "sourceX": 70,
+          "sourceY": 49
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 66,
+          "sourceY": 50
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 104,
+          "sourceX": 66,
+          "sourceY": 50
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 50
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 113,
+          "sourceX": 67,
+          "sourceY": 50
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 50
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 68,
+          "sourceY": 50
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 69,
+          "sourceY": 50
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 69,
+          "sourceY": 50
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 70,
+          "sourceY": 50
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 70,
+          "sourceY": 50
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 66,
+          "sourceY": 51
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 120,
+          "sourceX": 66,
+          "sourceY": 51
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 51
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 67,
+          "sourceY": 51
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 51
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 68,
+          "sourceY": 51
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 69,
+          "sourceY": 51
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 69,
+          "sourceY": 51
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 70,
+          "sourceY": 51
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 70,
+          "sourceY": 51
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 66,
+          "sourceY": 52
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 67,
+          "sourceY": 52
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 67,
+          "sourceY": 52
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 68,
+          "sourceY": 52
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 68,
+          "sourceY": 52
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 69,
+          "sourceY": 52
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 69,
+          "sourceY": 52
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 70,
+          "sourceY": 52
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 70,
+          "sourceY": 52
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 233,
+          "sourceX": 66,
+          "sourceY": 53
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 67,
+          "sourceY": 53
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 68,
+          "sourceY": 53
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 69,
+          "sourceY": 53
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 69,
+          "sourceY": 53
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 70,
+          "sourceY": 53
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 70,
+          "sourceY": 53
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_lower_right_corner.png"
+    },
+    {
+      "templateId": "golden_mine_shadow_under_wall",
+      "templateName": "Shadow Under Wall",
+      "role": "shadow_under_wall",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "53.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\53.tbin",
+      "sourceCoordinate": {
+        "x": 24,
+        "y": 19
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        88,
+        93,
+        94,
+        104,
+        109,
+        110,
+        120,
+        125,
+        126,
+        141,
+        142,
+        157,
+        158,
+        185,
+        202,
+        218,
+        233,
+        234
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 202,
+          "sourceX": 22,
+          "sourceY": 17
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 88,
+          "sourceX": 22,
+          "sourceY": 17
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 17
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 23,
+          "sourceY": 17
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 17
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 24,
+          "sourceY": 17
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 17
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 25,
+          "sourceY": 17
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 17
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 94,
+          "sourceX": 26,
+          "sourceY": 17
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 22,
+          "sourceY": 18
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 104,
+          "sourceX": 22,
+          "sourceY": 18
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 18
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 23,
+          "sourceY": 18
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 18
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 24,
+          "sourceY": 18
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 18
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 25,
+          "sourceY": 18
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 18
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 26,
+          "sourceY": 18
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 22,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 120,
+          "sourceX": 22,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 23,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 24,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 25,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 26,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 22,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 23,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 24,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 25,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 26,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 233,
+          "sourceX": 22,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 23,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 24,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 25,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 26,
+          "sourceY": 21
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_shadow_under_wall.png"
+    },
+    {
+      "templateId": "golden_mine_ladder_opening",
+      "templateName": "Ladder Opening",
+      "role": "ladder_opening",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "51.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\51.tbin",
+      "sourceCoordinate": {
+        "x": 48,
+        "y": 69
+      },
+      "width": 5,
+      "height": 7,
+      "anchor": {
+        "x": 2,
+        "y": 4
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        25,
+        26,
+        41,
+        42,
+        47,
+        67,
+        73,
+        77,
+        83,
+        89,
+        93,
+        99,
+        105,
+        109,
+        110,
+        113,
+        115,
+        121,
+        125,
+        126,
+        138,
+        141,
+        142,
+        157,
+        158,
+        218
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 46,
+          "sourceY": 65
+        },
+        {
+          "dx": -2,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 46,
+          "sourceY": 65
+        },
+        {
+          "dx": -1,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 47,
+          "sourceY": 65
+        },
+        {
+          "dx": -1,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 47,
+          "sourceY": 65
+        },
+        {
+          "dx": 0,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 48,
+          "sourceY": 65
+        },
+        {
+          "dx": 0,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 48,
+          "sourceY": 65
+        },
+        {
+          "dx": 1,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 49,
+          "sourceY": 65
+        },
+        {
+          "dx": 1,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 49,
+          "sourceY": 65
+        },
+        {
+          "dx": 2,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 50,
+          "sourceY": 65
+        },
+        {
+          "dx": 2,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 50,
+          "sourceY": 65
+        },
+        {
+          "dx": -2,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 46,
+          "sourceY": 66
+        },
+        {
+          "dx": -2,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 46,
+          "sourceY": 66
+        },
+        {
+          "dx": -1,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 47,
+          "sourceY": 66
+        },
+        {
+          "dx": -1,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 47,
+          "sourceY": 66
+        },
+        {
+          "dx": 0,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 48,
+          "sourceY": 66
+        },
+        {
+          "dx": 0,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 41,
+          "sourceX": 48,
+          "sourceY": 66
+        },
+        {
+          "dx": 1,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 49,
+          "sourceY": 66
+        },
+        {
+          "dx": 1,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 42,
+          "sourceX": 49,
+          "sourceY": 66
+        },
+        {
+          "dx": 2,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 50,
+          "sourceY": 66
+        },
+        {
+          "dx": 2,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 50,
+          "sourceY": 66
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 67
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 46,
+          "sourceY": 67
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 67
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 47,
+          "sourceX": 47,
+          "sourceY": 67
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 67
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 48,
+          "sourceY": 67
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 67
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 25,
+          "sourceX": 49,
+          "sourceY": 67
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 67
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 26,
+          "sourceX": 50,
+          "sourceY": 67
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 68
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 46,
+          "sourceY": 68
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 68
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 47,
+          "sourceY": 68
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 68
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 67,
+          "sourceX": 48,
+          "sourceY": 68
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 68
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 73,
+          "sourceX": 49,
+          "sourceY": 68
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 68
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 50,
+          "sourceY": 68
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 69
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 46,
+          "sourceY": 69
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 69
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 47,
+          "sourceY": 69
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 69
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 83,
+          "sourceX": 48,
+          "sourceY": 69
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 69
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 89,
+          "sourceX": 49,
+          "sourceY": 69
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 69
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 50,
+          "sourceY": 69
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 70
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 46,
+          "sourceY": 70
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 70
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 47,
+          "sourceY": 70
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 70
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 99,
+          "sourceX": 48,
+          "sourceY": 70
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 70
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 105,
+          "sourceX": 49,
+          "sourceY": 70
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 70
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 113,
+          "sourceX": 50,
+          "sourceY": 70
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 71
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 46,
+          "sourceY": 71
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 71
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 47,
+          "sourceY": 71
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 71
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 115,
+          "sourceX": 48,
+          "sourceY": 71
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 71
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 121,
+          "sourceX": 49,
+          "sourceY": 71
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 71
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 50,
+          "sourceY": 71
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_ladder_opening.png"
+    },
+    {
+      "templateId": "golden_mine_shaft_opening",
+      "templateName": "Shaft Opening",
+      "role": "shaft_opening",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "29.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\29.tbin",
+      "sourceCoordinate": {
+        "x": 9,
+        "y": 33
+      },
+      "width": 5,
+      "height": 7,
+      "anchor": {
+        "x": 2,
+        "y": 4
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "localTileIdsUsed": [
+        68,
+        71,
+        72,
+        73,
+        77,
+        84,
+        87,
+        88,
+        89,
+        100,
+        104,
+        111,
+        120,
+        127,
+        137,
+        138,
+        143,
+        159,
+        185,
+        186,
+        187,
+        201,
+        202,
+        207,
+        217,
+        218,
+        233,
+        234
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 7,
+          "sourceY": 29
+        },
+        {
+          "dx": -1,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 8,
+          "sourceY": 29
+        },
+        {
+          "dx": -1,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 72,
+          "sourceX": 8,
+          "sourceY": 29
+        },
+        {
+          "dx": 0,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 111,
+          "sourceX": 9,
+          "sourceY": 29
+        },
+        {
+          "dx": 1,
+          "dy": -4,
+          "layer": "Front",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 10,
+          "sourceY": 29
+        },
+        {
+          "dx": 2,
+          "dy": -4,
+          "layer": "Front",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 11,
+          "sourceY": 29
+        },
+        {
+          "dx": -2,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 201,
+          "sourceX": 7,
+          "sourceY": 30
+        },
+        {
+          "dx": -1,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 202,
+          "sourceX": 8,
+          "sourceY": 30
+        },
+        {
+          "dx": -1,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 88,
+          "sourceX": 8,
+          "sourceY": 30
+        },
+        {
+          "dx": 0,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 127,
+          "sourceX": 9,
+          "sourceY": 30
+        },
+        {
+          "dx": 1,
+          "dy": -3,
+          "layer": "Front",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 10,
+          "sourceY": 30
+        },
+        {
+          "dx": 2,
+          "dy": -3,
+          "layer": "Front",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 11,
+          "sourceY": 30
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 217,
+          "sourceX": 7,
+          "sourceY": 31
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 8,
+          "sourceY": 31
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 104,
+          "sourceX": 8,
+          "sourceY": 31
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 9,
+          "sourceY": 31
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 143,
+          "sourceX": 9,
+          "sourceY": 31
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 10,
+          "sourceY": 31
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Front",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 10,
+          "sourceY": 31
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 11,
+          "sourceY": 31
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 68,
+          "sourceX": 11,
+          "sourceY": 31
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 217,
+          "sourceX": 7,
+          "sourceY": 32
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 8,
+          "sourceY": 32
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 120,
+          "sourceX": 8,
+          "sourceY": 32
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 9,
+          "sourceY": 32
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 159,
+          "sourceX": 9,
+          "sourceY": 32
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Front",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 10,
+          "sourceY": 32
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 68,
+          "sourceX": 11,
+          "sourceY": 32
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 84,
+          "sourceX": 11,
+          "sourceY": 32
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 233,
+          "sourceX": 7,
+          "sourceY": 33
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 8,
+          "sourceY": 33
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 187,
+          "sourceX": 9,
+          "sourceY": 33
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 207,
+          "sourceX": 9,
+          "sourceY": 33
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 202,
+          "sourceX": 10,
+          "sourceY": 33
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Front",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 10,
+          "sourceY": 33
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 84,
+          "sourceX": 11,
+          "sourceY": 33
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 100,
+          "sourceX": 11,
+          "sourceY": 33
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 7,
+          "sourceY": 34
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 217,
+          "sourceX": 8,
+          "sourceY": 34
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 9,
+          "sourceY": 34
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 72,
+          "sourceX": 9,
+          "sourceY": 34
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 10,
+          "sourceY": 34
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 73,
+          "sourceX": 10,
+          "sourceY": 34
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 11,
+          "sourceY": 34
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 71,
+          "sourceX": 11,
+          "sourceY": 34
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 137,
+          "sourceX": 7,
+          "sourceY": 35
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 217,
+          "sourceX": 8,
+          "sourceY": 35
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 9,
+          "sourceY": 35
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 88,
+          "sourceX": 9,
+          "sourceY": 35
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 186,
+          "sourceX": 10,
+          "sourceY": 35
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 89,
+          "sourceX": 10,
+          "sourceY": 35
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 11,
+          "sourceY": 35
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 87,
+          "sourceX": 11,
+          "sourceY": 35
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_shaft_opening.png"
+    },
+    {
+      "templateId": "golden_mine_room_entrance_opening",
+      "templateName": "Room Entrance Opening",
+      "role": "room_entrance_opening",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "51.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\51.tbin",
+      "sourceCoordinate": {
+        "x": 48,
+        "y": 69
+      },
+      "width": 5,
+      "height": 7,
+      "anchor": {
+        "x": 2,
+        "y": 4
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        25,
+        26,
+        41,
+        42,
+        47,
+        67,
+        73,
+        77,
+        83,
+        89,
+        93,
+        99,
+        105,
+        109,
+        110,
+        113,
+        115,
+        121,
+        125,
+        126,
+        138,
+        141,
+        142,
+        157,
+        158,
+        218
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 46,
+          "sourceY": 65
+        },
+        {
+          "dx": -2,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 46,
+          "sourceY": 65
+        },
+        {
+          "dx": -1,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 47,
+          "sourceY": 65
+        },
+        {
+          "dx": -1,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 47,
+          "sourceY": 65
+        },
+        {
+          "dx": 0,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 48,
+          "sourceY": 65
+        },
+        {
+          "dx": 0,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 48,
+          "sourceY": 65
+        },
+        {
+          "dx": 1,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 49,
+          "sourceY": 65
+        },
+        {
+          "dx": 1,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 49,
+          "sourceY": 65
+        },
+        {
+          "dx": 2,
+          "dy": -4,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 50,
+          "sourceY": 65
+        },
+        {
+          "dx": 2,
+          "dy": -4,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 50,
+          "sourceY": 65
+        },
+        {
+          "dx": -2,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 46,
+          "sourceY": 66
+        },
+        {
+          "dx": -2,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 46,
+          "sourceY": 66
+        },
+        {
+          "dx": -1,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 47,
+          "sourceY": 66
+        },
+        {
+          "dx": -1,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 47,
+          "sourceY": 66
+        },
+        {
+          "dx": 0,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 48,
+          "sourceY": 66
+        },
+        {
+          "dx": 0,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 41,
+          "sourceX": 48,
+          "sourceY": 66
+        },
+        {
+          "dx": 1,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 49,
+          "sourceY": 66
+        },
+        {
+          "dx": 1,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 42,
+          "sourceX": 49,
+          "sourceY": 66
+        },
+        {
+          "dx": 2,
+          "dy": -3,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 138,
+          "sourceX": 50,
+          "sourceY": 66
+        },
+        {
+          "dx": 2,
+          "dy": -3,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 50,
+          "sourceY": 66
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 67
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 46,
+          "sourceY": 67
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 67
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 47,
+          "sourceX": 47,
+          "sourceY": 67
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 67
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 77,
+          "sourceX": 48,
+          "sourceY": 67
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 67
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 25,
+          "sourceX": 49,
+          "sourceY": 67
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 67
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 26,
+          "sourceX": 50,
+          "sourceY": 67
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 68
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 46,
+          "sourceY": 68
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 68
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 47,
+          "sourceY": 68
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 68
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 67,
+          "sourceX": 48,
+          "sourceY": 68
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 68
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 73,
+          "sourceX": 49,
+          "sourceY": 68
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 68
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 50,
+          "sourceY": 68
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 69
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 46,
+          "sourceY": 69
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 69
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 47,
+          "sourceY": 69
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 69
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 83,
+          "sourceX": 48,
+          "sourceY": 69
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 69
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 89,
+          "sourceX": 49,
+          "sourceY": 69
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 69
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 50,
+          "sourceY": 69
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 70
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 46,
+          "sourceY": 70
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 70
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 47,
+          "sourceY": 70
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 70
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 99,
+          "sourceX": 48,
+          "sourceY": 70
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 70
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 105,
+          "sourceX": 49,
+          "sourceY": 70
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 70
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 113,
+          "sourceX": 50,
+          "sourceY": 70
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 46,
+          "sourceY": 71
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 46,
+          "sourceY": 71
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 47,
+          "sourceY": 71
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 47,
+          "sourceY": 71
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 48,
+          "sourceY": 71
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 115,
+          "sourceX": 48,
+          "sourceY": 71
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 49,
+          "sourceY": 71
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 121,
+          "sourceX": 49,
+          "sourceY": 71
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 50,
+          "sourceY": 71
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 50,
+          "sourceY": 71
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only. Role alias selected from the strongest vanilla opening template.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_room_entrance_opening.png"
+    },
+    {
+      "templateId": "golden_mine_blocked_boundary",
+      "templateName": "Blocked Boundary",
+      "role": "blocked_boundary",
+      "profile": "dungeon_mine",
+      "source": "vanilla_basegame_mine_map",
+      "sourceMapName": "53.tbin",
+      "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\53.tbin",
+      "sourceCoordinate": {
+        "x": 24,
+        "y": 19
+      },
+      "width": 5,
+      "height": 5,
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layersUsed": [
+        "Back",
+        "Buildings"
+      ],
+      "localTileIdsUsed": [
+        88,
+        93,
+        94,
+        104,
+        109,
+        110,
+        120,
+        125,
+        126,
+        141,
+        142,
+        157,
+        158,
+        185,
+        202,
+        218,
+        233,
+        234
+      ],
+      "cells": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 202,
+          "sourceX": 22,
+          "sourceY": 17
+        },
+        {
+          "dx": -2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 88,
+          "sourceX": 22,
+          "sourceY": 17
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 17
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 23,
+          "sourceY": 17
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 17
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 24,
+          "sourceY": 17
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 17
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 93,
+          "sourceX": 25,
+          "sourceY": 17
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 17
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 94,
+          "sourceX": 26,
+          "sourceY": 17
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 22,
+          "sourceY": 18
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 104,
+          "sourceX": 22,
+          "sourceY": 18
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 18
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 23,
+          "sourceY": 18
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 18
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 24,
+          "sourceY": 18
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 18
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 109,
+          "sourceX": 25,
+          "sourceY": 18
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 18
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 110,
+          "sourceX": 26,
+          "sourceY": 18
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 22,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 120,
+          "sourceX": 22,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 19
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 23,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 19
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 24,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 19
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 125,
+          "sourceX": 25,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 19
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 126,
+          "sourceX": 26,
+          "sourceY": 19
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 22,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 23,
+          "sourceY": 20
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 23,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 24,
+          "sourceY": 20
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 24,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 20
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 141,
+          "sourceX": 25,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 20
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 142,
+          "sourceX": 26,
+          "sourceY": 20
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 233,
+          "sourceX": 22,
+          "sourceY": 21
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 234,
+          "sourceX": 23,
+          "sourceY": 21
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 185,
+          "sourceX": 24,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 25,
+          "sourceY": 21
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 157,
+          "sourceX": 25,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Back",
+          "tilesheetId": "mine",
+          "localTileId": 218,
+          "sourceX": 26,
+          "sourceY": 21
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "layer": "Buildings",
+          "tilesheetId": "mine",
+          "localTileId": 158,
+          "sourceX": 26,
+          "sourceY": 21
+        }
+      ],
+      "collision": "blocked_where_buildings_wall_tiles_exist",
+      "productionStatus": "prototype_review_golden_vanilla_template",
+      "passesValidator": true,
+      "tile946Status": "not_used",
+      "notes": "Extracted as an intact layer-stack window from a real vanilla mine map. Use as prototype/review evidence only.",
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\tile_grammar_templates\\golden_vanilla_mine_templates\\previews\\golden_mine_blocked_boundary.png"
+    }
+  ]
+}

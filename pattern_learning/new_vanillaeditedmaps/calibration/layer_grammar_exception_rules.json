@@ -1,0 +1,562 @@
+{
+  "generatedAt": "2026-06-15T11:44:37+00:00",
+  "source": "new_vanillaeditedmaps_calibration",
+  "exceptionRules": [
+    {
+      "exceptionId": "nve_mine_cave_buildings_without_back",
+      "exceptionName": "Mine/cave Buildings-without-Back structural edge",
+      "appliesToLayerStack": [
+        "Buildings",
+        "Buildings+Front",
+        "Buildings+Paths"
+      ],
+      "mapCategory": [
+        "mine"
+      ],
+      "requiredTileContext": {
+        "notes": "Mine/cave wall and void structures; audit-only exception."
+      },
+      "allowedTilesheets": [
+        "mine",
+        "mine_dark",
+        "cave",
+        "volcano_dungeon",
+        "any"
+      ],
+      "allowedClasses": [
+        "any"
+      ],
+      "forbiddenClasses": [
+        "wall_body_946",
+        "collision_946"
+      ],
+      "collisionExpectation": "Buildings may block, but generator must provide approved Back support unless explicitly implementing cave void edges.",
+      "examples": [
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 12,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:69"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 13,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:70"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 14,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:75"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 15,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:76"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 16,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:73"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 17,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:74"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 18,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:75"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 19,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:76"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 20,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:73"
+          ]
+        },
+        {
+          "mapName": "Mine",
+          "mapCategory": "mine",
+          "x": 21,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "mine:74"
+          ]
+        }
+      ],
+      "confidence": 88,
+      "source": "new_vanillaeditedmaps_calibration",
+      "validatorAction": "allow",
+      "productionAllowed": false
+    },
+    {
+      "exceptionId": "nve_map_boundary_buildings_without_back",
+      "exceptionName": "Map-boundary Buildings-only blocker",
+      "appliesToLayerStack": [
+        "Buildings",
+        "Buildings+AlwaysFront",
+        "Buildings+Front",
+        "Buildings+Front+AlwaysFront"
+      ],
+      "mapCategory": [
+        "any"
+      ],
+      "requiredTileContext": {
+        "requiresMapBoundary": true,
+        "maxDistanceFromEdge": 0
+      },
+      "allowedTilesheets": [
+        "any"
+      ],
+      "allowedClasses": [
+        "any"
+      ],
+      "forbiddenClasses": [
+        "wall_body_946",
+        "collision_946"
+      ],
+      "collisionExpectation": "Outer map boundary blocker; audit-allowed, production generator should still use explicit boundary rules.",
+      "examples": [
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 0,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings+Front",
+          "tileIds": [
+            "towninterior:32",
+            "towninterior:9"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 1,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "towninterior:10"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 2,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "towninterior:10"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 3,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings+Front",
+          "tileIds": [
+            "towninterior:10",
+            "towninterior:2121"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 4,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "towninterior:10"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 5,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "towninterior:10"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 6,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "towninterior:10"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 7,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "towninterior:10"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 8,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings",
+          "tileIds": [
+            "towninterior:10"
+          ]
+        },
+        {
+          "mapName": "FarmHouse2",
+          "mapCategory": "farmhouse/interior",
+          "x": 9,
+          "y": 0,
+          "edgeDistance": 0,
+          "layerStack": "Buildings+Front",
+          "tileIds": [
+            "towninterior:10",
+            "towninterior:2121"
+          ]
+        }
+      ],
+      "confidence": 84,
+      "source": "new_vanillaeditedmaps_calibration",
+      "validatorAction": "allow",
+      "productionAllowed": false
+    },
+    {
+      "exceptionId": "nve_exterior_near_edge_buildings_without_back",
+      "exceptionName": "Exterior near-edge vanilla-style blocker",
+      "appliesToLayerStack": [
+        "Buildings+Front+AlwaysFront"
+      ],
+      "mapCategory": [
+        "town exterior",
+        "forest exterior",
+        "beach exterior",
+        "mountain exterior",
+        "festival"
+      ],
+      "requiredTileContext": {
+        "requiresMapBoundary": true,
+        "maxDistanceFromEdge": 2
+      },
+      "allowedTilesheets": [
+        "any"
+      ],
+      "allowedClasses": [
+        "any"
+      ],
+      "forbiddenClasses": [
+        "wall_body_946",
+        "collision_946"
+      ],
+      "collisionExpectation": "Near-edge blocker; generator may learn map-edge rhythm but not final tile IDs.",
+      "examples": [
+        {
+          "mapName": "Railroad",
+          "mapCategory": "mountain exterior",
+          "x": 2,
+          "y": 39,
+          "edgeDistance": 2,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:425"
+          ]
+        },
+        {
+          "mapName": "Railroad_summit",
+          "mapCategory": "mountain exterior",
+          "x": 2,
+          "y": 39,
+          "edgeDistance": 2,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:425"
+          ]
+        },
+        {
+          "mapName": "Farm_Foraging",
+          "mapCategory": "town exterior",
+          "x": 2,
+          "y": 5,
+          "edgeDistance": 2,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:126",
+            "spring_outdoorstilesheet:254",
+            "spring_outdoorstilesheet:990"
+          ]
+        }
+      ],
+      "confidence": 78,
+      "source": "new_vanillaeditedmaps_calibration",
+      "validatorAction": "allow",
+      "productionAllowed": false
+    },
+    {
+      "exceptionId": "nve_technical_buildings_paths_without_back",
+      "exceptionName": "Technical stack involving Paths without Back",
+      "appliesToLayerStack": [
+        "Buildings"
+      ],
+      "mapCategory": [
+        "any"
+      ],
+      "requiredTileContext": {
+        "requiresPathsLayer": true
+      },
+      "allowedTilesheets": [
+        "any"
+      ],
+      "allowedClasses": [
+        "any"
+      ],
+      "forbiddenClasses": [
+        "wall_body_946",
+        "collision_946"
+      ],
+      "collisionExpectation": "Technical/special stack; warn in audit, never production by default.",
+      "examples": [],
+      "confidence": 60,
+      "source": "new_vanillaeditedmaps_calibration",
+      "validatorAction": "warn",
+      "productionAllowed": false
+    },
+    {
+      "exceptionId": "nve_visual_overlay_without_back_support",
+      "exceptionName": "Visual overlay stack without Back support",
+      "appliesToLayerStack": [
+        "Buildings+AlwaysFront",
+        "Buildings+Front",
+        "Buildings+Front+AlwaysFront"
+      ],
+      "mapCategory": [
+        "any"
+      ],
+      "requiredTileContext": {
+        "requiresVisualOverlay": true
+      },
+      "allowedTilesheets": [
+        "any"
+      ],
+      "allowedClasses": [
+        "any"
+      ],
+      "forbiddenClasses": [
+        "wall_body_946",
+        "collision_946"
+      ],
+      "collisionExpectation": "Visual stack needs review; can inspire overlays but not production collision.",
+      "examples": [
+        {
+          "mapName": "Desert",
+          "mapCategory": "town exterior",
+          "x": 6,
+          "y": 41,
+          "edgeDistance": 6,
+          "layerStack": "Buildings+AlwaysFront",
+          "tileIds": [
+            "deserttiles:137",
+            "deserttiles:195"
+          ]
+        },
+        {
+          "mapName": "Desert",
+          "mapCategory": "town exterior",
+          "x": 6,
+          "y": 42,
+          "edgeDistance": 6,
+          "layerStack": "Buildings+AlwaysFront",
+          "tileIds": [
+            "deserttiles:153",
+            "deserttiles:211"
+          ]
+        },
+        {
+          "mapName": "Railroad",
+          "mapCategory": "mountain exterior",
+          "x": 3,
+          "y": 38,
+          "edgeDistance": 3,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:425"
+          ]
+        },
+        {
+          "mapName": "Railroad",
+          "mapCategory": "mountain exterior",
+          "x": 4,
+          "y": 38,
+          "edgeDistance": 4,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:450"
+          ]
+        },
+        {
+          "mapName": "Railroad",
+          "mapCategory": "mountain exterior",
+          "x": 3,
+          "y": 39,
+          "edgeDistance": 3,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:426"
+          ]
+        },
+        {
+          "mapName": "Railroad",
+          "mapCategory": "mountain exterior",
+          "x": 4,
+          "y": 39,
+          "edgeDistance": 4,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:427"
+          ]
+        },
+        {
+          "mapName": "Railroad_summit",
+          "mapCategory": "mountain exterior",
+          "x": 3,
+          "y": 38,
+          "edgeDistance": 3,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:425"
+          ]
+        },
+        {
+          "mapName": "Railroad_summit",
+          "mapCategory": "mountain exterior",
+          "x": 4,
+          "y": 38,
+          "edgeDistance": 4,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:450"
+          ]
+        },
+        {
+          "mapName": "Railroad_summit",
+          "mapCategory": "mountain exterior",
+          "x": 3,
+          "y": 39,
+          "edgeDistance": 3,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:426"
+          ]
+        },
+        {
+          "mapName": "Railroad_summit",
+          "mapCategory": "mountain exterior",
+          "x": 4,
+          "y": 39,
+          "edgeDistance": 4,
+          "layerStack": "Buildings+Front+AlwaysFront",
+          "tileIds": [
+            "spring_outdoorstilesheet:102",
+            "spring_outdoorstilesheet:227",
+            "spring_outdoorstilesheet:427"
+          ]
+        }
+      ],
+      "confidence": 55,
+      "source": "new_vanillaeditedmaps_calibration",
+      "validatorAction": "needs_review",
+      "productionAllowed": false
+    }
+  ]
+}

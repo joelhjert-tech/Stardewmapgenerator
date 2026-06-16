@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "description": "Golden vanilla mine template schema. Cells are relative to anchor and preserve source layer stacks.",
+  "requiredFields": [
+    "templateId",
+    "role",
+    "sourceMapName",
+    "sourceCoordinate",
+    "width",
+    "height",
+    "anchor",
+    "cells"
+  ],
+  "cellFields": [
+    "dx",
+    "dy",
+    "layer",
+    "tilesheetId",
+    "localTileId",
+    "sourceX",
+    "sourceY"
+  ]
+}
