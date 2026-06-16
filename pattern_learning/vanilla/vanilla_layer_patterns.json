@@ -1,0 +1,1625 @@
+{
+  "generatedAt": "2026-06-16T08:08:52+00:00",
+  "source": "vanilla_tbin_maps",
+  "mapsParsed": 255,
+  "layers": {
+    "Back": {
+      "mapCount": 255,
+      "totalCells": 613097,
+      "nonEmptyTiles": 463579,
+      "averageDensity": 0.72553,
+      "emptyDensity": 0.27447,
+      "edgeTileFraction": 0.10536,
+      "mostCommonTilesheets": [
+        {
+          "key": "spring_outdoorstilesheet",
+          "count": 120959
+        },
+        {
+          "key": "mine",
+          "count": 67714
+        },
+        {
+          "key": "winter_outdoorstilesheet",
+          "count": 53771
+        },
+        {
+          "key": "fall_outdoorstilesheet",
+          "count": 51475
+        },
+        {
+          "key": "island_tilesheet_1",
+          "count": 26045
+        },
+        {
+          "key": "summer_beach",
+          "count": 20055
+        },
+        {
+          "key": "towninterior",
+          "count": 15367
+        },
+        {
+          "key": "summer_outdoorstilesheet",
+          "count": 10566
+        },
+        {
+          "key": "spring_island_tilesheet_1",
+          "count": 9125
+        },
+        {
+          "key": "volcano_dungeon",
+          "count": 6432
+        },
+        {
+          "key": "deserttiles",
+          "count": 6140
+        },
+        {
+          "key": "mine_dark",
+          "count": 5472
+        },
+        {
+          "key": "spring_beach",
+          "count": 5366
+        },
+        {
+          "key": "winter_beach",
+          "count": 5136
+        },
+        {
+          "key": "fall_town",
+          "count": 4136
+        },
+        {
+          "key": "walls_and_floors",
+          "count": 3909
+        },
+        {
+          "key": "buglandtiles",
+          "count": 3600
+        },
+        {
+          "key": "mine_quarryshaft",
+          "count": 3570
+        },
+        {
+          "key": "mine_desert_dangerous",
+          "count": 3017
+        },
+        {
+          "key": "mine_desert_dark_dangerous",
+          "count": 2820
+        },
+        {
+          "key": "spring_town",
+          "count": 2808
+        },
+        {
+          "key": "festivals",
+          "count": 2658
+        },
+        {
+          "key": "spring_outdoorstilesheet2",
+          "count": 2450
+        },
+        {
+          "key": "sewertiles",
+          "count": 2037
+        },
+        {
+          "key": "elliottseatiles",
+          "count": 2000
+        },
+        {
+          "key": "harveyballoontiles",
+          "count": 2000
+        },
+        {
+          "key": "witchswamptiles",
+          "count": 2000
+        },
+        {
+          "key": "nightscenemaru",
+          "count": 1980
+        },
+        {
+          "key": "bathhouse_tiles",
+          "count": 1927
+        },
+        {
+          "key": "winter_town",
+          "count": 1791
+        }
+      ],
+      "dominantIntrinsicProperties": [
+        {
+          "key": "Type",
+          "count": 320038
+        },
+        {
+          "key": "Spawnable",
+          "count": 105489
+        },
+        {
+          "key": "Buildable",
+          "count": 103482
+        },
+        {
+          "key": "CanPlantTrees",
+          "count": 85552
+        },
+        {
+          "key": "Water",
+          "count": 80131
+        },
+        {
+          "key": "Diggable",
+          "count": 51703
+        },
+        {
+          "key": "NoSpawn",
+          "count": 32581
+        },
+        {
+          "key": "Passable",
+          "count": 6586
+        },
+        {
+          "key": "NoSprinklers",
+          "count": 3635
+        },
+        {
+          "key": "BeachSpawn",
+          "count": 850
+        },
+        {
+          "key": "asdf",
+          "count": 763
+        },
+        {
+          "key": "NoFurniture",
+          "count": 88
+        },
+        {
+          "key": "placeable",
+          "count": 88
+        },
+        {
+          "key": "AllSpawn",
+          "count": 56
+        },
+        {
+          "key": "Diggableasdf",
+          "count": 53
+        },
+        {
+          "key": "NPCBarrier",
+          "count": 50
+        },
+        {
+          "key": "Trough",
+          "count": 44
+        },
+        {
+          "key": "ASD",
+          "count": 35
+        },
+        {
+          "key": "Watersdfg",
+          "count": 31
+        },
+        {
+          "key": "sdfg",
+          "count": 5
+        },
+        {
+          "key": "ProjectilePassable",
+          "count": 5
+        },
+        {
+          "key": "DiggableASD",
+          "count": 4
+        },
+        {
+          "key": "Diggableasd",
+          "count": 2
+        }
+      ],
+      "commonApprovedClasses": [
+        {
+          "key": "ground_base",
+          "count": 279532
+        },
+        {
+          "key": "water_base",
+          "count": 53979
+        },
+        {
+          "key": "floor_base",
+          "count": 3307
+        },
+        {
+          "key": "collision_blocker",
+          "count": 70
+        },
+        {
+          "key": "overlay",
+          "count": 3
+        }
+      ],
+      "commonCollisionBehavior": [
+        {
+          "key": "walkable",
+          "count": 282842
+        },
+        {
+          "key": "blocked_or_special",
+          "count": 53979
+        },
+        {
+          "key": "blocks",
+          "count": 70
+        }
+      ],
+      "coarseRolePatterns": [
+        {
+          "key": "approved_walkable_base",
+          "count": 282839
+        },
+        {
+          "key": "intrinsic_water",
+          "count": 80131
+        },
+        {
+          "key": "back_base_unknown",
+          "count": 68838
+        },
+        {
+          "key": "intrinsic_typed_ground",
+          "count": 21765
+        },
+        {
+          "key": "intrinsic_diggable_ground",
+          "count": 9933
+        },
+        {
+          "key": "approved_blocker",
+          "count": 70
+        },
+        {
+          "key": "approved_overlay_or_structure",
+          "count": 3
+        }
+      ],
+      "mapCategories": [
+        {
+          "key": "mine",
+          "count": 82
+        },
+        {
+          "key": "farmhouse/interior",
+          "count": 69
+        },
+        {
+          "key": "town exterior",
+          "count": 32
+        },
+        {
+          "key": "festival",
+          "count": 22
+        },
+        {
+          "key": "unknown",
+          "count": 11
+        },
+        {
+          "key": "forest exterior",
+          "count": 11
+        },
+        {
+          "key": "shop/interior",
+          "count": 9
+        },
+        {
+          "key": "mountain exterior",
+          "count": 9
+        },
+        {
+          "key": "special/event",
+          "count": 7
+        },
+        {
+          "key": "beach exterior",
+          "count": 3
+        }
+      ],
+      "layerInterpretation": {
+        "usualMeaning": "ground/floor/water/base visual layer",
+        "collisionExpectation": "walkable unless intrinsic water/special properties or Buildings blocks above",
+        "generatorUse": "base terrain and floors"
+      },
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "density": 1.0
+        },
+        {
+          "map": "AdventureGuild.tbin",
+          "category": "shop/interior",
+          "density": 1.0
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "density": 0.7814
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "density": 0.903
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "density": 1.0
+        },
+        {
+          "map": "Backwoods_GraveSite.tbin",
+          "category": "mountain exterior",
+          "density": 0.0075
+        },
+        {
+          "map": "Backwoods_Staircase.tbin",
+          "category": "mountain exterior",
+          "density": 0.056
+        },
+        {
+          "map": "Barn2.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.9879
+        },
+        {
+          "map": "Barn3.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.9893
+        },
+        {
+          "map": "BathHouse_Entry.tbin",
+          "category": "farmhouse/interior",
+          "density": 1.0
+        }
+      ]
+    },
+    "Buildings": {
+      "mapCount": 255,
+      "totalCells": 613097,
+      "nonEmptyTiles": 190080,
+      "averageDensity": 0.38288,
+      "emptyDensity": 0.61712,
+      "edgeTileFraction": 0.17547,
+      "mostCommonTilesheets": [
+        {
+          "key": "spring_outdoorstilesheet",
+          "count": 42455
+        },
+        {
+          "key": "mine",
+          "count": 42341
+        },
+        {
+          "key": "winter_outdoorstilesheet",
+          "count": 14514
+        },
+        {
+          "key": "fall_outdoorstilesheet",
+          "count": 12931
+        },
+        {
+          "key": "towninterior",
+          "count": 11443
+        },
+        {
+          "key": "fall_town",
+          "count": 6073
+        },
+        {
+          "key": "island_tilesheet_1",
+          "count": 5352
+        },
+        {
+          "key": "spring_town",
+          "count": 4860
+        },
+        {
+          "key": "summer_beach",
+          "count": 4591
+        },
+        {
+          "key": "festivals",
+          "count": 4012
+        },
+        {
+          "key": "volcano_dungeon",
+          "count": 3899
+        },
+        {
+          "key": "mine_quarryshaft",
+          "count": 3472
+        },
+        {
+          "key": "summer_outdoorstilesheet",
+          "count": 3402
+        },
+        {
+          "key": "spring_outdoorstilesheet2",
+          "count": 3217
+        },
+        {
+          "key": "winter_town",
+          "count": 3092
+        },
+        {
+          "key": "mine_dark",
+          "count": 2958
+        },
+        {
+          "key": "deserttiles",
+          "count": 2392
+        },
+        {
+          "key": "mine_desert_dark_dangerous",
+          "count": 1911
+        },
+        {
+          "key": "winter_outdoorstilesheet2",
+          "count": 1420
+        },
+        {
+          "key": "mine_desert_dangerous",
+          "count": 1325
+        },
+        {
+          "key": "spring_beach",
+          "count": 1247
+        },
+        {
+          "key": "winter_beach",
+          "count": 1139
+        },
+        {
+          "key": "mine_desert",
+          "count": 972
+        },
+        {
+          "key": "stadium_tiles",
+          "count": 972
+        },
+        {
+          "key": "bathhouse_tiles",
+          "count": 957
+        },
+        {
+          "key": "volcano_caldera",
+          "count": 820
+        },
+        {
+          "key": "buglandtiles",
+          "count": 797
+        },
+        {
+          "key": "spring_island_tilesheet_1",
+          "count": 709
+        },
+        {
+          "key": "cooptiles",
+          "count": 645
+        },
+        {
+          "key": "fall_outdoorstilesheet2",
+          "count": 544
+        }
+      ],
+      "dominantIntrinsicProperties": [
+        {
+          "key": "Type",
+          "count": 8109
+        },
+        {
+          "key": "Buildable",
+          "count": 4975
+        },
+        {
+          "key": "Spawnable",
+          "count": 4904
+        },
+        {
+          "key": "CanPlantTrees",
+          "count": 4895
+        },
+        {
+          "key": "Passable",
+          "count": 2895
+        },
+        {
+          "key": "NoSpawn",
+          "count": 1729
+        },
+        {
+          "key": "Water",
+          "count": 496
+        },
+        {
+          "key": "Diggable",
+          "count": 325
+        },
+        {
+          "key": "NPCBarrier",
+          "count": 39
+        },
+        {
+          "key": "ProjectilePassable",
+          "count": 33
+        },
+        {
+          "key": "Watersdfg",
+          "count": 5
+        },
+        {
+          "key": "Shadow",
+          "count": 4
+        },
+        {
+          "key": "NoSprinklers",
+          "count": 3
+        },
+        {
+          "key": "sdfg",
+          "count": 2
+        },
+        {
+          "key": "BeachSpawn",
+          "count": 2
+        },
+        {
+          "key": "AllSpawn",
+          "count": 2
+        },
+        {
+          "key": "NPCPassable",
+          "count": 1
+        },
+        {
+          "key": "Action",
+          "count": 1
+        }
+      ],
+      "commonApprovedClasses": [
+        {
+          "key": "ground_base",
+          "count": 6782
+        },
+        {
+          "key": "floor_base",
+          "count": 500
+        },
+        {
+          "key": "canopy_overlay",
+          "count": 387
+        },
+        {
+          "key": "water_base",
+          "count": 359
+        },
+        {
+          "key": "overlay",
+          "count": 238
+        },
+        {
+          "key": "decoration",
+          "count": 171
+        },
+        {
+          "key": "collision_blocker",
+          "count": 28
+        }
+      ],
+      "commonCollisionBehavior": [
+        {
+          "key": "walkable",
+          "count": 7691
+        },
+        {
+          "key": "overlay_only",
+          "count": 387
+        },
+        {
+          "key": "blocked_or_special",
+          "count": 359
+        },
+        {
+          "key": "blocks",
+          "count": 28
+        }
+      ],
+      "coarseRolePatterns": [
+        {
+          "key": "building_layer_structure_or_object",
+          "count": 180924
+        },
+        {
+          "key": "approved_walkable_base",
+          "count": 7282
+        },
+        {
+          "key": "intrinsic_typed_ground",
+          "count": 1074
+        },
+        {
+          "key": "intrinsic_water",
+          "count": 496
+        },
+        {
+          "key": "approved_overlay_or_structure",
+          "count": 238
+        },
+        {
+          "key": "intrinsic_diggable_ground",
+          "count": 38
+        },
+        {
+          "key": "approved_blocker",
+          "count": 28
+        }
+      ],
+      "mapCategories": [
+        {
+          "key": "mine",
+          "count": 82
+        },
+        {
+          "key": "farmhouse/interior",
+          "count": 69
+        },
+        {
+          "key": "town exterior",
+          "count": 32
+        },
+        {
+          "key": "festival",
+          "count": 22
+        },
+        {
+          "key": "unknown",
+          "count": 11
+        },
+        {
+          "key": "forest exterior",
+          "count": 11
+        },
+        {
+          "key": "shop/interior",
+          "count": 9
+        },
+        {
+          "key": "mountain exterior",
+          "count": 9
+        },
+        {
+          "key": "special/event",
+          "count": 7
+        },
+        {
+          "key": "beach exterior",
+          "count": 3
+        }
+      ],
+      "layerInterpretation": {
+        "usualMeaning": "blocking structures, wall bodies, doors, furniture, structural boundaries",
+        "collisionExpectation": "normally blocks movement unless a specific game rule overrides it",
+        "generatorUse": "collision-bearing wall/body/object placement"
+      },
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "density": 0.5784
+        },
+        {
+          "map": "AdventureGuild.tbin",
+          "category": "shop/interior",
+          "density": 0.6357
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "density": 0.54
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "density": 0.496
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "density": 0.7135
+        },
+        {
+          "map": "Backwoods_GraveSite.tbin",
+          "category": "mountain exterior",
+          "density": 0.006
+        },
+        {
+          "map": "Backwoods_Staircase.tbin",
+          "category": "mountain exterior",
+          "density": 0.0285
+        },
+        {
+          "map": "Barn2.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.4333
+        },
+        {
+          "map": "Barn3.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.4107
+        },
+        {
+          "map": "BathHouse_Entry.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.59
+        }
+      ]
+    },
+    "Front": {
+      "mapCount": 255,
+      "totalCells": 611098,
+      "nonEmptyTiles": 68042,
+      "averageDensity": 0.18983,
+      "emptyDensity": 0.81017,
+      "edgeTileFraction": 0.22058,
+      "mostCommonTilesheets": [
+        {
+          "key": "mine",
+          "count": 14289
+        },
+        {
+          "key": "spring_outdoorstilesheet",
+          "count": 10791
+        },
+        {
+          "key": "towninterior",
+          "count": 9316
+        },
+        {
+          "key": "fall_town",
+          "count": 3464
+        },
+        {
+          "key": "winter_outdoorstilesheet",
+          "count": 3260
+        },
+        {
+          "key": "mine_dark",
+          "count": 3134
+        },
+        {
+          "key": "fall_outdoorstilesheet",
+          "count": 3049
+        },
+        {
+          "key": "spring_town",
+          "count": 2806
+        },
+        {
+          "key": "festivals",
+          "count": 2181
+        },
+        {
+          "key": "winter_town",
+          "count": 1780
+        },
+        {
+          "key": "island_tilesheet_1",
+          "count": 1427
+        },
+        {
+          "key": "summer_beach",
+          "count": 1408
+        },
+        {
+          "key": "mine_desert_dangerous",
+          "count": 1206
+        },
+        {
+          "key": "volcano_dungeon",
+          "count": 1193
+        },
+        {
+          "key": "mine_quarryshaft",
+          "count": 892
+        },
+        {
+          "key": "summer_outdoorstilesheet",
+          "count": 649
+        },
+        {
+          "key": "bathhouse_tiles",
+          "count": 641
+        },
+        {
+          "key": "towninterior_2",
+          "count": 600
+        },
+        {
+          "key": "cooptiles",
+          "count": 494
+        },
+        {
+          "key": "stadium_tiles",
+          "count": 375
+        },
+        {
+          "key": "desert_festival_tilesheet",
+          "count": 371
+        },
+        {
+          "key": "spring_waterfalls",
+          "count": 366
+        },
+        {
+          "key": "spring_beach",
+          "count": 362
+        },
+        {
+          "key": "winter_waterfalls",
+          "count": 360
+        },
+        {
+          "key": "winter_beach",
+          "count": 356
+        },
+        {
+          "key": "deserttiles",
+          "count": 269
+        },
+        {
+          "key": "samshowtiles",
+          "count": 214
+        },
+        {
+          "key": "mine_dangerous",
+          "count": 212
+        },
+        {
+          "key": "emilydreamscapetiles",
+          "count": 211
+        },
+        {
+          "key": "spring_outdoorstilesheet2",
+          "count": 200
+        }
+      ],
+      "dominantIntrinsicProperties": [
+        {
+          "key": "Type",
+          "count": 1611
+        },
+        {
+          "key": "Spawnable",
+          "count": 1352
+        },
+        {
+          "key": "Buildable",
+          "count": 1231
+        },
+        {
+          "key": "CanPlantTrees",
+          "count": 1231
+        },
+        {
+          "key": "NoSpawn",
+          "count": 563
+        },
+        {
+          "key": "Diggable",
+          "count": 32
+        },
+        {
+          "key": "Passable",
+          "count": 24
+        },
+        {
+          "key": "Water",
+          "count": 7
+        }
+      ],
+      "commonApprovedClasses": [
+        {
+          "key": "ground_base",
+          "count": 1575
+        },
+        {
+          "key": "overlay",
+          "count": 15
+        },
+        {
+          "key": "collision_blocker",
+          "count": 7
+        },
+        {
+          "key": "floor_base",
+          "count": 5
+        },
+        {
+          "key": "water_base",
+          "count": 5
+        },
+        {
+          "key": "canopy_overlay",
+          "count": 4
+        }
+      ],
+      "commonCollisionBehavior": [
+        {
+          "key": "walkable",
+          "count": 1595
+        },
+        {
+          "key": "blocks",
+          "count": 7
+        },
+        {
+          "key": "blocked_or_special",
+          "count": 5
+        },
+        {
+          "key": "overlay_only",
+          "count": 4
+        }
+      ],
+      "coarseRolePatterns": [
+        {
+          "key": "front_overlay_or_decoration",
+          "count": 66368
+        },
+        {
+          "key": "approved_walkable_base",
+          "count": 1580
+        },
+        {
+          "key": "intrinsic_typed_ground",
+          "count": 65
+        },
+        {
+          "key": "approved_overlay_or_structure",
+          "count": 15
+        },
+        {
+          "key": "intrinsic_water",
+          "count": 7
+        },
+        {
+          "key": "approved_blocker",
+          "count": 7
+        }
+      ],
+      "mapCategories": [
+        {
+          "key": "mine",
+          "count": 82
+        },
+        {
+          "key": "farmhouse/interior",
+          "count": 69
+        },
+        {
+          "key": "town exterior",
+          "count": 32
+        },
+        {
+          "key": "festival",
+          "count": 22
+        },
+        {
+          "key": "unknown",
+          "count": 11
+        },
+        {
+          "key": "forest exterior",
+          "count": 11
+        },
+        {
+          "key": "shop/interior",
+          "count": 9
+        },
+        {
+          "key": "mountain exterior",
+          "count": 9
+        },
+        {
+          "key": "special/event",
+          "count": 7
+        },
+        {
+          "key": "beach exterior",
+          "count": 3
+        }
+      ],
+      "layerInterpretation": {
+        "usualMeaning": "front overlays, wall tops, signs, windows, upper furniture, decoration",
+        "collisionExpectation": "drawn over base but should not be used as sole collision source",
+        "generatorUse": "visual top/overlay paired with Back/Buildings"
+      },
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "density": 0.2778
+        },
+        {
+          "map": "AdventureGuild.tbin",
+          "category": "shop/interior",
+          "density": 0.3214
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "density": 0.6014
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "density": 0.417
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "density": 0.3095
+        },
+        {
+          "map": "Backwoods_GraveSite.tbin",
+          "category": "mountain exterior",
+          "density": 0.0
+        },
+        {
+          "map": "Backwoods_Staircase.tbin",
+          "category": "mountain exterior",
+          "density": 0.0125
+        },
+        {
+          "map": "Barn2.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.3455
+        },
+        {
+          "map": "Barn3.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.3253
+        },
+        {
+          "map": "BathHouse_Entry.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.37
+        }
+      ]
+    },
+    "AlwaysFront": {
+      "mapCount": 104,
+      "totalCells": 412769,
+      "nonEmptyTiles": 54833,
+      "averageDensity": 0.14586,
+      "emptyDensity": 0.85414,
+      "edgeTileFraction": 0.21292,
+      "mostCommonTilesheets": [
+        {
+          "key": "spring_outdoorstilesheet",
+          "count": 16475
+        },
+        {
+          "key": "island_tilesheet_1",
+          "count": 10534
+        },
+        {
+          "key": "fall_outdoorstilesheet",
+          "count": 5795
+        },
+        {
+          "key": "winter_outdoorstilesheet",
+          "count": 4776
+        },
+        {
+          "key": "fall_town",
+          "count": 4659
+        },
+        {
+          "key": "spring_town",
+          "count": 3749
+        },
+        {
+          "key": "winter_town",
+          "count": 2367
+        },
+        {
+          "key": "spring_island_tilesheet_1",
+          "count": 737
+        },
+        {
+          "key": "desert_festival_tilesheet",
+          "count": 682
+        },
+        {
+          "key": "festivals",
+          "count": 677
+        },
+        {
+          "key": "nightscenemarutrees",
+          "count": 660
+        },
+        {
+          "key": "deserttiles",
+          "count": 603
+        },
+        {
+          "key": "summer_outdoorstilesheet",
+          "count": 467
+        },
+        {
+          "key": "night_market_tilesheet_objects",
+          "count": 363
+        },
+        {
+          "key": "mine",
+          "count": 270
+        },
+        {
+          "key": "spring_waterfalls",
+          "count": 264
+        },
+        {
+          "key": "winter_waterfalls",
+          "count": 224
+        },
+        {
+          "key": "emilydreamscapetiles",
+          "count": 206
+        },
+        {
+          "key": "fall_waterfalls",
+          "count": 160
+        },
+        {
+          "key": "submarine_tilesheet",
+          "count": 143
+        },
+        {
+          "key": "towninterior",
+          "count": 126
+        },
+        {
+          "key": "masterycavetilesheet",
+          "count": 100
+        },
+        {
+          "key": "summer_beach",
+          "count": 96
+        },
+        {
+          "key": "spring_outdoorstilesheet2",
+          "count": 88
+        },
+        {
+          "key": "volcano_dungeon",
+          "count": 75
+        },
+        {
+          "key": "boattunneltiles",
+          "count": 73
+        },
+        {
+          "key": "winter_outdoorstilesheet2",
+          "count": 70
+        },
+        {
+          "key": "pirates_tilesheet",
+          "count": 61
+        },
+        {
+          "key": "buglandtiles",
+          "count": 57
+        },
+        {
+          "key": "mermaid_house_tiles",
+          "count": 51
+        }
+      ],
+      "dominantIntrinsicProperties": [
+        {
+          "key": "Passable",
+          "count": 4988
+        },
+        {
+          "key": "Type",
+          "count": 275
+        },
+        {
+          "key": "Spawnable",
+          "count": 170
+        },
+        {
+          "key": "Buildable",
+          "count": 130
+        },
+        {
+          "key": "CanPlantTrees",
+          "count": 129
+        },
+        {
+          "key": "NoSpawn",
+          "count": 67
+        },
+        {
+          "key": "Water",
+          "count": 12
+        },
+        {
+          "key": "Diggable",
+          "count": 4
+        }
+      ],
+      "commonApprovedClasses": [
+        {
+          "key": "overlay",
+          "count": 4988
+        },
+        {
+          "key": "canopy_overlay",
+          "count": 2787
+        },
+        {
+          "key": "ground_base",
+          "count": 251
+        },
+        {
+          "key": "water_base",
+          "count": 6
+        },
+        {
+          "key": "floor_base",
+          "count": 1
+        }
+      ],
+      "commonCollisionBehavior": [
+        {
+          "key": "walkable",
+          "count": 5240
+        },
+        {
+          "key": "overlay_only",
+          "count": 2787
+        },
+        {
+          "key": "blocked_or_special",
+          "count": 6
+        }
+      ],
+      "coarseRolePatterns": [
+        {
+          "key": "alwaysfront_overlay",
+          "count": 49554
+        },
+        {
+          "key": "approved_overlay_or_structure",
+          "count": 4988
+        },
+        {
+          "key": "approved_walkable_base",
+          "count": 252
+        },
+        {
+          "key": "intrinsic_typed_ground",
+          "count": 27
+        },
+        {
+          "key": "intrinsic_water",
+          "count": 12
+        }
+      ],
+      "mapCategories": [
+        {
+          "key": "town exterior",
+          "count": 29
+        },
+        {
+          "key": "festival",
+          "count": 22
+        },
+        {
+          "key": "mine",
+          "count": 13
+        },
+        {
+          "key": "farmhouse/interior",
+          "count": 12
+        },
+        {
+          "key": "forest exterior",
+          "count": 10
+        },
+        {
+          "key": "mountain exterior",
+          "count": 6
+        },
+        {
+          "key": "unknown",
+          "count": 5
+        },
+        {
+          "key": "special/event",
+          "count": 3
+        },
+        {
+          "key": "shop/interior",
+          "count": 2
+        },
+        {
+          "key": "beach exterior",
+          "count": 2
+        }
+      ],
+      "layerInterpretation": {
+        "usualMeaning": "over-player canopy, roof, treetop, tall overlay",
+        "collisionExpectation": "draw order only; collision should come from Buildings or base properties",
+        "generatorUse": "canopy/roof/overhead effects; tile 946 remains quarantined from collision roles"
+      },
+      "examples": [
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "density": 0.028
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "density": 0.0465
+        },
+        {
+          "map": "Backwoods_GraveSite.tbin",
+          "category": "mountain exterior",
+          "density": 0.0
+        },
+        {
+          "map": "Backwoods_Staircase.tbin",
+          "category": "mountain exterior",
+          "density": 0.007
+        },
+        {
+          "map": "BathHouse_MensLocker.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.0179
+        },
+        {
+          "map": "BathHouse_Pool.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.0126
+        },
+        {
+          "map": "BathHouse_WomensLocker.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.0179
+        },
+        {
+          "map": "Beach-Jellies.tbin",
+          "category": "festival",
+          "density": 0.0062
+        },
+        {
+          "map": "Beach-Jellies2.tbin",
+          "category": "festival",
+          "density": 0.0125
+        },
+        {
+          "map": "Beach-Luau.tbin",
+          "category": "festival",
+          "density": 0.0096
+        }
+      ]
+    },
+    "Paths": {
+      "mapCount": 133,
+      "totalCells": 426072,
+      "nonEmptyTiles": 16494,
+      "averageDensity": 0.0361,
+      "emptyDensity": 0.9639,
+      "edgeTileFraction": 0.01892,
+      "mostCommonTilesheets": [
+        {
+          "key": "paths",
+          "count": 14844
+        },
+        {
+          "key": "volcano_dungeon",
+          "count": 1525
+        },
+        {
+          "key": "festivals",
+          "count": 67
+        },
+        {
+          "key": "spring_outdoorstilesheet",
+          "count": 34
+        },
+        {
+          "key": "winter_outdoorstilesheet",
+          "count": 10
+        },
+        {
+          "key": "island_fieldoffice_tilesheet",
+          "count": 5
+        },
+        {
+          "key": "fall_outdoorstilesheet",
+          "count": 5
+        },
+        {
+          "key": "towninterior",
+          "count": 3
+        },
+        {
+          "key": "island_tilesheet_1",
+          "count": 1
+        }
+      ],
+      "dominantIntrinsicProperties": [
+        {
+          "key": "GreenRain",
+          "count": 367
+        },
+        {
+          "key": "PathType",
+          "count": 355
+        },
+        {
+          "key": "Spawnable",
+          "count": 9
+        },
+        {
+          "key": "Type",
+          "count": 9
+        },
+        {
+          "key": "Buildable",
+          "count": 3
+        },
+        {
+          "key": "CanPlantTrees",
+          "count": 3
+        }
+      ],
+      "commonApprovedClasses": [
+        {
+          "key": "ground_base",
+          "count": 9
+        }
+      ],
+      "commonCollisionBehavior": [
+        {
+          "key": "walkable",
+          "count": 9
+        }
+      ],
+      "coarseRolePatterns": [
+        {
+          "key": "technical_path_marker",
+          "count": 16485
+        },
+        {
+          "key": "approved_walkable_base",
+          "count": 9
+        }
+      ],
+      "mapCategories": [
+        {
+          "key": "farmhouse/interior",
+          "count": 35
+        },
+        {
+          "key": "town exterior",
+          "count": 26
+        },
+        {
+          "key": "festival",
+          "count": 22
+        },
+        {
+          "key": "mine",
+          "count": 18
+        },
+        {
+          "key": "forest exterior",
+          "count": 10
+        },
+        {
+          "key": "unknown",
+          "count": 7
+        },
+        {
+          "key": "shop/interior",
+          "count": 7
+        },
+        {
+          "key": "mountain exterior",
+          "count": 6
+        },
+        {
+          "key": "beach exterior",
+          "count": 2
+        }
+      ],
+      "layerInterpretation": {
+        "usualMeaning": "technical path/route layer",
+        "collisionExpectation": "technical route data, not final visual collision by itself",
+        "generatorUse": "NPC/route/technical markers only"
+      },
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "density": 0.0098
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "density": 0.0129
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "density": 0.038
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "density": 0.0215
+        },
+        {
+          "map": "Backwoods_GraveSite.tbin",
+          "category": "mountain exterior",
+          "density": 0.0
+        },
+        {
+          "map": "Backwoods_Staircase.tbin",
+          "category": "mountain exterior",
+          "density": 0.0
+        },
+        {
+          "map": "Barn2.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.0152
+        },
+        {
+          "map": "Barn3.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.024
+        },
+        {
+          "map": "BathHouse_Entry.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.06
+        },
+        {
+          "map": "BathHouse_MensLocker.tbin",
+          "category": "farmhouse/interior",
+          "density": 0.0198
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Approved classes come only from tile_database_v1_human_approved.json.",
+    "Intrinsic properties come only from vanilla @TileIndex@ metadata.",
+    "Neighbor-derived roles are proposals/patterns, not final tile approvals."
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-06-16T08:20:32+00:00",
+  "source": "vanilla_pattern_learning",
+  "rules": [
+    {
+      "semanticMarkerInput": "ground_open",
+      "derivedFromGrammarRule": "walkable_ground",
+      "requiredLayers": [
+        "Back"
+      ],
+      "allowedTileClasses": [
+        "ground_base",
+        "floor_base"
+      ],
+      "requiredApprovedTileClasses": [
+        "ground_base",
+        "floor_base"
+      ],
+      "fallbackMarkerBehavior": "marker_ground",
+      "collisionExpectation": "walkable",
+      "validationRule": "Use `marker_ground` unless all required classes are approved for Back.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "path",
+      "derivedFromGrammarRule": "technical_path",
+      "requiredLayers": [
+        "Back",
+        "Paths"
+      ],
+      "allowedTileClasses": [
+        "path_base",
+        "path_transition"
+      ],
+      "requiredApprovedTileClasses": [
+        "path_base",
+        "path_transition"
+      ],
+      "fallbackMarkerBehavior": "marker_path",
+      "collisionExpectation": "walkable",
+      "validationRule": "Use `marker_path` unless all required classes are approved for Back, Paths.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "wall_body",
+      "derivedFromGrammarRule": "blocking_structure",
+      "requiredLayers": [
+        "Back",
+        "Buildings"
+      ],
+      "allowedTileClasses": [
+        "wall_body",
+        "exterior_wall",
+        "collision_blocker"
+      ],
+      "requiredApprovedTileClasses": [
+        "wall_body",
+        "exterior_wall",
+        "collision_blocker"
+      ],
+      "fallbackMarkerBehavior": "marker_wall_body",
+      "collisionExpectation": "blocked",
+      "validationRule": "Use `marker_wall_body` unless all required classes are approved for Back, Buildings.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "wall_top",
+      "derivedFromGrammarRule": "wall_with_overhead_top",
+      "requiredLayers": [
+        "Front"
+      ],
+      "allowedTileClasses": [
+        "wall_top",
+        "wall_front"
+      ],
+      "requiredApprovedTileClasses": [
+        "wall_top",
+        "wall_front"
+      ],
+      "fallbackMarkerBehavior": "marker_wall_top",
+      "collisionExpectation": "blocked_by_buildings",
+      "validationRule": "Use `marker_wall_top` unless all required classes are approved for Front.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "corner",
+      "derivedFromGrammarRule": "wall_with_overhead_top",
+      "requiredLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "allowedTileClasses": [
+        "wall_corner",
+        "wall_top"
+      ],
+      "requiredApprovedTileClasses": [
+        "wall_corner",
+        "wall_top"
+      ],
+      "fallbackMarkerBehavior": "marker_corner",
+      "collisionExpectation": "blocked_by_buildings",
+      "validationRule": "Use `marker_corner` unless all required classes are approved for Buildings, Front.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "edge",
+      "derivedFromGrammarRule": "wall_with_overhead_top",
+      "requiredLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "allowedTileClasses": [
+        "wall_side",
+        "wall_front"
+      ],
+      "requiredApprovedTileClasses": [
+        "wall_side",
+        "wall_front"
+      ],
+      "fallbackMarkerBehavior": "marker_edge",
+      "collisionExpectation": "blocked_by_buildings",
+      "validationRule": "Use `marker_edge` unless all required classes are approved for Buildings, Front.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "terrain_transition",
+      "derivedFromGrammarRule": "walkable_ground",
+      "requiredLayers": [
+        "Back"
+      ],
+      "allowedTileClasses": [
+        "ground_transition",
+        "path_transition",
+        "water_transition"
+      ],
+      "requiredApprovedTileClasses": [
+        "ground_transition",
+        "path_transition",
+        "water_transition"
+      ],
+      "fallbackMarkerBehavior": "marker_transition",
+      "collisionExpectation": "depends_on_material",
+      "validationRule": "Use `marker_transition` unless all required classes are approved for Back.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "canopy_overlay",
+      "derivedFromGrammarRule": "canopy_overlay",
+      "requiredLayers": [
+        "AlwaysFront"
+      ],
+      "allowedTileClasses": [
+        "tree_canopy",
+        "overlay"
+      ],
+      "requiredApprovedTileClasses": [
+        "tree_canopy",
+        "overlay"
+      ],
+      "fallbackMarkerBehavior": "marker_overlay",
+      "collisionExpectation": "overlay_only",
+      "validationRule": "Use `marker_overlay` unless all required classes are approved for AlwaysFront.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "water",
+      "derivedFromGrammarRule": "water",
+      "requiredLayers": [
+        "Back"
+      ],
+      "allowedTileClasses": [
+        "water_base",
+        "water_transition"
+      ],
+      "requiredApprovedTileClasses": [
+        "water_base",
+        "water_transition"
+      ],
+      "fallbackMarkerBehavior": "marker_water",
+      "collisionExpectation": "water_blocked",
+      "validationRule": "Use `marker_water` unless all required classes are approved for Back.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "entrance_exit",
+      "derivedFromGrammarRule": "technical_path",
+      "requiredLayers": [
+        "Back",
+        "Paths"
+      ],
+      "allowedTileClasses": [
+        "warp_marker",
+        "path_base"
+      ],
+      "requiredApprovedTileClasses": [
+        "warp_marker",
+        "path_base"
+      ],
+      "fallbackMarkerBehavior": "marker_entrance",
+      "collisionExpectation": "walkable_required",
+      "validationRule": "Use `marker_entrance` unless all required classes are approved for Back, Paths.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    },
+    {
+      "semanticMarkerInput": "decoration_zone",
+      "derivedFromGrammarRule": "walkable_ground",
+      "requiredLayers": [
+        "Front"
+      ],
+      "allowedTileClasses": [
+        "decoration",
+        "grass_detail",
+        "interior_decoration"
+      ],
+      "requiredApprovedTileClasses": [
+        "decoration",
+        "grass_detail",
+        "interior_decoration"
+      ],
+      "fallbackMarkerBehavior": "marker_decoration_zone",
+      "collisionExpectation": "decorative_front",
+      "validationRule": "Use `marker_decoration_zone` unless all required classes are approved for Front.",
+      "productionOutputAllowedNow": false,
+      "reason": "Current stylepacks are marker-only for structural roles; production output remains gated."
+    }
+  ],
+  "tile946Policy": "Tile 946 may not satisfy wall_body, edge, corner, Buildings, blocker, or collision rules. It requires a separate overlay profile before any non-marker use."
+}

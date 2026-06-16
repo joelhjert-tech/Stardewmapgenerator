@@ -46,6 +46,22 @@ GID_MASK = 0x1FFFFFFF
 MAX_EXAMPLES = 12
 MAX_TOP = 100
 MAX_TILE_USAGE = 250
+MAX_3X3_PATTERNS = 2000
+
+NEIGHBOR_OFFSETS = [
+    ("NW", -1, -1),
+    ("N", 0, -1),
+    ("NE", 1, -1),
+    ("W", -1, 0),
+    ("C", 0, 0),
+    ("E", 1, 0),
+    ("SW", -1, 1),
+    ("S", 0, 1),
+    ("SE", 1, 1),
+]
+STRUCTURAL_LAYERS = ["Back", "Buildings"]
+DECORATION_LAYERS = ["Front", "AlwaysFront", "Paths"]
+_TILE_METADATA_CACHE: dict[tuple[int, int, str, int], dict[str, Any]] = {}
 
 
 def now_iso() -> str:
@@ -102,7 +118,9 @@ def path_stem_key(value: Any) -> str:
 
 
 def short_hash(value: Any) -> str:
-    return hashlib.sha1(str(value).encode("utf-8", errors="ignore")).hexdigest()[:12]
+    if not isinstance(value, str):
+        value = json.dumps(value, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha1(value.encode("utf-8", errors="ignore")).hexdigest()[:12]
 
 
 def safe_int(value: Any, default: int | None = None) -> int | None:
@@ -198,6 +216,10 @@ def tile_metadata(
     vanilla_index: dict[str, Any],
     approved_lookup: dict[str, dict[int, list[dict[str, Any]]]],
 ) -> dict[str, Any]:
+    cache_key = (id(vanilla_index), id(approved_lookup), base_key(sheet_base), int(idx))
+    cached = _TILE_METADATA_CACHE.get(cache_key)
+    if cached is not None:
+        return cached
     sheet = vanilla_index.get("sheets", {}).get(base_key(sheet_base), {})
     vanilla = sheet.get(str(idx), {})
     props = vanilla.get("props", {}) if isinstance(vanilla, dict) else {}
@@ -205,7 +227,7 @@ def tile_metadata(
     approved_classes = sorted({p.get("finalClass") for p in approved_profiles if p.get("finalClass")})
     collisions = sorted({p.get("collision") for p in approved_profiles if p.get("collision")})
     approved_layers = sorted({layer for p in approved_profiles for layer in p.get("allowedLayers", [])})
-    return {
+    result = {
         "props": props,
         "vanillaLayers": vanilla.get("layers", {}) if isinstance(vanilla, dict) else {},
         "vanillaMapCount": vanilla.get("mapCount", 0) if isinstance(vanilla, dict) else 0,
@@ -214,6 +236,8 @@ def tile_metadata(
         "approvedCollision": collisions,
         "approvedLayers": approved_layers,
     }
+    _TILE_METADATA_CACHE[cache_key] = result
+    return result
 
 
 def coarse_role_from_meta(meta: dict[str, Any], layer: str | None = None) -> str:
@@ -275,6 +299,136 @@ def classify_region_role(cardinal_present: dict[str, bool], diagonal_present: di
     if count == 3:
         return "edge_or_t_junction"
     return "unknown"
+
+
+def property_tokens(props: dict[str, Any] | None) -> list[str]:
+    tokens: list[str] = []
+    for key, value in sorted((props or {}).items(), key=lambda item: str(item[0]).lower()):
+        if isinstance(value, (list, tuple, set)):
+            values = sorted(str(v) for v in value)
+            for v in values:
+                tokens.append(f"{key}={v}")
+        else:
+            tokens.append(f"{key}={value}")
+    return tokens
+
+
+def tile_properties_for_observation(
+    layer_record: dict[str, Any],
+    coord: tuple[int, int],
+    tile: tuple[str, int] | None,
+    vanilla_index: dict[str, Any],
+    approved_lookup: dict[str, dict[int, list[dict[str, Any]]]],
+) -> dict[str, Any]:
+    combined: dict[str, Any] = {}
+    if tile:
+        meta = tile_metadata(tile[0], tile[1], vanilla_index, approved_lookup)
+        for key, value in (meta.get("props") or {}).items():
+            combined[key] = value
+    for key, value in (layer_record.get("tileProperties", {}).get(coord, {}) or {}).items():
+        combined[key] = value
+    return combined
+
+
+def observed_tile_value(
+    layer_records: dict[str, dict[str, Any]],
+    layer_name: str,
+    x: int,
+    y: int,
+    vanilla_index: dict[str, Any],
+    approved_lookup: dict[str, dict[int, list[dict[str, Any]]]],
+) -> dict[str, Any]:
+    record = layer_records.get(layer_name)
+    if not record or x < 0 or y < 0 or x >= record["width"] or y >= record["height"]:
+        return {"state": "out_of_bounds", "tile": None, "properties": []}
+    tile = record["tiles"].get((x, y))
+    if not tile:
+        return {"state": "empty", "tile": None, "properties": []}
+    props = tile_properties_for_observation(record, (x, y), tile, vanilla_index, approved_lookup)
+    return {
+        "state": "tile",
+        "tile": tile_key(tile[0], tile[1]),
+        "properties": property_tokens(props),
+    }
+
+
+def make_3x3_observation(
+    layer_records: dict[str, dict[str, Any]],
+    x: int,
+    y: int,
+    layers: list[str],
+    vanilla_index: dict[str, Any],
+    approved_lookup: dict[str, dict[int, list[dict[str, Any]]]],
+) -> dict[str, Any]:
+    cells: dict[str, dict[str, dict[str, Any]]] = {}
+    signature_cells: dict[str, dict[str, str]] = {}
+    empty_cells: list[str] = []
+    property_requirements: Counter = Counter()
+    for label, dx, dy in NEIGHBOR_OFFSETS:
+        cell_layers: dict[str, dict[str, Any]] = {}
+        sig_layers: dict[str, str] = {}
+        for layer_name in layers:
+            observed = observed_tile_value(layer_records, layer_name, x + dx, y + dy, vanilla_index, approved_lookup)
+            cell_layers[layer_name] = observed
+            sig_layers[layer_name] = observed["tile"] if observed["state"] == "tile" else observed["state"]
+            if observed["state"] == "empty":
+                empty_cells.append(f"{label}:{layer_name}")
+            for token in observed["properties"]:
+                property_requirements[f"{label}:{layer_name}:{token}"] += 1
+        cells[label] = cell_layers
+        signature_cells[label] = sig_layers
+    center_stack = "|".join(f"{layer}={signature_cells['C'][layer]}" for layer in layers)
+    signature = {"layers": layers, "cells": signature_cells}
+    signature_key = "|".join(
+        f"{label}/" + "/".join(f"{layer}={signature_cells[label][layer]}" for layer in layers)
+        for label, _dx, _dy in NEIGHBOR_OFFSETS
+    )
+    return {
+        "patternId": short_hash(signature_key),
+        "signature": signature,
+        "cells": cells,
+        "centerStack": center_stack,
+        "emptyCells": empty_cells,
+        "propertyRequirements": property_requirements,
+    }
+
+
+def has_tile_at_center(layer_records: dict[str, dict[str, Any]], layers: list[str], x: int, y: int) -> bool:
+    return any((layer_records.get(layer) or {}).get("tiles", {}).get((x, y)) for layer in layers)
+
+
+def record_3x3_observation(
+    stats: dict[str, Any],
+    mode: str,
+    obs: dict[str, Any],
+    map_name: str,
+    category: str,
+    x: int,
+    y: int,
+) -> None:
+    pid = obs["patternId"]
+    stats[mode]["patternCounts"][pid] += 1
+    stats[mode]["centerStackCounts"][obs["centerStack"]] += 1
+    stats[mode]["categoryCounts"][category] += 1
+    stats[mode]["patterns"].setdefault(
+        pid,
+        {
+            "patternId": pid,
+            "layers": obs["signature"]["layers"],
+            "signature": obs["signature"],
+            "cells": obs["cells"],
+            "centerStack": obs["centerStack"],
+        },
+    )
+    for cell in obs["emptyCells"]:
+        stats[mode]["emptyCellConstraints"][f"{pid}:{cell}"] += 1
+    for prop, count in obs["propertyRequirements"].items():
+        stats[mode]["propertyRequirements"][prop] += count
+    add_example(
+        stats[mode]["examples"][pid],
+        {"map": map_name, "category": category, "x": x, "y": y, "centerStack": obs["centerStack"]},
+        6,
+    )
 
 
 def canonical_layer_name(name: str | None) -> str | None:
@@ -341,8 +495,20 @@ def parse_vanilla_maps(
     tile_946_examples: list[dict[str, Any]] = []
     map_category_counter: Counter = Counter()
     parse_failures: list[dict[str, Any]] = []
+    neighborhood_3x3_stats: dict[str, dict[str, Any]] = {
+        mode: {
+            "patternCounts": Counter(),
+            "centerStackCounts": Counter(),
+            "categoryCounts": Counter(),
+            "patterns": {},
+            "examples": defaultdict(list),
+            "emptyCellConstraints": Counter(),
+            "propertyRequirements": Counter(),
+        }
+        for mode in ["structural", "decoration"]
+    }
 
-    tbin_files = sorted(UNPACKED_BASEGAME.glob("*.tbin"))
+    tbin_files = sorted(UNPACKED_BASEGAME.rglob("*.tbin"))
     for path in tbin_files:
         map_name = path.stem
         category = infer_map_category(path.name)
@@ -376,6 +542,7 @@ def parse_vanilla_maps(
                 "nonEmptyTiles": non_empty,
             }
             tiles_by_coord: dict[tuple[int, int], tuple[str, int]] = {}
+            tile_properties_by_coord: dict[tuple[int, int], dict[str, Any]] = {}
             unique_tiles = set()
             intrinsic_here = 0
             property_counts_here: Counter = Counter()
@@ -383,6 +550,9 @@ def parse_vanilla_maps(
                 sheet_base = id_to_sheet.get(sheet_id, base_key(sheet_id))
                 idx = int(idx)
                 tiles_by_coord[(x, y)] = (sheet_base, idx)
+                placement_props = layer.get("tileProperties", {}).get((x, y), {})
+                if placement_props:
+                    tile_properties_by_coord[(x, y)] = placement_props
                 key = tile_key(sheet_base, idx)
                 unique_tiles.add(key)
                 meta = tile_metadata(sheet_base, idx, vanilla_index, approved_lookup)
@@ -398,6 +568,7 @@ def parse_vanilla_maps(
                 "width": int(w or 0),
                 "height": int(h or 0),
                 "tiles": tiles_by_coord,
+                "tileProperties": tile_properties_by_coord,
                 "uniqueTiles": len(unique_tiles),
                 "intrinsicTileCount": intrinsic_here,
                 "propertyCounts": property_counts_here,
@@ -491,6 +662,19 @@ def parse_vanilla_maps(
         stack_height = max((r["height"] for r in layer_records.values()), default=map_height)
         for y in range(stack_height):
             for x in range(stack_width):
+                if has_tile_at_center(layer_records, STRUCTURAL_LAYERS, x, y):
+                    obs = make_3x3_observation(layer_records, x, y, STRUCTURAL_LAYERS, vanilla_index, approved_lookup)
+                    record_3x3_observation(neighborhood_3x3_stats, "structural", obs, path.name, category, x, y)
+                if has_tile_at_center(layer_records, DECORATION_LAYERS, x, y):
+                    obs = make_3x3_observation(
+                        layer_records,
+                        x,
+                        y,
+                        ["Back", "Buildings", "Front", "AlwaysFront", "Paths"],
+                        vanilla_index,
+                        approved_lookup,
+                    )
+                    record_3x3_observation(neighborhood_3x3_stats, "decoration", obs, path.name, category, x, y)
                 stack_tiles: dict[str, str] = {}
                 present: list[str] = []
                 for layer_name in STANDARD_LAYERS:
@@ -562,6 +746,7 @@ def parse_vanilla_maps(
         "tileStackCounter": tile_stack_counter,
         "tileStackExamples": tile_stack_examples,
         "tile946Examples": tile_946_examples,
+        "neighborhood3x3Stats": neighborhood_3x3_stats,
     }
 
 
@@ -703,6 +888,157 @@ def serialize_neighbor_patterns(raw: dict[str, Any]) -> dict[str, Any]:
             "topTileNeighborPatterns": top_tile_patterns,
         }
     return out
+
+
+def serialize_3x3_neighborhood_patterns(raw: dict[str, Any]) -> dict[str, Any]:
+    out: dict[str, Any] = {
+        "generatedAt": raw["generatedAt"],
+        "source": "vanilla_tbin_maps",
+        "proposalOnly": True,
+        "description": "Canonical 3x3 puzzle-piece observations. Empty cells are retained as explicit constraints.",
+        "modes": {},
+    }
+    stats_by_mode = raw.get("neighborhood3x3Stats", {})
+    for mode, stats in stats_by_mode.items():
+        patterns: list[dict[str, Any]] = []
+        for pid, count in stats["patternCounts"].most_common(MAX_3X3_PATTERNS):
+            template = stats["patterns"].get(pid, {})
+            patterns.append(
+                {
+                    "patternId": pid,
+                    "count": int(count),
+                    "mode": mode,
+                    "layers": template.get("layers", []),
+                    "centerStack": template.get("centerStack"),
+                    "signature": template.get("signature"),
+                    "cells": template.get("cells"),
+                    "examples": stats["examples"].get(pid, []),
+                    "approvalStatus": "pattern_only_not_approved",
+                }
+            )
+        out["modes"][mode] = {
+            "observedPatterns": int(len(stats["patternCounts"])),
+            "writtenTopPatterns": len(patterns),
+            "commonCenterStacks": top_counter(stats["centerStackCounts"], 80),
+            "mapCategories": top_counter(stats["categoryCounts"], 20),
+            "topPatterns": patterns,
+        }
+    return out
+
+
+def make_structural_3x3_grammar(raw: dict[str, Any]) -> dict[str, Any]:
+    stats = raw["neighborhood3x3Stats"]["structural"]
+    rules = []
+    for pid, count in stats["patternCounts"].most_common(MAX_3X3_PATTERNS):
+        template = stats["patterns"].get(pid, {})
+        empty_constraints = []
+        prefix = f"{pid}:"
+        for key, empty_count in stats["emptyCellConstraints"].items():
+            if key.startswith(prefix):
+                empty_constraints.append({"cell": key[len(prefix):], "count": int(empty_count)})
+        empty_constraints.sort(key=lambda item: item["count"], reverse=True)
+        rules.append(
+            {
+                "patternId": pid,
+                "count": int(count),
+                "mode": "structural",
+                "strictLayers": STRUCTURAL_LAYERS,
+                "centerStack": template.get("centerStack"),
+                "cells": template.get("cells"),
+                "requiredEmptyCellsObserved": empty_constraints[:40],
+                "examples": stats["examples"].get(pid, []),
+                "generatorUse": "strict_back_buildings_template_candidate",
+                "productionAllowed": False,
+                "reason": "3x3 structural evidence only; visual tile output still requires approved tile roles or safe-pattern approval.",
+            }
+        )
+    return {
+        "generatedAt": raw["generatedAt"],
+        "source": "vanilla_3x3_structural_pattern_learning",
+        "proposalOnly": True,
+        "rules": rules,
+    }
+
+
+def make_decoration_placement_rules(raw: dict[str, Any]) -> dict[str, Any]:
+    stats = raw["neighborhood3x3Stats"]["decoration"]
+    rules = []
+    for stack, count in stats["centerStackCounts"].most_common(300):
+        rules.append(
+            {
+                "centerStack": stack,
+                "count": int(count),
+                "mode": "decoration",
+                "strictTemplate": False,
+                "supportLayersToCheck": ["Back", "Buildings"],
+                "decorationLayers": DECORATION_LAYERS,
+                "placementInterpretation": "loose_support_rule_not_exact_copy",
+                "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes.",
+            }
+        )
+    return {
+        "generatedAt": raw["generatedAt"],
+        "source": "vanilla_3x3_decoration_pattern_learning",
+        "proposalOnly": True,
+        "rules": rules,
+        "notes": [
+            "Decoration rules intentionally do not require copying the full 3x3 art template.",
+            "Front, AlwaysFront, and Paths evidence should constrain allowed support ground/lower stacks, not replace structural grammar.",
+            "AlwaysFront must remain overlay-only and cannot become a collision source.",
+        ],
+    }
+
+
+def make_empty_cell_constraints(raw: dict[str, Any]) -> dict[str, Any]:
+    modes = {}
+    for mode, stats in raw["neighborhood3x3Stats"].items():
+        constraints = []
+        for key, count in stats["emptyCellConstraints"].most_common(1000):
+            pattern_id, cell = key.split(":", 1)
+            constraints.append(
+                {
+                    "patternId": pattern_id,
+                    "cell": cell,
+                    "count": int(count),
+                    "constraintType": "empty_required_in_vanilla_observation",
+                    "generatorUse": "preserve empty support/clearance cells when using this template.",
+                }
+            )
+        modes[mode] = constraints
+    return {
+        "generatedAt": raw["generatedAt"],
+        "source": "vanilla_3x3_pattern_learning",
+        "proposalOnly": True,
+        "modes": modes,
+    }
+
+
+def make_tile_property_requirements(raw: dict[str, Any]) -> dict[str, Any]:
+    modes = {}
+    for mode, stats in raw["neighborhood3x3Stats"].items():
+        requirements = []
+        for key, count in stats["propertyRequirements"].most_common(1000):
+            cell, layer, prop = key.split(":", 2)
+            requirements.append(
+                {
+                    "cell": cell,
+                    "layer": layer,
+                    "property": prop,
+                    "count": int(count),
+                    "generatorUse": "when this visual/property pair is used in production, preserve the corresponding tile property.",
+                }
+            )
+        modes[mode] = requirements
+    return {
+        "generatedAt": raw["generatedAt"],
+        "source": "vanilla_tile_property_learning",
+        "proposalOnly": True,
+        "modes": modes,
+        "notes": [
+            "Properties include authoritative vanilla tile metadata and per-placement tBIN tile properties where present.",
+            "Water, Diggable, Passable, Type, Action, TouchAction, and similar properties must travel with matching visual grammar when production output uses those tiles.",
+        ],
+    }
 
 
 def infer_stack_role(stack_id: str, combo_key: str | None = None, vanilla_index: dict[str, Any] | None = None) -> str:
@@ -1400,6 +1736,114 @@ def write_reports(
     write_text(REPORTS_ROOT / "layer_grammar_validator_design.md", "\n".join(validator_design))
 
 
+def write_3x3_reports(
+    raw: dict[str, Any],
+    neighborhood_patterns: dict[str, Any],
+    structural_3x3: dict[str, Any],
+    decoration_rules: dict[str, Any],
+    empty_constraints: dict[str, Any],
+    property_requirements: dict[str, Any],
+) -> None:
+    structural_mode = neighborhood_patterns.get("modes", {}).get("structural", {})
+    decoration_mode = neighborhood_patterns.get("modes", {}).get("decoration", {})
+    structural_top = (structural_mode.get("topPatterns") or [])[:8]
+    decoration_top = (decoration_rules.get("rules") or [])[:8]
+    property_top = []
+    for mode, items in property_requirements.get("modes", {}).items():
+        for item in items[:10]:
+            property_top.append((mode, item))
+
+    lines = [
+        "# 3x3 Layer Grammar Learning Summary",
+        "",
+        f"- Generated: {now_iso()}",
+        f"- Vanilla maps parsed: {raw['mapsParsed']}/{raw['vanillaMapCount']}",
+        f"- Structural 3x3 patterns observed: {structural_mode.get('observedPatterns', 0)}",
+        f"- Structural 3x3 patterns written: {structural_mode.get('writtenTopPatterns', 0)}",
+        f"- Decoration/support 3x3 patterns observed: {decoration_mode.get('observedPatterns', 0)}",
+        f"- Decoration/support 3x3 patterns written: {decoration_mode.get('writtenTopPatterns', 0)}",
+        "",
+        "## What Changed",
+        "",
+        "- The learner now records 3x3 neighborhoods instead of relying only on one coordinate's vertical layer stack.",
+        "- Strict structure is separated from decoration: `Back` + `Buildings` form structural templates, while `Front`, `AlwaysFront`, and `Paths` form looser support/placement evidence.",
+        "- Empty cells are preserved as constraints, so clear space in front of walls, doors, paths, and supports can be learned instead of ignored.",
+        "- Tile properties are carried into grammar evidence from vanilla metadata and tBIN per-placement properties where available.",
+        "",
+        "## Outputs",
+        "",
+        "- `pattern_learning/vanilla/vanilla_3x3_neighborhood_patterns.json`",
+        "- `pattern_learning/layer_combinations/structural_3x3_grammar_patterns.json`",
+        "- `pattern_learning/layer_combinations/decoration_placement_rules.json`",
+        "- `pattern_learning/layer_combinations/empty_cell_constraints.json`",
+        "- `pattern_learning/layer_combinations/tile_property_requirements.json`",
+        "",
+        "## Strong Structural Templates",
+        "",
+    ]
+    if structural_top:
+        for item in structural_top:
+            lines.append(f"- `{item['patternId']}` count {item['count']}: center `{item.get('centerStack')}`")
+    else:
+        lines.append("- No structural templates were written.")
+    lines += ["", "## Common Decoration Support Rules", ""]
+    if decoration_top:
+        for item in decoration_top:
+            lines.append(f"- Count {item['count']}: center `{item.get('centerStack')}`")
+    else:
+        lines.append("- No decoration support rules were written.")
+    lines += ["", "## Property Grammar Examples", ""]
+    if property_top:
+        for mode, item in property_top[:20]:
+            lines.append(f"- `{mode}` {item['cell']} {item['layer']}: `{item['property']}` observed {item['count']} times")
+    else:
+        lines.append("- No tile property requirements were observed.")
+    lines += [
+        "",
+        "## Generator Implications",
+        "",
+        "- Mine walls, cliffs, water edges, and path transitions should be selected from whole 3x3 structural templates or approved safe patterns, not from isolated tile IDs.",
+        "- Decorations should be placed after structure and should validate support ground, lower-layer blocking state, and overlay/collision rules.",
+        "- Empty `Buildings` cells can be mandatory clearances. Future generators should treat them as positive rules.",
+        "- Visual water/path/special tiles must keep their learned properties when exported, or they can look right but play wrong.",
+    ]
+    write_text(REPORTS_ROOT / "3x3_layer_grammar_learning_summary.md", "\n".join(lines))
+
+    empty_lines = [
+        "# Empty Space Constraint Summary",
+        "",
+        f"- Generated: {now_iso()}",
+        "",
+        "Empty tiles are now recorded as structural evidence. This matters most for walkable space in front of walls, doors, paths, ladders, and exits.",
+        "",
+    ]
+    for mode, items in empty_constraints.get("modes", {}).items():
+        empty_lines += [f"## {mode.title()}", ""]
+        for item in items[:25]:
+            empty_lines.append(f"- Pattern `{item['patternId']}` requires `{item['cell']}` empty in {item['count']} observations.")
+        if not items:
+            empty_lines.append("- No empty constraints recorded.")
+        empty_lines.append("")
+    write_text(REPORTS_ROOT / "empty_space_constraint_summary.md", "\n".join(empty_lines))
+
+    property_lines = [
+        "# Tile Property Grammar Summary",
+        "",
+        f"- Generated: {now_iso()}",
+        "",
+        "Tile visuals are now linked to metadata evidence. Production generators must preserve these properties when using the corresponding visual grammar.",
+        "",
+    ]
+    for mode, items in property_requirements.get("modes", {}).items():
+        property_lines += [f"## {mode.title()}", ""]
+        for item in items[:40]:
+            property_lines.append(f"- `{item['cell']}` `{item['layer']}` `{item['property']}`: {item['count']} observations.")
+        if not items:
+            property_lines.append("- No property requirements recorded.")
+        property_lines.append("")
+    write_text(REPORTS_ROOT / "tile_property_grammar_summary.md", "\n".join(property_lines))
+
+
 def main() -> None:
     ensure_dirs()
     vanilla_index = load_vanilla_index()
@@ -1424,6 +1868,21 @@ def main() -> None:
     neighbor_patterns = serialize_neighbor_patterns(raw)
     write_json(VANILLA_ROOT / "vanilla_layer_neighbor_patterns.json", neighbor_patterns)
 
+    neighborhood_patterns = serialize_3x3_neighborhood_patterns(raw)
+    write_json(VANILLA_ROOT / "vanilla_3x3_neighborhood_patterns.json", neighborhood_patterns)
+
+    structural_3x3 = make_structural_3x3_grammar(raw)
+    write_json(COMBO_ROOT / "structural_3x3_grammar_patterns.json", structural_3x3)
+
+    decoration_rules = make_decoration_placement_rules(raw)
+    write_json(COMBO_ROOT / "decoration_placement_rules.json", decoration_rules)
+
+    empty_constraints = make_empty_cell_constraints(raw)
+    write_json(COMBO_ROOT / "empty_cell_constraints.json", empty_constraints)
+
+    property_requirements = make_tile_property_requirements(raw)
+    write_json(COMBO_ROOT / "tile_property_requirements.json", property_requirements)
+
     stack_patterns, tile_stack_roles = serialize_stack_patterns(raw, vanilla_index, approved_lookup)
     write_json(VANILLA_ROOT / "vanilla_layer_stack_patterns.json", stack_patterns)
     write_json(COMBO_ROOT / "tile_stack_role_patterns.json", tile_stack_roles)
@@ -1444,9 +1903,12 @@ def main() -> None:
     write_json(COMBO_ROOT / "generator_layer_rules_from_vanilla.json", generator_rules)
 
     write_reports(raw, layer_patterns, stack_patterns, grammar, structure_patterns, moon_compare, ref_compare, generator_rules)
+    write_3x3_reports(raw, neighborhood_patterns, structural_3x3, decoration_rules, empty_constraints, property_requirements)
 
     print(f"Parsed vanilla maps: {raw['mapsParsed']}/{raw['vanillaMapCount']}")
     print(f"Layer grammar rules: {len(grammar['rules'])}")
+    print(f"Structural 3x3 patterns: {neighborhood_patterns['modes']['structural']['observedPatterns']}")
+    print(f"Decoration 3x3 patterns: {neighborhood_patterns['modes']['decoration']['observedPatterns']}")
     print(f"Moonvillage maps compared: {moon_compare.get('mapsCompared', 0)}")
     print(f"Reference/Stardew maps compared: {ref_compare.get('mapsCompared', 0)}")
     print("Pattern learning outputs written under tools/tiled-map-assistant/pattern_learning")

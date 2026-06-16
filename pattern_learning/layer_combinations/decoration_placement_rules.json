@@ -1,0 +1,5112 @@
+{
+  "generatedAt": "2026-06-16T08:08:52+00:00",
+  "source": "vanilla_3x3_decoration_pattern_learning",
+  "proposalOnly": true,
+  "rules": [
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 3362,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 3141,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dark:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 1370,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=volcano_dungeon:331",
+      "count": 1026,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 933,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 699,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 684,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:214|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 621,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 584,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:215|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 564,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 559,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:29|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 418,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=spring_outdoorstilesheet:102|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 405,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:17",
+      "count": 402,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:197|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 358,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:226|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 339,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 302,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:138|Buildings=empty|Front=mine_desert_dangerous:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 299,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:14",
+      "count": 278,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:205|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 274,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:153|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 255,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=spring_outdoorstilesheet:16|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 253,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:77|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 234,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:63|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 233,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:1246|Buildings=empty|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 232,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:213|Front=mine:213|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 232,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=island_tilesheet_1:387|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 214,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=mine:77|Front=mine:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 212,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:77|Front=mine:213|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 210,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=out_of_bounds",
+      "count": 204,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=spring_outdoorstilesheet:16|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 203,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:10|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 203,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:9|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 202,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 190,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=spring_outdoorstilesheet:125|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 189,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=volcano_dungeon:544|Buildings=empty|Front=volcano_dungeon:405|AlwaysFront=empty|Paths=empty",
+      "count": 178,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:16",
+      "count": 177,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:216|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 177,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=walls_and_floors:0|Buildings=empty|Front=towninterior:1426|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 172,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:221|Front=mine:221|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 172,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:77|Front=mine:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 171,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:61|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 160,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:153|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 159,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=volcano_dungeon:405|AlwaysFront=empty|Paths=empty",
+      "count": 159,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:226|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 157,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=towninterior:0|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 157,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=towninterior:0|AlwaysFront=empty|Paths=empty",
+      "count": 154,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=empty|Front=mine_dark:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 146,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:77|Front=mine:221|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 144,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 139,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:153|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:17",
+      "count": 137,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=volcano_dungeon:1|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=volcano_dungeon:331",
+      "count": 137,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:380|Buildings=spring_outdoorstilesheet:125|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 132,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=mine_dark:77|Front=mine_dark:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 128,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 122,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 120,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 118,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:25|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 118,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:26|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 117,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:77|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 116,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:220|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 116,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 112,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dangerous:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 111,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=empty|Front=mine_dark:215|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 107,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:153|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 105,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:77|Buildings=empty|Front=mine:29|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 101,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:0|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 100,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=towninterior:0|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 100,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:217|Buildings=empty|Front=mine:205|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 100,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:196|Front=mine:196|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 100,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=empty|Front=mine_dark:214|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 97,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 95,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:14",
+      "count": 95,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=towninterior:0|Front=towninterior:68|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 94,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:226|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 94,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:58|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 93,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:226|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:17",
+      "count": 91,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:232|Front=mine:232|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 87,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_quarryshaft:138|Buildings=empty|Front=mine_quarryshaft:214|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 86,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_quarryshaft:138|Buildings=empty|Front=mine_quarryshaft:215|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 85,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 83,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:218|Buildings=mine:206|Front=mine:206|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 83,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:138|Buildings=mine_desert_dangerous:77|Front=mine_desert_dangerous:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 83,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:11",
+      "count": 81,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:153|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:14",
+      "count": 81,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:42|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 81,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=towninterior:0|Front=towninterior:64|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 80,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:230|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 80,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:17",
+      "count": 79,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:41|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 79,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=bathhouse_tiles:85|Buildings=bathhouse_tiles:165|Front=bathhouse_tiles:165|AlwaysFront=empty|Paths=empty",
+      "count": 78,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dark:63|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 78,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:329|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 76,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:231|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 76,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dark:62|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 76,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:2|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 75,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_desert_dangerous:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 75,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:15",
+      "count": 73,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:1094|Buildings=spring_outdoorstilesheet:16|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 73,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 73,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:320|Buildings=empty|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 73,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:1094|Buildings=empty|Front=empty|AlwaysFront=winter_outdoorstilesheet:946|Paths=empty",
+      "count": 72,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:78|Front=empty|AlwaysFront=mine:77|Paths=empty",
+      "count": 72,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:0|Front=towninterior:68|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 70,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:275|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=out_of_bounds",
+      "count": 70,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_lava:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 70,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:11",
+      "count": 69,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:138|Buildings=empty|Front=mine_desert_dangerous:214|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 69,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=bathhouse_tiles:85|Buildings=bathhouse_tiles:167|Front=bathhouse_tiles:167|AlwaysFront=empty|Paths=empty",
+      "count": 68,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:218|Buildings=mine:77|Front=mine:221|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 68,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:219|Buildings=empty|Front=mine:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 68,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:513|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 67,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 67,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:183|Buildings=empty|Front=mine:214|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 67,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:351|Buildings=empty|Front=festivals:628|AlwaysFront=empty|Paths=empty",
+      "count": 66,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_beach:99|Buildings=summer_beach:357|Front=summer_beach:30|AlwaysFront=empty|Paths=empty",
+      "count": 64,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:57|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 64,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:218|Buildings=mine:221|Front=mine:221|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 64,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=cooptiles:12|Buildings=cooptiles:48|Front=cooptiles:48|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 63,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:176|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 63,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:153|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:16",
+      "count": 63,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 63,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:77|Buildings=empty|Front=mine:63|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 63,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 62,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:183|Buildings=empty|Front=mine:215|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 62,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:64|Front=towninterior:64|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 60,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:43|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 58,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=cooptiles:12|Buildings=cooptiles:1|Front=cooptiles:1|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 56,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_beach:99|Buildings=summer_beach:357|Front=summer_beach:33|AlwaysFront=empty|Paths=empty",
+      "count": 56,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 56,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:138|Buildings=empty|Front=mine_desert_dangerous:215|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 56,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:1229|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:27",
+      "count": 56,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 55,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=towninterior:2|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 55,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:44|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 55,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:380|Buildings=spring_outdoorstilesheet:946|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 55,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=towninterior:0|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 54,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:226|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:14",
+      "count": 54,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=mine_quarryshaft:77|Front=mine_quarryshaft:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 54,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:68|Front=towninterior:68|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 53,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:10|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 53,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dark:47|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 53,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:17",
+      "count": 52,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:329|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 52,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=walls_and_floors:352|Buildings=empty|Front=towninterior:165|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 52,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:10",
+      "count": 51,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:9",
+      "count": 51,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:16",
+      "count": 51,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=mine_dark:77|Front=mine_dark:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 51,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_beach:42|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:6",
+      "count": 50,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=volcano_dungeon:330",
+      "count": 50,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:560|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 49,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:59|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 48,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=buglandtiles:10|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:14",
+      "count": 47,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:226|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:16",
+      "count": 47,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:15|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 47,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 46,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:1229|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:27",
+      "count": 46,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dark:46|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 46,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:0|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 45,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dark:95|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 45,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:206|Front=mine:206|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 45,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 45,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=fall_outdoorstilesheet:69|Paths=empty",
+      "count": 45,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 44,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:589|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 43,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=walls_and_floors:353|Buildings=empty|Front=towninterior:165|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 43,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:11",
+      "count": 43,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:217|Buildings=empty|Front=mine:220|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 43,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:23",
+      "count": 42,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:488|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 42,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:329|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 42,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:326|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 42,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine_dark:79|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 42,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:351|Buildings=empty|Front=fall_town:897|AlwaysFront=empty|Paths=empty",
+      "count": 42,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:0|Front=towninterior:64|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 41,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=buglandtiles:10|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 41,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:226|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:36",
+      "count": 41,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:275|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 41,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=empty|Front=mine_dark:205|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 41,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=empty|Front=mine_dark:197|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 41,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:1094|Buildings=empty|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 40,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:1094|Buildings=spring_outdoorstilesheet:125|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 40,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=walls_and_floors:11|Buildings=empty|Front=towninterior:1426|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 40,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:219|Buildings=empty|Front=mine_desert_dangerous:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 40,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:251|Buildings=empty|Front=fall_town:801|AlwaysFront=empty|Paths=empty",
+      "count": 40,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:351|Buildings=empty|Front=festivals:564|AlwaysFront=empty|Paths=empty",
+      "count": 40,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=volcano_dungeon:544|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=volcano_dungeon:330",
+      "count": 40,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:606|Buildings=empty|Front=towninterior:165|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 39,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:21",
+      "count": 39,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:227|Buildings=spring_outdoorstilesheet:16|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 39,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:12|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 39,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:219|Buildings=empty|Front=mine_dark:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 39,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=mine_dark:77|Front=mine_dark:213|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 39,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:607|Buildings=empty|Front=towninterior:165|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 38,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:36",
+      "count": 38,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=mine_quarryshaft:77|Front=mine_quarryshaft:10|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 38,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 38,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=towninterior:10|AlwaysFront=empty|Paths=empty",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=bathhouse_tiles:85|Buildings=bathhouse_tiles:151|Front=bathhouse_tiles:151|AlwaysFront=empty|Paths=empty",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=walls_and_floors:336|Buildings=towninterior:0|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:217|Buildings=empty|Front=mine:215|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:45|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=mine_quarryshaft:77|Front=mine_quarryshaft:9|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=towninterior:0|AlwaysFront=empty|Paths=out_of_bounds",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=fall_outdoorstilesheet:94|Paths=empty",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:35",
+      "count": 37,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:326|Buildings=empty|Front=spring_outdoorstilesheet:359|AlwaysFront=empty|Paths=empty",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:206|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:380|Buildings=spring_outdoorstilesheet:16|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:15",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=farmhouse_tiles:0|Buildings=towninterior:2|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=walls_and_floors:337|Buildings=towninterior:0|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:1229|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:27",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:202|Buildings=empty|Front=mine:205|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:27|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=fall_outdoorstilesheet:68|Paths=empty",
+      "count": 36,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 35,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 35,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:164|Front=mine:164|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 35,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:35",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=bathhouse_tiles:85|Buildings=bathhouse_tiles:156|Front=bathhouse_tiles:156|AlwaysFront=empty|Paths=empty",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_beach:42|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:5",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:562|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:14",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:176|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=spring_outdoorstilesheet:16|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=empty|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=towninterior:64|Front=towninterior:64|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:175|Buildings=island_tilesheet_1:17|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:94|Front=mine:213|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:77|Buildings=empty|Front=mine:10|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:183|Buildings=mine:213|Front=mine:213|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=volcano_dungeon:528|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=volcano_dungeon:334",
+      "count": 34,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=buglandtiles:10|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:15",
+      "count": 33,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:24",
+      "count": 33,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:62|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 33,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:138|Buildings=empty|Front=mine_desert_dangerous:197|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 33,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=fall_outdoorstilesheet:44|Paths=empty",
+      "count": 33,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:25",
+      "count": 33,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=fall_outdoorstilesheet:93|Paths=empty",
+      "count": 33,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=summer_beach:99|Buildings=summer_beach:66|Front=summer_beach:33|AlwaysFront=empty|Paths=empty",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:513|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:1274|Buildings=empty|Front=empty|AlwaysFront=spring_outdoorstilesheet:946|Paths=empty",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=winter_outdoorstilesheet:946|Paths=empty",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:175|Buildings=winter_outdoorstilesheet:518|Front=winter_outdoorstilesheet:498|AlwaysFront=empty|Paths=empty",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:0|Buildings=empty|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:29|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:183|Buildings=empty|Front=mine:197|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:175|Buildings=empty|Front=fall_town:801|AlwaysFront=empty|Paths=empty",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:1654|Buildings=empty|Front=spring_outdoorstilesheet:1681|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=volcano_dungeon:544|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=volcano_dungeon:334",
+      "count": 32,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=spring_outdoorstilesheet:414|AlwaysFront=empty|Paths=empty",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:463|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:176|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=towninterior:0|Front=towninterior:0|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=island_tilesheet_1:72|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:31|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:94|Front=mine:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:138|Buildings=empty|Front=mine_desert_dangerous:29|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:77|Buildings=empty|Front=mine:9|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:139|Buildings=empty|Front=mine_dark:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=samshowtiles:84|Buildings=empty|Front=samshowtiles:90|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 31,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:488|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:587|Buildings=empty|Front=spring_outdoorstilesheet:413|AlwaysFront=empty|Paths=empty",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:227|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:14",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=winter_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=towninterior:998|Buildings=empty|Front=towninterior:1335|AlwaysFront=empty|Paths=empty",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:188|Buildings=mine:236|Front=mine:236|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=empty|Front=mine_dark:216|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_dark:138|Buildings=mine_dark:232|Front=mine_dark:232|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=submarine_tilesheet:0|Buildings=empty|Front=empty|AlwaysFront=submarine_tilesheet:0|Paths=empty",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:251|Buildings=empty|Front=spring_town:801|AlwaysFront=empty|Paths=empty",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:351|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 30,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:463|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:13",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:18",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:175|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:15",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_island_tilesheet_1:674|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:9",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=cave:13|Buildings=cave:0|Front=cave:0|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:217|Buildings=mine:221|Front=mine:221|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:77|Buildings=empty|Front=mine:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_desert_dangerous:138|Buildings=empty|Front=mine_desert_dangerous:10|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=mine_desert_dangerous:77|Front=mine_desert_dangerous:77|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine_quarryshaft:138|Buildings=empty|Front=mine_quarryshaft:205|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:351|Buildings=empty|Front=spring_town:897|AlwaysFront=empty|Paths=empty",
+      "count": 29,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=towninterior:2|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:231|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:22",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=walls_and_floors:336|Buildings=empty|Front=towninterior:165|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=island_tilesheet_1:29|Buildings=empty|Front=empty|AlwaysFront=island_tilesheet_1:17|Paths=empty",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=empty|Buildings=empty|Front=mine:60|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=empty|Front=mine:61|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=mine:138|Buildings=mine:148|Front=mine:148|AlwaysFront=out_of_bounds|Paths=out_of_bounds",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=sewertiles:64|Buildings=empty|Front=sewertiles:30|AlwaysFront=out_of_bounds|Paths=empty",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=fall_outdoorstilesheet:45|Paths=empty",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:380|Buildings=empty|Front=empty|AlwaysFront=fall_outdoorstilesheet:95|Paths=empty",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=fall_outdoorstilesheet:838|Buildings=empty|Front=fall_town:897|AlwaysFront=empty|Paths=empty",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=volcano_dungeon:544|Buildings=volcano_dungeon:400|Front=volcano_dungeon:400|AlwaysFront=empty|Paths=empty",
+      "count": 28,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    },
+    {
+      "centerStack": "Back=spring_outdoorstilesheet:329|Buildings=empty|Front=empty|AlwaysFront=empty|Paths=paths:26",
+      "count": 27,
+      "mode": "decoration",
+      "strictTemplate": false,
+      "supportLayersToCheck": [
+        "Back",
+        "Buildings"
+      ],
+      "decorationLayers": [
+        "Front",
+        "AlwaysFront",
+        "Paths"
+      ],
+      "placementInterpretation": "loose_support_rule_not_exact_copy",
+      "generatorUse": "decoration may be placed when support Back/Buildings stack is compatible and validator passes."
+    }
+  ],
+  "notes": [
+    "Decoration rules intentionally do not require copying the full 3x3 art template.",
+    "Front, AlwaysFront, and Paths evidence should constrain allowed support ground/lower stacks, not replace structural grammar.",
+    "AlwaysFront must remain overlay-only and cannot become a collision source."
+  ]
+}

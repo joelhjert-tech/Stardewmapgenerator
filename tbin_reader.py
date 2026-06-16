@@ -94,8 +94,8 @@ def read_tile_in_layer(r, state):
         idx = r.i32()
         # static tiles carry a 1-byte blend-mode flag, then a per-tile property list
         r.u8()               # blend mode (unused)
-        read_properties(r)   # per-tile properties (usually empty)
-        return ("static", 1, (state["sheet"], idx))
+        props = read_properties(r)   # per-tile properties (usually empty)
+        return ("static", 1, (state["sheet"], idx, props))
     if cmd == "A":           # animated tile
         interval = r.i32()   # frame interval (ms)
         frame_count = r.i32()
@@ -108,12 +108,14 @@ def read_tile_in_layer(r, state):
             if sub == "S":
                 fidx = r.i32()
                 r.u8()
-                read_properties(r)
+                props = read_properties(r)
                 if first is None:
-                    first = (state["sheet"], fidx)
+                    first = (state["sheet"], fidx, props)
             else:
                 raise TbinError(f"unexpected anim frame cmd {sub!r}")
-        read_properties(r)   # animated tile's own properties
+        own_props = read_properties(r)   # animated tile's own properties
+        if first is not None and own_props:
+            first = (first[0], first[1], own_props)
         return ("animated", 1, first)
     raise TbinError(f"unknown tile cmd {cmd!r} ({ord(cmd)}) at {r.i}")
 
@@ -130,6 +132,7 @@ def read_layer(r):
     if not (0 < w <= 10000 and 0 < h <= 10000):
         raise TbinError(f"insane layer size {w}x{h}")
     tiles = {}   # (x,y) -> (sheetId, index)
+    tile_properties = {}   # (x,y) -> per-placement properties
     state = {"sheet": None}
     for y in range(h):
         x = 0
@@ -140,11 +143,17 @@ def read_layer(r):
             elif kind == "sheet":
                 pass
             else:  # static / animated
-                tiles[(x, y)] = payload
+                if payload is not None:
+                    sheet_id, idx = payload[0], payload[1]
+                    props = payload[2] if len(payload) > 2 and payload[2] else {}
+                    tiles[(x, y)] = (sheet_id, idx)
+                    if props:
+                        tile_properties[(x, y)] = props
                 x += adv
             if x > w:
                 raise TbinError(f"layer {layer['id']} row {y} overran width ({x}>{w})")
     layer["tiles"] = tiles
+    layer["tileProperties"] = tile_properties
     return layer
 
 

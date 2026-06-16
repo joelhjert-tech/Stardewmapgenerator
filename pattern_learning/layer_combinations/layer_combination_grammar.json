@@ -1,0 +1,710 @@
+{
+  "generatedAt": "2026-06-16T08:19:23+00:00",
+  "source": "vanilla_pattern_learning",
+  "rules": [
+    {
+      "ruleId": "walkable_ground",
+      "ruleName": "walkable ground or floor",
+      "layerRequirements": {
+        "Back": "required",
+        "Buildings": "empty",
+        "Front": "empty_or_decorative",
+        "AlwaysFront": "empty",
+        "Paths": "optional_technical"
+      },
+      "allowedApprovedClasses": [
+        "ground_base",
+        "floor_base",
+        "path_base",
+        "ground_transition",
+        "floor_trim"
+      ],
+      "forbiddenClasses": [
+        "collision_blocker",
+        "wall_front",
+        "wall_side"
+      ],
+      "collisionExpectation": "walkable unless Back has Water=T or another special intrinsic property",
+      "drawOrderExpectation": "Back provides the visible base; optional Paths is technical.",
+      "validatorChecks": [
+        "Back tile approved or intrinsic metadata-backed",
+        "Buildings empty",
+        "AlwaysFront not used for collision"
+      ],
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 0,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:9"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 1,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 9,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 9,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 10,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "x": 14,
+          "y": 6,
+          "tiles": {
+            "Back": "towninterior:285",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "x": 24,
+          "y": 7,
+          "tiles": {
+            "Back": "towninterior:2138",
+            "Paths": "paths:8"
+          }
+        }
+      ],
+      "confidence": 95,
+      "source": "vanilla_pattern_learning"
+    },
+    {
+      "ruleId": "blocking_structure",
+      "ruleName": "blocking structure or object",
+      "layerRequirements": {
+        "Back": "required_or_strongly_preferred",
+        "Buildings": "required",
+        "Front": "optional",
+        "AlwaysFront": "optional",
+        "Paths": "optional"
+      },
+      "allowedApprovedClasses": [
+        "collision_blocker",
+        "exterior_wall",
+        "wall_front",
+        "wall_side",
+        "furniture",
+        "machine",
+        "container"
+      ],
+      "forbiddenClasses": [
+        "overlay_only",
+        "tree_canopy_without_buildings_profile"
+      ],
+      "collisionExpectation": "blocked by Buildings layer",
+      "drawOrderExpectation": "Buildings carries body/collision; Front/AlwaysFront may add top/overhead visuals.",
+      "validatorChecks": [
+        "Buildings profile approved for blocking",
+        "Back beneath is valid",
+        "tile 946 is not used as Buildings/blocker"
+      ],
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 2,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 16,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:204"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:4"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 13,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:98"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 14,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:99"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:96"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:97"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:144",
+            "Front": "jojaruins_tilesheet:111"
+          }
+        }
+      ],
+      "confidence": 90,
+      "source": "vanilla_pattern_learning"
+    },
+    {
+      "ruleId": "wall_with_overhead_top",
+      "ruleName": "wall or building with front/overhead top",
+      "layerRequirements": {
+        "Back": "required",
+        "Buildings": "required",
+        "Front": "required_or_common",
+        "AlwaysFront": "optional"
+      },
+      "allowedApprovedClasses": [
+        "exterior_wall",
+        "wall_front",
+        "wall_top",
+        "roof",
+        "window",
+        "door",
+        "sign"
+      ],
+      "forbiddenClasses": [
+        "unprofiled_canopy_as_blocker"
+      ],
+      "collisionExpectation": "blocked by Buildings; Front/AlwaysFront are draw layers",
+      "drawOrderExpectation": "Back base, Buildings body, Front top/face, AlwaysFront over-player cap if needed.",
+      "validatorChecks": [
+        "Buildings body has matching approved Front/AlwaysFront top when style requires it",
+        "top tile allowed on Front/AlwaysFront"
+      ],
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 13,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:98"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 14,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:99"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:96"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:97"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:144",
+            "Front": "jojaruins_tilesheet:111"
+          }
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "x": 9,
+          "y": 9,
+          "tiles": {
+            "Back": "towninterior:574",
+            "Buildings": "towninterior:768",
+            "Front": "towninterior:833",
+            "AlwaysFront": "towninterior:768"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 5,
+          "y": 21,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:351",
+            "Buildings": "spring_outdoorstilesheet:169",
+            "Front": "spring_outdoorstilesheet:359",
+            "AlwaysFront": "spring_outdoorstilesheet:53"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 20,
+          "y": 24,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:351",
+            "Buildings": "spring_outdoorstilesheet:64",
+            "Front": "spring_outdoorstilesheet:10",
+            "AlwaysFront": "spring_outdoorstilesheet:10"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 22,
+          "y": 24,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:306",
+            "Buildings": "spring_outdoorstilesheet:102",
+            "Front": "spring_outdoorstilesheet:12",
+            "AlwaysFront": "spring_outdoorstilesheet:12"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 22,
+          "y": 26,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:281",
+            "Buildings": "spring_outdoorstilesheet:125",
+            "Front": "spring_outdoorstilesheet:1626",
+            "AlwaysFront": "spring_outdoorstilesheet:62"
+          }
+        }
+      ],
+      "confidence": 88,
+      "source": "vanilla_pattern_learning"
+    },
+    {
+      "ruleId": "canopy_overlay",
+      "ruleName": "canopy or roof overlay",
+      "layerRequirements": {
+        "Back": "required_or_common",
+        "Buildings": "empty_or_trunk_body",
+        "AlwaysFront": "required"
+      },
+      "allowedApprovedClasses": [
+        "tree_canopy",
+        "roof",
+        "overlay",
+        "exterior_decoration"
+      ],
+      "forbiddenClasses": [
+        "collision_blocker_without_buildings_profile"
+      ],
+      "collisionExpectation": "AlwaysFront does not create collision; collision comes from Buildings or Back metadata.",
+      "drawOrderExpectation": "AlwaysFront draws above player.",
+      "validatorChecks": [
+        "AlwaysFront tile has overlay profile",
+        "no collision assigned to AlwaysFront profile",
+        "tile 946 remains overlay-only until separately approved"
+      ],
+      "examples": [
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 22,
+          "y": 29,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:352",
+            "AlwaysFront": "spring_outdoorstilesheet:1651"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 23,
+          "y": 29,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:1026",
+            "AlwaysFront": "spring_outdoorstilesheet:1652"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 22,
+          "y": 30,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:352",
+            "AlwaysFront": "spring_outdoorstilesheet:1676"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 23,
+          "y": 30,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:1026",
+            "AlwaysFront": "spring_outdoorstilesheet:1677"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 44,
+          "y": 30,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:1056",
+            "AlwaysFront": "spring_outdoorstilesheet:10"
+          }
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "x": 8,
+          "y": 2,
+          "tiles": {
+            "Back": "towninterior_2:1010",
+            "Buildings": "towninterior:79",
+            "AlwaysFront": "towninterior:1461"
+          }
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "x": 37,
+          "y": 2,
+          "tiles": {
+            "Back": "towninterior_2:982",
+            "Buildings": "towninterior:80",
+            "AlwaysFront": "towninterior:335"
+          }
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "x": 38,
+          "y": 2,
+          "tiles": {
+            "Back": "towninterior:603",
+            "Buildings": "towninterior_2:899",
+            "AlwaysFront": "towninterior:336"
+          }
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "x": 39,
+          "y": 2,
+          "tiles": {
+            "Back": "towninterior:66",
+            "Buildings": "towninterior_2:28",
+            "AlwaysFront": "towninterior:337"
+          }
+        },
+        {
+          "map": "ArchaeologyHouse.tbin",
+          "category": "shop/interior",
+          "x": 1,
+          "y": 5,
+          "tiles": {
+            "Back": "towninterior_2:1010",
+            "Buildings": "towninterior:79",
+            "AlwaysFront": "towninterior:1461"
+          }
+        }
+      ],
+      "confidence": 85,
+      "source": "vanilla_pattern_learning"
+    },
+    {
+      "ruleId": "water",
+      "ruleName": "water or special liquid base",
+      "layerRequirements": {
+        "Back": "required_with_Water_property",
+        "Buildings": "usually_empty",
+        "Front": "optional_edge_overlay",
+        "AlwaysFront": "optional"
+      },
+      "allowedApprovedClasses": [
+        "water_base",
+        "water_transition"
+      ],
+      "forbiddenClasses": [
+        "walkable_ground_without_water_profile"
+      ],
+      "collisionExpectation": "blocked_or_special unless explicit passability exists",
+      "drawOrderExpectation": "Water is primarily Back-layer with optional edge/overlay decorations.",
+      "validatorChecks": [
+        "Water tile must carry Water=T or approved water profile",
+        "water edge transitions must be approved before production output"
+      ],
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 0,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:9"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 1,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        }
+      ],
+      "confidence": 90,
+      "source": "vanilla_pattern_learning"
+    },
+    {
+      "ruleId": "technical_path",
+      "ruleName": "technical path or route data",
+      "layerRequirements": {
+        "Paths": "optional_or_required_by_map_logic",
+        "Back": "usually_required"
+      },
+      "allowedApprovedClasses": [
+        "path_base",
+        "event_marker",
+        "npc_marker",
+        "warp_marker"
+      ],
+      "forbiddenClasses": [
+        "final_visual_only_on_paths"
+      ],
+      "collisionExpectation": "technical route data, not visual collision",
+      "drawOrderExpectation": "Paths should not be treated as main visual output unless a map specifically uses it that way.",
+      "validatorChecks": [
+        "Paths layer does not replace Back visual base",
+        "entrance/exit path markers do not block routes"
+      ],
+      "examples": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 9,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 9,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 10,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "x": 14,
+          "y": 6,
+          "tiles": {
+            "Back": "towninterior:285",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "x": 24,
+          "y": 7,
+          "tiles": {
+            "Back": "towninterior:2138",
+            "Paths": "paths:8"
+          }
+        }
+      ],
+      "confidence": 82,
+      "source": "vanilla_pattern_learning"
+    }
+  ],
+  "notes": [
+    "Rules are grammar learned from vanilla placement and metadata.",
+    "They do not approve unapproved custom tiles.",
+    "Production output remains blocked where structural stylepack roles are marker-only."
+  ]
+}

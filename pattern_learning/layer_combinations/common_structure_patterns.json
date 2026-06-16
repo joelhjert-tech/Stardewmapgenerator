@@ -1,0 +1,1106 @@
+{
+  "generatedAt": "2026-06-16T08:19:23+00:00",
+  "source": "vanilla_pattern_learning",
+  "patterns": [
+    {
+      "patternId": "exterior_ground_fields",
+      "name": "Exterior ground fields",
+      "mapCategories": [
+        "town exterior",
+        "forest exterior",
+        "mountain exterior",
+        "beach exterior"
+      ],
+      "layerStackPattern": "Back",
+      "neighborPattern": "large repeated Back-layer regions",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 0,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:9"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 1,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "ground_base",
+        "ground_transition"
+      ],
+      "unresolvedTileClasses": [
+        "transitionTiles"
+      ],
+      "canUseForGenerator": true,
+      "reason": "Usable for marker-only generator and production only where all required classes are approved."
+    },
+    {
+      "patternId": "dirt_grass_path_roads",
+      "name": "Dirt/grass/path roads",
+      "mapCategories": [
+        "town exterior",
+        "forest exterior",
+        "farmhouse/interior"
+      ],
+      "layerStackPattern": "Back+Paths",
+      "neighborPattern": "Back visual base with optional technical Paths",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin",
+        "AnimalShop.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 9,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 9,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 10,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "x": 14,
+          "y": 6,
+          "tiles": {
+            "Back": "towninterior:285",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "x": 24,
+          "y": 7,
+          "tiles": {
+            "Back": "towninterior:2138",
+            "Paths": "paths:8"
+          }
+        },
+        {
+          "map": "AnimalShop.tbin",
+          "category": "shop/interior",
+          "x": 29,
+          "y": 15,
+          "tiles": {
+            "Back": "towninterior:262",
+            "Paths": "paths:8"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "path_base",
+        "ground_base"
+      ],
+      "unresolvedTileClasses": [
+        "pathTransitionTiles"
+      ],
+      "canUseForGenerator": true,
+      "reason": "Usable for marker-only generator and production only where all required classes are approved."
+    },
+    {
+      "patternId": "water_edges",
+      "name": "Water edges",
+      "mapCategories": [
+        "beach exterior",
+        "forest exterior",
+        "town exterior"
+      ],
+      "layerStackPattern": "Back",
+      "neighborPattern": "Back tiles with Water metadata next to non-water Back tiles",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 0,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:9"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 1,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "water_base",
+        "water_transition"
+      ],
+      "unresolvedTileClasses": [
+        "waterEdgeTiles"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "forest_tree_canopy_stacks",
+      "name": "Forest/tree/canopy stacks",
+      "mapCategories": [
+        "forest exterior",
+        "mountain exterior"
+      ],
+      "layerStackPattern": "Back+AlwaysFront",
+      "neighborPattern": "Back ground with AlwaysFront canopy/top overlay",
+      "exampleMaps": [
+        "Backwoods.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 22,
+          "y": 29,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:352",
+            "AlwaysFront": "spring_outdoorstilesheet:1651"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 23,
+          "y": 29,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:1026",
+            "AlwaysFront": "spring_outdoorstilesheet:1652"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 22,
+          "y": 30,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:352",
+            "AlwaysFront": "spring_outdoorstilesheet:1676"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 23,
+          "y": 30,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:1026",
+            "AlwaysFront": "spring_outdoorstilesheet:1677"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 44,
+          "y": 30,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:1056",
+            "AlwaysFront": "spring_outdoorstilesheet:10"
+          }
+        },
+        {
+          "map": "Backwoods.tbin",
+          "category": "mountain exterior",
+          "x": 45,
+          "y": 30,
+          "tiles": {
+            "Back": "spring_outdoorstilesheet:1056",
+            "AlwaysFront": "spring_outdoorstilesheet:11"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "tree_canopy",
+        "overlay"
+      ],
+      "unresolvedTileClasses": [
+        "canopyOverlayTiles",
+        "shadowTiles"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "house_exterior_walls_roofs",
+      "name": "House exterior walls and roofs",
+      "mapCategories": [
+        "town exterior"
+      ],
+      "layerStackPattern": "Back+Buildings+Front",
+      "neighborPattern": "Buildings body with Front/AlwaysFront upper visual layers",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 13,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:98"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 14,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:99"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:96"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:97"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:144",
+            "Front": "jojaruins_tilesheet:111"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:145",
+            "Front": "jojaruins_tilesheet:122"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "exterior_wall",
+        "roof",
+        "door",
+        "window"
+      ],
+      "unresolvedTileClasses": [
+        "wallBodyTiles",
+        "wallTopTiles",
+        "cornerMatrices"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "interior_walls",
+      "name": "Interior walls",
+      "mapCategories": [
+        "farmhouse/interior",
+        "shop/interior"
+      ],
+      "layerStackPattern": "Back+Buildings+Front",
+      "neighborPattern": "Back floors with Buildings blockers and Front wall tops",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 13,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:98"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 14,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:99"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:96"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:97"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:144",
+            "Front": "jojaruins_tilesheet:111"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:145",
+            "Front": "jojaruins_tilesheet:122"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "floor_base",
+        "wall_front",
+        "wall_top"
+      ],
+      "unresolvedTileClasses": [
+        "wallBodyTiles",
+        "wallTopTiles"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "floors_and_rugs",
+      "name": "Floors and rugs",
+      "mapCategories": [
+        "farmhouse/interior",
+        "shop/interior"
+      ],
+      "layerStackPattern": "Back",
+      "neighborPattern": "walkable Back floor/rug patterns",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 0,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:9"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 1,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "floor_base",
+        "rug"
+      ],
+      "unresolvedTileClasses": [
+        "floor_trim"
+      ],
+      "canUseForGenerator": true,
+      "reason": "Usable for marker-only generator and production only where all required classes are approved."
+    },
+    {
+      "patternId": "counters_tables_furniture",
+      "name": "Counters/tables/furniture",
+      "mapCategories": [
+        "farmhouse/interior",
+        "shop/interior"
+      ],
+      "layerStackPattern": "Back+Buildings",
+      "neighborPattern": "Buildings objects over Back floor",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 2,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 16,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:204"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:4"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:5"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "counter",
+        "table",
+        "chair",
+        "furniture"
+      ],
+      "unresolvedTileClasses": [
+        "wallBodyTiles"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "doors_thresholds",
+      "name": "Doors and thresholds",
+      "mapCategories": [
+        "town exterior",
+        "farmhouse/interior",
+        "shop/interior"
+      ],
+      "layerStackPattern": "Back+Buildings+Front",
+      "neighborPattern": "transition points combining floor, blocker/body, and overlay",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 13,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:98"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 14,
+          "y": 7,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:99"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:108",
+            "Front": "jojaruins_tilesheet:96"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 8,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:119",
+            "Buildings": "jojaruins_tilesheet:109",
+            "Front": "jojaruins_tilesheet:97"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:144",
+            "Front": "jojaruins_tilesheet:111"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Buildings": "jojaruins_tilesheet:145",
+            "Front": "jojaruins_tilesheet:122"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "door",
+        "warp_marker"
+      ],
+      "unresolvedTileClasses": [
+        "door",
+        "pathTransitionTiles"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "cave_mine_floors",
+      "name": "Cave/mine floors",
+      "mapCategories": [
+        "mine"
+      ],
+      "layerStackPattern": "Back",
+      "neighborPattern": "Back base floors with clustered structure overlays",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 0,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:9"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 1,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 3,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "floor_base",
+        "rock"
+      ],
+      "unresolvedTileClasses": [
+        "edgeMatrices",
+        "wallBodyTiles"
+      ],
+      "canUseForGenerator": true,
+      "reason": "Usable for marker-only generator and production only where all required classes are approved."
+    },
+    {
+      "patternId": "mine_walls",
+      "name": "Mine walls",
+      "mapCategories": [
+        "mine"
+      ],
+      "layerStackPattern": "Back+Buildings",
+      "neighborPattern": "blocking cave walls with Back floor beneath",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 2,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 16,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:204"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:4"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:5"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "wall_front",
+        "collision_blocker"
+      ],
+      "unresolvedTileClasses": [
+        "wallBodyTiles",
+        "cornerMatrices"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "mine_ladders_holes",
+      "name": "Mine ladders/holes",
+      "mapCategories": [
+        "mine"
+      ],
+      "layerStackPattern": "Back+Buildings",
+      "neighborPattern": "special floor transitions or ladder-like stacks",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 2,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:87",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 16,
+          "y": 0,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:11",
+            "Buildings": "jojaruins_tilesheet:206"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 4,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:204"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:4"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 1,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:86",
+            "Buildings": "jojaruins_tilesheet:5"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "stairs",
+        "warp_marker"
+      ],
+      "unresolvedTileClasses": [
+        "stairs",
+        "event_marker"
+      ],
+      "canUseForGenerator": false,
+      "reason": "Blocked for production because structural/edge/corner/canopy classes remain unapproved."
+    },
+    {
+      "patternId": "festival_decoration_stacks",
+      "name": "Festival decoration stacks",
+      "mapCategories": [
+        "festival"
+      ],
+      "layerStackPattern": "Back+Front",
+      "neighborPattern": "seasonal decorations layered over normal bases",
+      "exampleMaps": [
+        "AbandonedJojaMart.tbin"
+      ],
+      "exampleCoordinates": [
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 5,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Front": "jojaruins_tilesheet:122"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 6,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Front": "jojaruins_tilesheet:122"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 7,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Front": "jojaruins_tilesheet:122"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 8,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Front": "jojaruins_tilesheet:110"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 10,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Front": "jojaruins_tilesheet:111"
+          }
+        },
+        {
+          "map": "AbandonedJojaMart.tbin",
+          "category": "unknown",
+          "x": 11,
+          "y": 11,
+          "tiles": {
+            "Back": "jojaruins_tilesheet:106",
+            "Front": "jojaruins_tilesheet:122"
+          }
+        }
+      ],
+      "requiredApprovedTileClasses": [
+        "decoration",
+        "overlay"
+      ],
+      "unresolvedTileClasses": [
+        "decorationTiles"
+      ],
+      "canUseForGenerator": true,
+      "reason": "Usable for marker-only generator and production only where all required classes are approved."
+    }
+  ]
+}
