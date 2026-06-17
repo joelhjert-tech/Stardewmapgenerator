@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-06-16T14:58:01.832770+00:00",
+  "note": "Paired Front-overlay templates. Each stamps ONE Front tile at an offset relative to a placed base boundary template, only with matching paired context. Not loose: the overlay requires its base wall template + the documented floor/Buildings context.",
+  "templates": [
+    {
+      "templateId": "overlay_front_overlay_wall_top_off0_-1",
+      "sourceFamilyId": "front_overlay_wall_top_off0_-1",
+      "structuralDesign": "wall_top_cast_shadow",
+      "role": "wall_top",
+      "size": "1x1",
+      "overlayOffset": [
+        0,
+        -1
+      ],
+      "primaryFrontTileId": 215,
+      "frontTileIdsWeighted": [
+        [
+          215,
+          212
+        ],
+        [
+          214,
+          194
+        ],
+        [
+          26,
+          21
+        ],
+        [
+          61,
+          16
+        ],
+        [
+          57,
+          14
+        ],
+        [
+          58,
+          14
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          29,
+          13
+        ]
+      ],
+      "pairedBuildingsContext": [
+        46,
+        94,
+        93,
+        60
+      ],
+      "pairedBackContext": [
+        138,
+        77,
+        183,
+        217
+      ],
+      "placementRules": "stamp Front overlay at offset relative to the base boundary cell only if the target cell is floor and the base wall cell carries a paired Buildings id",
+      "neighborRules": "requires wall_top boundary geometry",
+      "allowedRotations": [
+        "none"
+      ],
+      "tilesheetCompatibility": "mine",
+      "confidence": 72,
+      "sourceEvidence": {
+        "frequency": 626,
+        "coverage": 0.364,
+        "maps": 47
+      },
+      "productionStatus": "generator_ready"
+    }
+  ]
+}

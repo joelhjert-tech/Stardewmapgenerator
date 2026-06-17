@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-06-16T14:58:01.830163+00:00",
+  "roleTotals": {
+    "right_edge": 1972,
+    "left_edge": 2037,
+    "wall_top": 1721,
+    "outer_corner": 2409,
+    "lower_face": 3241
+  },
+  "familyCount": 5,
+  "generatorReadyCount": 1,
+  "families": [
+    {
+      "familyId": "front_overlay_wall_top_off0_-1",
+      "familyName": "wall_top front overlay @ offset (0, -1)",
+      "structuralDesign": "wall_top_cast_shadow",
+      "role": "wall_top",
+      "offset": [
+        0,
+        -1
+      ],
+      "frontTileIdsWeighted": [
+        [
+          215,
+          212
+        ],
+        [
+          214,
+          194
+        ],
+        [
+          26,
+          21
+        ],
+        [
+          61,
+          16
+        ],
+        [
+          57,
+          14
+        ],
+        [
+          58,
+          14
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          29,
+          13
+        ]
+      ],
+      "primaryFrontTileId": 215,
+      "pairedBuildingsTileIds": [
+        46,
+        94,
+        93,
+        60
+      ],
+      "pairedBackTileIds": [
+        138,
+        77,
+        183,
+        217
+      ],
+      "frequency": 626,
+      "coverageOfRole": 0.364,
+      "sourceMapCount": 47,
+      "exampleSourceCoordinates": [
+        [
+          17,
+          3
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          25,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          23,
+          12
+        ],
+        [
+          32,
+          27
+        ]
+      ],
+      "sourceTilesheet": "mine",
+      "confidence": 72,
+      "recommendedUse": "generator_ready"
+    },
+    {
+      "familyId": "front_overlay_left_edge_off0_0",
+      "familyName": "left_edge front overlay @ offset (0, 0)",
+      "structuralDesign": "left_edge_overlay",
+      "role": "left_edge",
+      "offset": [
+        0,
+        0
+      ],
+      "frontTileIdsWeighted": [
+        [
+          196,
+          113
+        ],
+        [
+          213,
+          32
+        ],
+        [
+          164,
+          26
+        ],
+        [
+          180,
+          24
+        ],
+        [
+          148,
+          14
+        ],
+        [
+          132,
+          13
+        ],
+        [
+          87,
+          4
+        ],
+        [
+          159,
+          2
+        ]
+      ],
+      "primaryFrontTileId": 196,
+      "pairedBuildingsTileIds": [
+        196,
+        164,
+        213,
+        180
+      ],
+      "pairedBackTileIds": [
+        138,
+        183,
+        234
+      ],
+      "frequency": 240,
+      "coverageOfRole": 0.118,
+      "sourceMapCount": 51,
+      "exampleSourceCoordinates": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          33
+        ]
+      ],
+      "sourceTilesheet": "mine",
+      "confidence": 50,
+      "recommendedUse": "reject"
+    },
+    {
+      "familyId": "front_overlay_right_edge_off0_1",
+      "familyName": "right_edge front overlay @ offset (0, 1)",
+      "structuralDesign": "right_edge_overlay",
+      "role": "right_edge",
+      "offset": [
+        0,
+        1
+      ],
+      "frontTileIdsWeighted": [
+        [
+          206,
+          102
+        ],
+        [
+          223,
+          18
+        ],
+        [
+          207,
+          16
+        ],
+        [
+          221,
+          16
+        ],
+        [
+          191,
+          12
+        ],
+        [
+          63,
+          2
+        ],
+        [
+          175,
+          2
+        ],
+        [
+          25,
+          2
+        ]
+      ],
+      "primaryFrontTileId": 206,
+      "pairedBuildingsTileIds": [
+        223,
+        191,
+        207,
+        175
+      ],
+      "pairedBackTileIds": [
+        218,
+        138,
+        234
+      ],
+      "frequency": 179,
+      "coverageOfRole": 0.091,
+      "sourceMapCount": 51,
+      "exampleSourceCoordinates": [
+        [
+          17,
+          10
+        ],
+        [
+          42,
+          8
+        ],
+        [
+          42,
+          9
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          32,
+          21
+        ],
+        [
+          32,
+          22
+        ]
+      ],
+      "sourceTilesheet": "mine",
+      "confidence": 48,
+      "recommendedUse": "reject"
+    },
+    {
+      "familyId": "front_overlay_outer_corner_off0_0",
+      "familyName": "outer_corner front overlay @ offset (0, 0)",
+      "structuralDesign": "outer_corner_overlay",
+      "role": "outer_corner",
+      "offset": [
+        0,
+        0
+      ],
+      "frontTileIdsWeighted": [
+        [
+          26,
+          6
+        ],
+        [
+          46,
+          4
+        ],
+        [
+          25,
+          4
+        ],
+        [
+          159,
+          4
+        ],
+        [
+          148,
+          3
+        ],
+        [
+          71,
+          3
+        ],
+        [
+          88,
+          3
+        ],
+        [
+          62,
+          3
+        ]
+      ],
+      "primaryFrontTileId": 26,
+      "pairedBuildingsTileIds": [
+        94,
+        79,
+        159,
+        116
+      ],
+      "pairedBackTileIds": [
+        218,
+        138,
+        187
+      ],
+      "frequency": 63,
+      "coverageOfRole": 0.026,
+      "sourceMapCount": 23,
+      "exampleSourceCoordinates": [
+        [
+          19,
+          7
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          65,
+          5
+        ],
+        [
+          75,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "sourceTilesheet": "mine",
+      "confidence": 42,
+      "recommendedUse": "reject"
+    },
+    {
+      "familyId": "front_overlay_lower_face_off0_1",
+      "familyName": "lower_face front overlay @ offset (0, 1)",
+      "structuralDesign": "lower_face_shadow",
+      "role": "lower_face",
+      "offset": [
+        0,
+        1
+      ],
+      "frontTileIdsWeighted": [
+        [
+          205,
+          10
+        ],
+        [
+          197,
+          6
+        ],
+        [
+          230,
+          3
+        ],
+        [
+          231,
+          3
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          179,
+          2
+        ],
+        [
+          214,
+          2
+        ],
+        [
+          220,
+          2
+        ]
+      ],
+      "primaryFrontTileId": 205,
+      "pairedBuildingsTileIds": [
+        133,
+        158,
+        121,
+        124
+      ],
+      "pairedBackTileIds": [
+        234,
+        218,
+        185,
+        138
+      ],
+      "frequency": 38,
+      "coverageOfRole": 0.012,
+      "sourceMapCount": 21,
+      "exampleSourceCoordinates": [
+        [
+          18,
+          7
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          21,
+          41
+        ],
+        [
+          33,
+          11
+        ],
+        [
+          33,
+          34
+        ]
+      ],
+      "sourceTilesheet": "mine",
+      "confidence": 41,
+      "recommendedUse": "reject"
+    }
+  ]
+}

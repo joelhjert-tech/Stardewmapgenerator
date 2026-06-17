@@ -1,0 +1,4568 @@
+{
+  "generatedAt": "2026-06-17T06:24:00.476376+00:00",
+  "uniqueBlocksApproved": 174,
+  "laneCounts": {
+    "core_generator_safe": 144,
+    "decoration_or_variant": 29,
+    "review_needed": 1
+  },
+  "note": "Proposals only. Final generatorStatus is set by promote_joel_approved_building_blocks.py and only if validate_joel_building_block_approvals.py passes for that block.",
+  "decisions": [
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_0247b3b9b85bab36",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_0aa2eb46770c08f4",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_1dc8e43d4ec58df7",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_28f1d85bd17d039d",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_4333051771171056",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_434b5baf5ac8784f",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_56bfe69584c68f0a",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_6047c17be66b0e99",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_6068a7871aec6204",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_6a852891b7a338a8",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_6b203f1c1bc68c00",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_6fbc52a4e9dc9a84",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_744fd65f790fe8ad",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_74813c59460226b1",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_77a7add38b771445",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_7c7d54c75f1528e2",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_7f1da0ff1218e166",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_8c871fa61b891bd1",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_91d21175f889d864",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_932aaf135b0b852b",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_973d4c7aa823801c",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_b59cd46b5b084be2",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_b681d283cd8546fa",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_c1fd0830dea523e7",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_c4bd64b5a64de376",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_d5d1c2b290fe601d",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_d71329f320607c06",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_da84fdb635810ced",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_ea08d1467f614d31",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_ec19b037e380c4c1",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_f999c978eb7dee6c",
+      "cleanedBlockId": null,
+      "blockType": "mine_inner_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_12dd33afa159fd7c",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_12dd33afa159fd7c__rc5x5_8cd4f719990ccb3e",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 10,
+        "wall": 15,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_1f4a8fa8207817df",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_1f4a8fa8207817df__rc5x5_0362622e9a8e4027",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 18,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_331e55dc7dff22a5",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_331e55dc7dff22a5__rc7x7_543449e5f9956a18",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 15,
+        "wall": 27,
+        "void": 7,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_45d0b2ef94520c62",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_45d0b2ef94520c62__rc5x5_5a3575df8d3acf32",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 16,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_4b058b04eded1376",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_4b058b04eded1376__rc7x7_c37246f9fa289a21",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 15,
+        "wall": 32,
+        "void": 2,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_50040df5030bfaf4",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_50040df5030bfaf4__rc7x7_ee8beb3898d5cd76",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 16,
+        "wall": 33,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_7cfd666838202909",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_7cfd666838202909__rc5x5_3a0b437f7ca75f0d",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 16,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_abc04e640f6f73ea",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_abc04e640f6f73ea__rc5x5_14cb9a2e40fea0c6",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 16,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_d7919eef73d4ef37",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_d7919eef73d4ef37__rc7x7_48eaf3233375f164",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 16,
+        "wall": 33,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_e80ebd603c068be2",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_e80ebd603c068be2__rc5x5_488d09a16c3154cc",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 10,
+        "wall": 15,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_eb887cf77c3e8755",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_eb887cf77c3e8755__rc7x7_a508ed531479835b",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 16,
+        "wall": 31,
+        "void": 2,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_f02f827b86ab1df1",
+      "cleanedBlockId": "mbb_mine_outer_corner_3x3_f02f827b86ab1df1__rc5x5_03000f1ece247d18",
+      "blockType": "mine_outer_corner",
+      "sourceSheet": [
+        "review_corners_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\corner_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 10,
+        "wall": 15,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_0021becbf518d6f2",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_0021becbf518d6f2__rc7x7_d50aba45b5197a5e",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 12,
+        "wall": 37,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_018ae62892ed0b6b",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_018ae62892ed0b6b__rc7x7_170868c960a276ea",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 32,
+        "void": 8,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_03d8364858e8d9bf",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_03d8364858e8d9bf__rc5x5_723afb566cf92dee",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_0a09021b52edb82a",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_0a09021b52edb82a__rc5x5_f7ada03f3539004b",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_0a7310a058ab6b8a",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_0a7310a058ab6b8a__rc5x5_8d21642b0baefd2e",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_101c6b3af64959b0",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_101c6b3af64959b0__rc5x5_b15c625c6fa1b992",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_183bf6298c877e0c",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_183bf6298c877e0c__rc5x5_d569e2642564243c",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_186dbde7556a23c7",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_186dbde7556a23c7__rc5x5_00d5fe72188dfa64",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_1a98712736640525",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_1a98712736640525__rc5x5_83a7583fb0ff940e",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_1c0633a48c4ebbcc",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_1c0633a48c4ebbcc__rc7x7_3f8e80a3e7cef9bd",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 12,
+        "wall": 36,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_1ca0561b28ac5b87",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_1ca0561b28ac5b87__rc5x5_0d67bc6ed535f751",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_1ed031c8484421ca",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_1ed031c8484421ca__rc5x5_fe15ffebe80f9c7a",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_26a64bb1ce2d00ca",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_26a64bb1ce2d00ca__rc5x5_1812468cd0b8fc98",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_2ec4218612852b9e",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_2ec4218612852b9e__rc5x5_f4e0957451b7ac94",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 16,
+        "void": 5,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_376cb8407edd910a",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_376cb8407edd910a__rc5x5_c321820eaca6182a",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_4139c7e95562ecb2",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_4139c7e95562ecb2__rc7x7_e4b3c8a13a99d037",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 40,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_42d67a04799a8ce3",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_42d67a04799a8ce3__rc7x7_0ea1c884450cf046",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 2,
+        "wall": 26,
+        "void": 21,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_458da2f339e3e848",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_458da2f339e3e848__rc5x5_d08dfcff067b170c",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_47de60d75d915aab",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_47de60d75d915aab__rc5x5_a1e635ed993f0651",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_48177290bba30228",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_48177290bba30228__rc5x5_109d65ed75664f82",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_4b6c0e3b43917c67",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_4b6c0e3b43917c67__rc5x5_b1ed44e41b734336",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 1,
+        "wall": 16,
+        "void": 8,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_4d4860061bf0b99c",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_4d4860061bf0b99c__rc7x7_311956047fb4adfc",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 40,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_58b35db0e6fda3a2",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_58b35db0e6fda3a2__rc5x5_7a64f17ecc91e7bf",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_5a195c13ea659951",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_5a195c13ea659951__rc7x7_47b11aa70907f95c",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 10,
+        "wall": 39,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_632f01930101221a",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_632f01930101221a__rc5x5_cbfe77277da52442",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_6492471ea26f8ee9",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_6492471ea26f8ee9__rc7x7_abf84ce8da632ac7",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 14,
+        "wall": 35,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_65e523d98a738c8e",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_65e523d98a738c8e__rc5x5_cd587670376404dd",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_69a8fd0f873f70f8",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_69a8fd0f873f70f8__rc5x5_03f89bb107b6ef2b",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_6ea31bdd055e2ee1",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_6ea31bdd055e2ee1__rc7x7_c90fbc78abac255a",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 10,
+        "wall": 39,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_70cf1a9ae05243c8",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_70cf1a9ae05243c8__rc5x5_09d33f3a45a089e1",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_7130b7fa1bf2d841",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_7130b7fa1bf2d841__rc7x7_2c21a62683df3c9f",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 30,
+        "void": 15,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_7ef6c1a4a9c79ef6",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_7ef6c1a4a9c79ef6__rc5x5_5257813f8ee688d2",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_86bfe4c44a27cb87",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_86bfe4c44a27cb87__rc7x7_5224714d7b274c5f",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 13,
+        "wall": 36,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_8db3870e3ed69daa",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_8db3870e3ed69daa__rc5x5_81f6856504eea8cb",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_8e125795456a8179",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_8e125795456a8179__rc5x5_7b66aabe893f2a69",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_8ea3eee3fc64ea8e",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_8ea3eee3fc64ea8e__rc7x7_fddd746df8663680",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 40,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_93248ac2bde341d8",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_93248ac2bde341d8__rc7x7_fd59a91b991108b3",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 10,
+        "wall": 32,
+        "void": 7,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_962a4fc37e091729",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_962a4fc37e091729__rc5x5_833e206213f9234a",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_99b7f25e847bb0fb",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_99b7f25e847bb0fb__rc5x5_fbe5d05d7421958a",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_9bbdf20b581ede02",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_9bbdf20b581ede02__rc7x7_49420d8e6f5ac2da",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png",
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 41,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_9e99cbe8f1018feb",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_9e99cbe8f1018feb__rc5x5_4b629f00f562af49",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_9f531ab7dd87715e",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_9f531ab7dd87715e__rc5x5_991262a8f2377919",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_a958028f59cf387a",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_a958028f59cf387a__rc5x5_c461a12905bdca14",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_a97e775dee9fa63c",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_a97e775dee9fa63c__rc5x5_c20d6793a9781f34",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_aecc073008f75ae2",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_aecc073008f75ae2__rc5x5_e4e172752200589e",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_b4abcb61f469134f",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_b4abcb61f469134f__rc5x5_1051243123cdb9e4",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 17,
+        "void": 5,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_b6a03e1b4193fa0d",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_b6a03e1b4193fa0d__rc7x7_4d76452c68df1b85",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 31,
+        "void": 14,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_b9f9343a09447a7c",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_b9f9343a09447a7c__rc5x5_7d24f421829eca68",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_c70906e3a6146902",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_c70906e3a6146902__rc7x7_70dea89eb7f9acfe",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 37,
+        "void": 7,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_d11fa959d4710f32",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_d11fa959d4710f32__rc7x7_51cd0aae251fcc4a",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 30,
+        "void": 15,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_d540e1c5724a9224",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_d540e1c5724a9224__rc5x5_85cae5e97e7eb3dd",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_openings_large__approvedbyjoel.png",
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\opening_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "review_needed",
+      "proposedLocked": true,
+      "promotionLane": "review_needed",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 18,
+        "void": 0,
+        "object": 0,
+        "opening": 1
+      },
+      "notes": "opening block; needs socket evidence before generator-ready"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_dd76b854056cf495",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_dd76b854056cf495__rc7x7_27ea17f69a3b7535",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 11,
+        "wall": 34,
+        "void": 4,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_dfcd84843f37b853",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_dfcd84843f37b853__rc5x5_93dee99a44d4693b",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_dfef1664c1dd7621",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_dfef1664c1dd7621__rc7x7_9332cca56ab19412",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 11,
+        "wall": 37,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_e35e3416b755db67",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_e35e3416b755db67__rc5x5_054b644806673dd0",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_e40b5a09d097f674",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_e40b5a09d097f674__rc7x7_e75e43476667b706",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 33,
+        "void": 8,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_e449a6092f076a9e",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_e449a6092f076a9e__rc5x5_4beebf1b0c03c545",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_f00bb4271900ca3b",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_f00bb4271900ca3b__rc5x5_4df318e54239dc5e",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_f23c8f243d049c30",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_f23c8f243d049c30__rc5x5_9356f431e05a9bc4",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_f70a7a6db02c3fc2",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_f70a7a6db02c3fc2__rc5x5_5e6a59127fd52d72",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_f801073a0b6862fd",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_f801073a0b6862fd__rc7x7_2683d352af33fe13",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 30,
+        "void": 14,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_fd9f3e42b98b6a96",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_fd9f3e42b98b6a96__rc5x5_addd77aaea81c3a1",
+      "blockType": "mine_wall_body",
+      "sourceSheet": [
+        "review_wall_body_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 20,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_0195468927e2e095",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_0195468927e2e095__rc5x5_fb9bdc6f7c6a957e",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_059496c423d23df8",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_059496c423d23df8__rc5x5_b2d80d11cde20617",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_0e065d21b63ea624",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_15d0d18dfb78daef",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_16ce21c0e392f1b1",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_22f9b9fab23a22ad",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_25bf454ddceeb71a",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_2893fa6f9f642a6f",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_2a5e792b606d13a1",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_2a5e792b606d13a1__rc5x5_974aa3c73e3af032",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_2b36fc3e284b5338",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_2caf9f86dae9d0a0",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_2f3fd3180c93c16d",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_3d86264b13b1e532",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_43013be96fcf3faf",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_470383cded71406f",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_480d6a809a201c62",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_480d6a809a201c62__rc5x5_6e1ae2abaf9db098",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_5b94cbeef592babd",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_64bfc09a55aa7631",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_701c1f3b870c6f1f",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_701c1f3b870c6f1f__rc5x5_d048eadd7010e76d",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 13,
+        "void": 5,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_732df705d6460a23",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_732df705d6460a23__rc5x5_f6a4acabadc3f84d",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_7b69e7cc1240fdef",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_8eae9a1ba0fd0078",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_935d01f67ca71276",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_a285ff4af0249874",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_a285ff4af0249874__rc5x5_6abc8e098fe02735",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_a7c30f814c5679a3",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_ac641fb339cb4b05",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_b66b465c016008b0",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_b66b465c016008b0__rc5x5_5039b450a7e91a5d",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_b71ce28cff6af7ae",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_bc2916e128803d9a",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_bf1ed297194398a7",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_bf1ed297194398a7__rc5x5_0b8d9019f718d5fc",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 13,
+        "void": 5,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_c71de96fec6f1f53",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_c97478beb35ba09c",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_cd8cc7740c76777b",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_da10c6a898f0279b",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_da10c6a898f0279b__rc7x7_b326c028f660c616",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_shadow_and_front_overlay_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": null,
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "prototype_ready",
+      "proposedLocked": true,
+      "promotionLane": "decoration_or_variant",
+      "quarantined": false,
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 19,
+        "wall": 30,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "carries object/ladder/decoration; usable as variant, not core layout"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_db314f6868db50cb",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_db9c433825fdb999",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_db9c433825fdb999__rc5x5_35baade95d60548f",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 17,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_dbc4a2b9d17b8653",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_e04de9c2de321b70",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_e051c18a129fe16d",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_e597f720bfe62714",
+      "cleanedBlockId": "mbb_mine_wall_forward_lower_face_3x3_e597f720bfe62714__rc5x5_77c8cec06ce5b597",
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 18,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_e6d197af827f5cb4",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_eefd25da57772412",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_f259fdca4740ea22",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_fa27086bf2f10826",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_forward_lower_face",
+      "sourceSheet": [
+        "review_wall_forward_lower_face_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_left_edge_3x3_052bc11fc85b8859",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_left_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_left_edge_3x3_af1c44e450cead29",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_left_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_left_edge_3x3_d548b32c5d64dc83",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_left_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_129c2049d1ade688",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_1845554185633c11",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_271cfb7c4f99bb01",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_30dc02174eeef801",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_379796b636ca6958",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_4401e3d6d315d1e9",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_4f5421e47833daa2",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_5b6f9c632108aa83",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_60f9d49d4de2de18",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_682260c611636671",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_699864e0d32496e3",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_6a8d2078e18fdf6d",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_79156df36e6219f6",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_80fe3b75f2f1739d",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_a28ec7bfdb4c4444",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_a9815550227780be",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_b2ad79532dbce4b1",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_c5d9d90caed37cb1",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_c6a7612a5dff5c04",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_de874eb74ef71d64",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_e4b89215d0b9c075",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_f42ab55e7653aa97",
+      "cleanedBlockId": null,
+      "blockType": "mine_wall_right_edge",
+      "sourceSheet": [
+        "review_wall_edges_large_approvedbyjoel.png"
+      ],
+      "sourceReviewPack": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\map_building_blocks\\cleaned_blocks\\review_packs\\wall_blocks_approval_pack.json",
+      "joelVisualDecision": "approved_from_contact_sheet",
+      "proposedVisualStatus": "Joel_approved",
+      "proposedGeneratorStatus": "generator_ready",
+      "proposedLocked": true,
+      "promotionLane": "core_generator_safe",
+      "quarantined": false,
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 6,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "notes": "clean structural block; eligible for core if validation passes"
+    }
+  ]
+}

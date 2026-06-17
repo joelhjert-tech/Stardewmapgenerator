@@ -1,0 +1,1345 @@
+{
+  "generatedAt": "2026-06-17T04:06:08.232403+00:00",
+  "pack": "floor_blocks",
+  "instruction": "Set each item's 'decision' to true (approve) or false (reject). Approved items are later promoted by promote_cleaned_blocks; nothing is auto-approved.",
+  "itemCount": 30,
+  "items": [
+    {
+      "blockId": "mbb_mine_floor_base_3x3_c5d66dd774696523",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "42.tbin",
+      "sourceCoordinate": {
+        "x": 1,
+        "y": 1
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_c5d66dd774696523.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back",
+        "Buildings"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77
+        ],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_38ac065b67b22156",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "42.tbin",
+      "sourceCoordinate": {
+        "x": 2,
+        "y": 2
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_5x5_38ac065b67b22156.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "5x5",
+      "layers": [
+        "Back",
+        "Buildings"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77
+        ],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_e82699b20545967f",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "12.tbin",
+      "sourceCoordinate": {
+        "x": 71,
+        "y": 9
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_e82699b20545967f.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_82f8f179d921e3b9",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "14.tbin",
+      "sourceCoordinate": {
+        "x": 27,
+        "y": 13
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_82f8f179d921e3b9.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back",
+        "Front"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [],
+        "Front": [
+          77
+        ]
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_4d010161121e2848",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 6,
+        "y": 11
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_4d010161121e2848.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_9be8cad1845a818a",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "19.tbin",
+      "sourceCoordinate": {
+        "x": 20,
+        "y": 25
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_9be8cad1845a818a.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          257
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_87e5b993aa0266df",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "13.tbin",
+      "sourceCoordinate": {
+        "x": 21,
+        "y": 14
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_87e5b993aa0266df.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          165
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_e3be597732c0c402",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 10,
+        "y": 8
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_e3be597732c0c402.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          155
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_07090a7775833b13",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 8,
+        "y": 8
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_07090a7775833b13.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          137,
+          138
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_e2aa07b24d7a1a08",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "16.tbin",
+      "sourceCoordinate": {
+        "x": 3,
+        "y": 10
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_e2aa07b24d7a1a08.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          169
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_7b4f2c1daf1b3239",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 5,
+        "y": 11
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_7b4f2c1daf1b3239.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          155
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_be0b1fc42c99bd8a",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 11,
+        "y": 13
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_be0b1fc42c99bd8a.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          137,
+          138
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_aebc76d876a2d0cb",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "11.tbin",
+      "sourceCoordinate": {
+        "x": 34,
+        "y": 17
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_aebc76d876a2d0cb.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          166,
+          167,
+          168,
+          182,
+          183,
+          184,
+          198,
+          199,
+          200
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_456e618f844ae146",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 14,
+        "y": 12
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_456e618f844ae146.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          155
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_0243f42483a74290",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "17.tbin",
+      "sourceCoordinate": {
+        "x": 9,
+        "y": 9
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_0243f42483a74290.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          137,
+          138
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_f4dc2488ea5fc643",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "13.tbin",
+      "sourceCoordinate": {
+        "x": 11,
+        "y": 18
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_f4dc2488ea5fc643.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          150,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_71aeb11477c729b6",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "13.tbin",
+      "sourceCoordinate": {
+        "x": 20,
+        "y": 23
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_71aeb11477c729b6.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          152,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_151432388e71b835",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 6,
+        "y": 13
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_151432388e71b835.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          155
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_0ca558318688ef63",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "12.tbin",
+      "sourceCoordinate": {
+        "x": 70,
+        "y": 9
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_0ca558318688ef63.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          149,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_8f747ea77f74467f",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "11.tbin",
+      "sourceCoordinate": {
+        "x": 16,
+        "y": 13
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_8f747ea77f74467f.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          165,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_36d8154e966f1327",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "12.tbin",
+      "sourceCoordinate": {
+        "x": 69,
+        "y": 8
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_36d8154e966f1327.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          167,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_daf6be6f1fc0cb44",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "13.tbin",
+      "sourceCoordinate": {
+        "x": 18,
+        "y": 11
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_daf6be6f1fc0cb44.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          165,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_5db149489794427e",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "13.tbin",
+      "sourceCoordinate": {
+        "x": 18,
+        "y": 12
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_5db149489794427e.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          165,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_607e2d479b9582b6",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "16.tbin",
+      "sourceCoordinate": {
+        "x": 23,
+        "y": 13
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_607e2d479b9582b6.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          137,
+          138
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_11b59a8bf778ef9d",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "1.tbin",
+      "sourceCoordinate": {
+        "x": 10,
+        "y": 9
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_11b59a8bf778ef9d.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          155
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_c16cd8cf3dc49ead",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "13.tbin",
+      "sourceCoordinate": {
+        "x": 15,
+        "y": 29
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_c16cd8cf3dc49ead.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          183,
+          199
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_5de1bd03bdf42ada",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "14.tbin",
+      "sourceCoordinate": {
+        "x": 15,
+        "y": 8
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_5de1bd03bdf42ada.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          151,
+          183
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_16aef2556cab6bc2",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "16.tbin",
+      "sourceCoordinate": {
+        "x": 45,
+        "y": 14
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_16aef2556cab6bc2.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          137,
+          138,
+          155
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_e0574cc50d49951c",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "17.tbin",
+      "sourceCoordinate": {
+        "x": 10,
+        "y": 8
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_e0574cc50d49951c.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          137,
+          138
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_759df6a92645e63d",
+      "cleanedBlockId": null,
+      "blockType": "mine_floor_base",
+      "sourceMap": "43.tbin",
+      "sourceCoordinate": {
+        "x": 38,
+        "y": 26
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_floor_base_3x3_759df6a92645e63d.png",
+      "contactSheet": "review_floor_blocks_large.png",
+      "size": "3x3",
+      "layers": [
+        "Back"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          165,
+          166,
+          167,
+          168,
+          182,
+          184,
+          198,
+          199,
+          200
+        ],
+        "Buildings": [],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 1.0,
+        "floorPurityScore": 1.0,
+        "wallPurityScore": 0.0,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.0,
+        "cornerCompletenessScore": 0.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 1.0,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 1.0
+      },
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "keep_for_review",
+      "decision": null,
+      "notes": ""
+    }
+  ]
+}

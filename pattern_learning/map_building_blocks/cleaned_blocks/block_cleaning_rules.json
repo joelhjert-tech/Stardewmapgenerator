@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "scope": "vanilla_mine",
+  "note": "Machine-readable cleaning thresholds consumed by build_cleaned_map_building_blocks.py. Scores come from score_map_building_blocks.py and are in [0,1] (higher = cleaner). A block is KEPT only if it clears its type's bar AND carries no disqualifying flag. Cropped/too-small structural blocks are sent to re-cut (larger context) before any review; misclassified or contaminated blocks are quarantined. Nothing here promotes a block to generator_ready.",
+  "globalForbiddenFlags": ["wrong_block_type", "mixed_unrelated_structures"],
+  "decisionPriority": ["quarantine_if_misclassified", "quarantine_if_forbidden_contamination", "recut_if_cropped", "keep_if_clears_bar", "quarantine_otherwise"],
+  "types": {
+    "mine_floor_base": {
+      "intent": "Pure Back-layer floor; no Buildings wall, no Front wall overlay, no void/ladder/object.",
+      "minFloorPurity": 0.9,
+      "maxWallPurity": 0.0,
+      "maxVoidFraction": 0.0,
+      "forbidObject": true,
+      "forbidDecoration": true,
+      "preferredSizes": ["3x3", "5x5"],
+      "recutEligible": false,
+      "minReusable": 0.75
+    },
+    "mine_floor_variation": {
+      "intent": "Floor with subtle repeated detail; reject wall/corner/decor contamination.",
+      "minFloorPurity": 0.66,
+      "maxWallPurity": 0.34,
+      "maxVoidFraction": 0.12,
+      "forbidObject": true,
+      "forbidDecoration": true,
+      "preferredSizes": ["3x3", "5x5"],
+      "recutEligible": false,
+      "minReusable": 0.72
+    },
+    "mine_blocked_boundary": {
+      "intent": "Clean void/deep-rock boundary. Reject blocks with floor fragments, plants, or stray objects unless geometry proves a true boundary.",
+      "minVoidPlusWallFraction": 0.66,
+      "maxFloorPurity": 0.34,
+      "forbidObject": true,
+      "forbidDecoration": true,
+      "preferredSizes": ["3x3", "5x5"],
+      "recutEligible": true,
+      "minReusable": 0.7
+    },
+    "mine_wall_body": {
+      "intent": "Coherent wall body with full vertical Back/Buildings/Front context. Reject pure black-void slabs and cropped mid-wall fragments.",
+      "minWallPurity": 0.45,
+      "requireWalkableOrVoidContext": true,
+      "rejectFullFrameWallSlab": true,
+      "preferredSizes": ["5x5", "7x7"],
+      "recutEligible": true,
+      "minReusable": 0.6
+    },
+    "mine_wall_forward_lower_face": {
+      "intent": "Complete lower wall face as a structural unit: wall band plus floor/shadow context below. Reject single ribbon fragments.",
+      "minWallPurity": 0.3,
+      "requireFloorContext": true,
+      "preferredSizes": ["3x3", "5x5", "3x1", "1x3"],
+      "recutEligible": true,
+      "minReusable": 0.65
+    },
+    "mine_wall_back_top_edge": {
+      "intent": "Back/top wall edge with floor below the cap. Reject cropped void caps.",
+      "minWallPurity": 0.3,
+      "requireFloorContext": true,
+      "preferredSizes": ["3x3", "5x5"],
+      "recutEligible": true,
+      "minReusable": 0.65
+    },
+    "mine_wall_left_edge": {
+      "intent": "True left side-wall transition (full wall column beside floor). Reject lights, torches, isolated objects, cropped void chunks.",
+      "minEdgeCompleteness": 0.6,
+      "maxVoidFraction": 0.22,
+      "forbidObject": true,
+      "forbidDecoration": true,
+      "preferredSizes": ["3x3", "3x5", "3x7"],
+      "recutEligible": true,
+      "minReusable": 0.7
+    },
+    "mine_wall_right_edge": {
+      "intent": "True right side-wall transition (full wall column beside floor). Reject lights, torches, isolated objects, cropped void chunks.",
+      "minEdgeCompleteness": 0.6,
+      "maxVoidFraction": 0.22,
+      "forbidObject": true,
+      "forbidDecoration": true,
+      "preferredSizes": ["3x3", "3x5", "3x7"],
+      "recutEligible": true,
+      "minReusable": 0.7
+    },
+    "mine_inner_corner": {
+      "intent": "Complete inner-corner relationship: both wall directions plus floor/void context. Prefer 5x5/7x7 over 3x3.",
+      "minCornerCompleteness": 0.4,
+      "preferredSizes": ["5x5", "7x7"],
+      "recutEligible": true,
+      "minReusable": 0.6
+    },
+    "mine_outer_corner": {
+      "intent": "Complete outer-corner relationship: both wall directions plus floor diagonal. Prefer 5x5/7x7 over 3x3.",
+      "minCornerCompleteness": 0.4,
+      "preferredSizes": ["5x5", "7x7"],
+      "recutEligible": true,
+      "minReusable": 0.6
+    },
+    "mine_round_corner": {
+      "intent": "Rounded corner; requires diagonal context and complete neighbour mask. Reject if diagonal role cannot be proven.",
+      "minCornerCompleteness": 0.5,
+      "preferredSizes": ["5x5", "7x7"],
+      "recutEligible": true,
+      "minReusable": 0.62
+    },
+    "mine_angled_wall": {
+      "intent": "Diagonal/angled wall; requires diagonal context and complete neighbour mask. Reject if diagonal role cannot be proven.",
+      "minCornerCompleteness": 0.5,
+      "preferredSizes": ["5x5", "7x7"],
+      "recutEligible": true,
+      "minReusable": 0.62
+    }
+  }
+}

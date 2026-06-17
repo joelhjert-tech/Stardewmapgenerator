@@ -1,0 +1,523 @@
+{
+  "generatedAt": "2026-06-16T12:31:43+00:00",
+  "tilesheets": [
+    {
+      "tilesheetName": "mine",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": false,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_desert",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_desert.png",
+      "columns": 16,
+      "rows": 24,
+      "tileCount": 384,
+      "sameLayoutAsVanillaMine": false,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [
+        "layout_or_dimension_mismatch"
+      ],
+      "safeToTransferStructuralTemplateAcrossSheets": false,
+      "notes": "Do not transfer local-ID templates without conversion."
+    },
+    {
+      "tilesheetName": "mine_desert_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_desert_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_desert_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_desert_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_desert_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_desert_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dino",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_dino.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_frost.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_frost_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_frost_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_frost_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_lava",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_lava.png",
+      "columns": 16,
+      "rows": 20,
+      "tileCount": 320,
+      "sameLayoutAsVanillaMine": false,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [
+        "layout_or_dimension_mismatch"
+      ],
+      "safeToTransferStructuralTemplateAcrossSheets": false,
+      "notes": "Do not transfer local-ID templates without conversion."
+    },
+    {
+      "tilesheetName": "mine_lava_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_lava_dangerous.png",
+      "columns": 16,
+      "rows": 20,
+      "tileCount": 320,
+      "sameLayoutAsVanillaMine": false,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [
+        "layout_or_dimension_mismatch"
+      ],
+      "safeToTransferStructuralTemplateAcrossSheets": false,
+      "notes": "Do not transfer local-ID templates without conversion."
+    },
+    {
+      "tilesheetName": "mine_lava_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_lava_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_lava_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_lava_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_quarryshaft",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_quarryshaft.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_slime",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_slime.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_slime_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine_slime_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "volcano_dungeon",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\volcano_dungeon.png",
+      "columns": 16,
+      "rows": 36,
+      "tileCount": 576,
+      "sameLayoutAsVanillaMine": false,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [
+        "layout_or_dimension_mismatch"
+      ],
+      "safeToTransferStructuralTemplateAcrossSheets": false,
+      "notes": "Do not transfer local-ID templates without conversion."
+    },
+    {
+      "tilesheetName": "z_mine",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Tilesheet\\z_mine.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": false,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_desert",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert.png",
+      "columns": 16,
+      "rows": 24,
+      "tileCount": 384,
+      "sameLayoutAsVanillaMine": false,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [
+        "layout_or_dimension_mismatch"
+      ],
+      "safeToTransferStructuralTemplateAcrossSheets": false,
+      "notes": "Do not transfer local-ID templates without conversion."
+    },
+    {
+      "tilesheetName": "mine_desert_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_desert_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_desert_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_dino",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dino.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_frost.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_frost_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_frost_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_frost_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_frost_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_lava",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_lava.png",
+      "columns": 16,
+      "rows": 20,
+      "tileCount": 320,
+      "sameLayoutAsVanillaMine": false,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [
+        "layout_or_dimension_mismatch"
+      ],
+      "safeToTransferStructuralTemplateAcrossSheets": false,
+      "notes": "Do not transfer local-ID templates without conversion."
+    },
+    {
+      "tilesheetName": "mine_lava_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_lava_dangerous.png",
+      "columns": 16,
+      "rows": 20,
+      "tileCount": 320,
+      "sameLayoutAsVanillaMine": false,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [
+        "layout_or_dimension_mismatch"
+      ],
+      "safeToTransferStructuralTemplateAcrossSheets": false,
+      "notes": "Do not transfer local-ID templates without conversion."
+    },
+    {
+      "tilesheetName": "mine_lava_dark",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_lava_dark.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_lava_dark_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_lava_dark_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_quarryshaft",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_quarryshaft.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_slime",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_slime.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    },
+    {
+      "tilesheetName": "mine_slime_dangerous",
+      "imageSource": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_slime_dangerous.png",
+      "columns": 16,
+      "rows": 18,
+      "tileCount": 288,
+      "sameLayoutAsVanillaMine": true,
+      "visualPaletteDiffers": true,
+      "mismatchedTileIds": [],
+      "safeToTransferStructuralTemplateAcrossSheets": true,
+      "notes": "ID layout matches vanilla mine.png; structural IDs can transfer by local ID."
+    }
+  ]
+}

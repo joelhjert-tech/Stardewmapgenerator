@@ -1,0 +1,3336 @@
+{
+  "generatedAt": "2026-06-16T12:31:43+00:00",
+  "sources": [
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\1.tbin",
+      "mapName": "1.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 20,
+        "height": 20
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 15,
+          "tileCount": 240,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\10.tbin",
+      "mapName": "10.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 20,
+        "height": 16
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\11.tbin",
+      "mapName": "11.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\12.tbin",
+      "mapName": "12.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 80,
+        "height": 15
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\120.tbin",
+      "mapName": "120.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 20,
+        "height": 16
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_lava",
+          "columns": 16,
+          "rows": 20,
+          "tileCount": 320,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_lava.png",
+            "widthPx": 256,
+            "heightPx": 320,
+            "columns": 16,
+            "rows": 20,
+            "tileCount": 320,
+            "sha256": "0ed6aa3dc7bf6de5668acf776bf1b883abc5486d146ad6bbee875e5f920c4681"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\13.tbin",
+      "mapName": "13.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\14.tbin",
+      "mapName": "14.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 50,
+        "height": 40
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\15.tbin",
+      "mapName": "15.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\16.tbin",
+      "mapName": "16.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 50,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\17.tbin",
+      "mapName": "17.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 50
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\18.tbin",
+      "mapName": "18.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 50,
+        "height": 40
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\19.tbin",
+      "mapName": "19.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 50,
+        "height": 50
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_desert_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "a04c6c524fac695f375019cddb445a6ddd7ba6e770ab67765f3b235b5abfc944"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\2.tbin",
+      "mapName": "2.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_desert_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "a04c6c524fac695f375019cddb445a6ddd7ba6e770ab67765f3b235b5abfc944"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\20.tbin",
+      "mapName": "20.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 50,
+        "height": 22
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\21.tbin",
+      "mapName": "21.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 30,
+        "height": 25
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\22.tbin",
+      "mapName": "22.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 30,
+        "height": 45
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\23.tbin",
+      "mapName": "23.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 40
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\24.tbin",
+      "mapName": "24.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 55,
+        "height": 40
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\25.tbin",
+      "mapName": "25.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 25
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\26.tbin",
+      "mapName": "26.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\27.tbin",
+      "mapName": "27.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 55,
+        "height": 25
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\28.tbin",
+      "mapName": "28.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 55,
+        "height": 50
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\29.tbin",
+      "mapName": "29.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 55,
+        "height": 50
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\3.tbin",
+      "mapName": "3.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\31.tbin",
+      "mapName": "31.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\32.tbin",
+      "mapName": "32.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 40
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\33.tbin",
+      "mapName": "33.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 30,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "a94a0cea85c6d51319124166bc9edbd7654d4ba0e065316cc8826e02d3e5b2f1"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\34.tbin",
+      "mapName": "34.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\35.tbin",
+      "mapName": "35.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 20
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\36.tbin",
+      "mapName": "36.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\37.tbin",
+      "mapName": "37.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 50,
+        "height": 25
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\38.tbin",
+      "mapName": "38.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\39.tbin",
+      "mapName": "39.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 20,
+        "height": 60
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "163e678ef28699ca8c90fd6251d334f758f7f7fde9e9db89dab2b5601a953144"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\4.tbin",
+      "mapName": "4.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\40.tbin",
+      "mapName": "40.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 31
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_desert",
+          "columns": 16,
+          "rows": 24,
+          "tileCount": 384,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert.png",
+            "widthPx": 256,
+            "heightPx": 384,
+            "columns": 16,
+            "rows": 24,
+            "tileCount": 384,
+            "sha256": "b337bc3826e09a96e10c69335c561b9996d42a482dfe5e4d06f6dfd51aa066d6"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\41.tbin",
+      "mapName": "41.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 40
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\42.tbin",
+      "mapName": "42.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 29,
+        "height": 55
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\43.tbin",
+      "mapName": "43.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 48,
+        "height": 52
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\44.tbin",
+      "mapName": "44.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 32,
+        "height": 82
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\45.tbin",
+      "mapName": "45.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 46,
+        "height": 42
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\46.tbin",
+      "mapName": "46.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\47.tbin",
+      "mapName": "47.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 70,
+        "height": 45
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\48.tbin",
+      "mapName": "48.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 80,
+        "height": 25
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\49.tbin",
+      "mapName": "49.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\5.tbin",
+      "mapName": "5.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\50.tbin",
+      "mapName": "50.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 90,
+        "height": 65
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\51.tbin",
+      "mapName": "51.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 60,
+        "height": 82
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\52.tbin",
+      "mapName": "52.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 60,
+        "height": 47
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_desert_dark_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert_dark_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "7fb85fbf0ebbd4493be3b5cc427447b432bb575cbbc041cb1999454a24d6b032"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\53.tbin",
+      "mapName": "53.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 37,
+        "height": 39
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\54.tbin",
+      "mapName": "54.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 42,
+        "height": 28
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\55.tbin",
+      "mapName": "55.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 65
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\56.tbin",
+      "mapName": "56.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 40,
+        "height": 40
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\57.tbin",
+      "mapName": "57.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 70,
+        "height": 30
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\58.tbin",
+      "mapName": "58.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 30,
+        "height": 25
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\59.tbin",
+      "mapName": "59.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 30,
+        "height": 45
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\6.tbin",
+      "mapName": "6.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 35,
+        "height": 45
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\60.tbin",
+      "mapName": "60.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 60,
+        "height": 60
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\7.tbin",
+      "mapName": "7.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\77377.tbin",
+      "mapName": "77377.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 80,
+        "height": 105
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_quarryshaft",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_quarryshaft.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "f2ac54a434aaed38868732c839e2a2f8016300a3c88a76aa6193effaca8ee468"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\8.tbin",
+      "mapName": "8.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\9.tbin",
+      "mapName": "9.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 45,
+        "height": 35
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false,
+            "error": "[Errno 13] Permission denied: 'C:\\\\Users\\\\Joel_\\\\Documents\\\\Stardew Moonvillage\\\\tools\\\\tiled-map-assistant\\\\mission_assets\\\\unpacked_basegame\\\\mine'"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\Mine.tbin",
+      "mapName": "Mine.tbin",
+      "sourceCategory": "vanilla_mine",
+      "fileType": ".tbin",
+      "mapSize": {
+        "width": 77,
+        "height": 20
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        },
+        {
+          "tilesheetId": "untitled tile sheet",
+          "tilesheetName": "untitled tile sheet",
+          "imageSource": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Stardrop Installed Mods\\MainMoonvillage-main\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\mine.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": false
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_boss_50.tmx",
+      "mapName": "moon_dungeon_boss_50.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 37,
+        "height": 39
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "1e33a47552c817281ed3db11393ef3ecf398cdf4bcf38470bffad1aace4d16f4"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_boss_50_lava_dark.tmx",
+      "mapName": "moon_dungeon_boss_50_lava_dark.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 37,
+        "height": 39
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_lava_dark_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_lava_dark_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "7d8939f046d0591f31301fb7b3693aaf5cb4f4847351e5e855f6d21a368c56fb"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_crystal_01.tmx",
+      "mapName": "moon_dungeon_crystal_01.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 70,
+        "height": 30
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "1e33a47552c817281ed3db11393ef3ecf398cdf4bcf38470bffad1aace4d16f4"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_crystal_01_frost_dark.tmx",
+      "mapName": "moon_dungeon_crystal_01_frost_dark.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 70,
+        "height": 30
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_frost_dark.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_frost_dark.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "0af96a7392329cc95ff9135f2c25794c078fa5144f58cb5c4e850a8cb726070c"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_crystal_02.tmx",
+      "mapName": "moon_dungeon_crystal_02.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 50,
+        "height": 50
+      },
+      "layersPresent": [
+        "AlwaysFront",
+        "Back",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "summer_town",
+          "tilesheetName": "summer_town",
+          "imageSource": "summer_town.png",
+          "columns": 32,
+          "rows": 72,
+          "tileCount": 2304,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\summer_town.png",
+            "widthPx": 512,
+            "heightPx": 1152,
+            "columns": 32,
+            "rows": 72,
+            "tileCount": 2304,
+            "sha256": "e9d7ee6aa337610a652af97539a38e8377a1d733a0418014515a74f00b5d942c"
+          }
+        },
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "1e33a47552c817281ed3db11393ef3ecf398cdf4bcf38470bffad1aace4d16f4"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_crystal_02_slime.tmx",
+      "mapName": "moon_dungeon_crystal_02_slime.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 50,
+        "height": 50
+      },
+      "layersPresent": [
+        "AlwaysFront",
+        "Back",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "summer_town",
+          "tilesheetName": "summer_town",
+          "imageSource": "summer_town.png",
+          "columns": 32,
+          "rows": 72,
+          "tileCount": 2304,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\summer_town.png",
+            "widthPx": 512,
+            "heightPx": 1152,
+            "columns": 32,
+            "rows": 72,
+            "tileCount": 2304,
+            "sha256": "e9d7ee6aa337610a652af97539a38e8377a1d733a0418014515a74f00b5d942c"
+          }
+        },
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_slime.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_slime.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "9bb0363d25c70ab687c6992ad515cd5978b22337b30c089fda9f7aece84e0798"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_crystal_03.tmx",
+      "mapName": "moon_dungeon_crystal_03.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 50,
+        "height": 50
+      },
+      "layersPresent": [
+        "AlwaysFront",
+        "Back",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "summer_town",
+          "tilesheetName": "summer_town",
+          "imageSource": "summer_town.png",
+          "columns": 32,
+          "rows": 72,
+          "tileCount": 2304,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\summer_town.png",
+            "widthPx": 512,
+            "heightPx": 1152,
+            "columns": 32,
+            "rows": 72,
+            "tileCount": 2304,
+            "sha256": "e9d7ee6aa337610a652af97539a38e8377a1d733a0418014515a74f00b5d942c"
+          }
+        },
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_quarryshaft.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_quarryshaft.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "f2ac54a434aaed38868732c839e2a2f8016300a3c88a76aa6193effaca8ee468"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_crystal_04.tmx",
+      "mapName": "moon_dungeon_crystal_04.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 42,
+        "height": 49
+      },
+      "layersPresent": [
+        "Back",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "cave",
+          "tilesheetName": "cave",
+          "imageSource": "mine.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "1e33a47552c817281ed3db11393ef3ecf398cdf4bcf38470bffad1aace4d16f4"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "../Tilesheet/paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Tilesheet\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_deep_01.tmx",
+      "mapName": "moon_dungeon_deep_01.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 30,
+        "height": 30
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "a94a0cea85c6d51319124166bc9edbd7654d4ba0e065316cc8826e02d3e5b2f1"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_deep_01_lava.tmx",
+      "mapName": "moon_dungeon_deep_01_lava.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 30,
+        "height": 30
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_lava.png",
+          "columns": 16,
+          "rows": 20,
+          "tileCount": 320,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_lava.png",
+            "widthPx": 256,
+            "heightPx": 320,
+            "columns": 16,
+            "rows": 20,
+            "tileCount": 320,
+            "sha256": "0ed6aa3dc7bf6de5668acf776bf1b883abc5486d146ad6bbee875e5f920c4681"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_deep_02.tmx",
+      "mapName": "moon_dungeon_deep_02.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 60,
+        "height": 47
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_desert_dark_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_desert_dark_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "7fb85fbf0ebbd4493be3b5cc427447b432bb575cbbc041cb1999454a24d6b032"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_deep_02_dark.tmx",
+      "mapName": "moon_dungeon_deep_02_dark.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 60,
+        "height": 47
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dark_dangerous.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dark_dangerous.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "9740ce95fa66cf5b7b21c8775562afe5932f84cfcfac029af4e4af416fe83a77"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_early_01.tmx",
+      "mapName": "moon_dungeon_early_01.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 50,
+        "height": 50
+      },
+      "layersPresent": [
+        "AlwaysFront",
+        "Back",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "summer_town",
+          "tilesheetName": "summer_town",
+          "imageSource": "summer_town.png",
+          "columns": 32,
+          "rows": 72,
+          "tileCount": 2304,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\summer_town.png",
+            "widthPx": 512,
+            "heightPx": 1152,
+            "columns": 32,
+            "rows": 72,
+            "tileCount": 2304,
+            "sha256": "e9d7ee6aa337610a652af97539a38e8377a1d733a0418014515a74f00b5d942c"
+          }
+        },
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_quarryshaft.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_quarryshaft.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "f2ac54a434aaed38868732c839e2a2f8016300a3c88a76aa6193effaca8ee468"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_early_01_frost.tmx",
+      "mapName": "moon_dungeon_early_01_frost.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 50,
+        "height": 50
+      },
+      "layersPresent": [
+        "AlwaysFront",
+        "Back",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "summer_town",
+          "tilesheetName": "summer_town",
+          "imageSource": "summer_town.png",
+          "columns": 32,
+          "rows": 72,
+          "tileCount": 2304,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\summer_town.png",
+            "widthPx": 512,
+            "heightPx": 1152,
+            "columns": 32,
+            "rows": 72,
+            "tileCount": 2304,
+            "sha256": "e9d7ee6aa337610a652af97539a38e8377a1d733a0418014515a74f00b5d942c"
+          }
+        },
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_frost.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_frost.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "d3a3cf18c0b24419e59e5749df02e6bb5e6021494ef016e9179e5ba56ca3c8f5"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_early_02.tmx",
+      "mapName": "moon_dungeon_early_02.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 55,
+        "height": 25
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "../../../../../../../../../../MainMoonvillage-git/[CP] Moonvillage/assets/Maps/Tilesheet/z_mine.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Tilesheet\\z_mine.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "f73dd8f37d9c11ebce8b3190885158daf29537fea0af692d64ae194ef25f486f"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 0,
+          "tileCount": 0,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_early_02_dino.tmx",
+      "mapName": "moon_dungeon_early_02_dino.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 55,
+        "height": 25
+      },
+      "layersPresent": [],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "mine",
+          "tilesheetName": "mine",
+          "imageSource": "mine_dino.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine_dino.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "3f3523fb10609f0dfca968e9c2d4bdb3435df73e90933749c69f889bbdddf757"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": false,
+      "riskFlags": [
+        "missing_expected_layers"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\maps\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\moon_dungeon_early_03.tmx",
+      "mapName": "moon_dungeon_early_03.tmx",
+      "sourceCategory": "moonvillage_dungeon",
+      "fileType": ".tmx",
+      "mapSize": {
+        "width": 44,
+        "height": 28
+      },
+      "layersPresent": [
+        "Back",
+        "Back2",
+        "Buildings",
+        "Front",
+        "Paths"
+      ],
+      "tilesheetsUsed": [
+        {
+          "tilesheetId": "cave",
+          "tilesheetName": "cave",
+          "imageSource": "mine.png",
+          "columns": 16,
+          "rows": 18,
+          "tileCount": 288,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\Mine\\mine.png",
+            "widthPx": 256,
+            "heightPx": 288,
+            "columns": 16,
+            "rows": 18,
+            "tileCount": 288,
+            "sha256": "1e33a47552c817281ed3db11393ef3ecf398cdf4bcf38470bffad1aace4d16f4"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "../Tilesheet/paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Tilesheet\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        },
+        {
+          "tilesheetId": "paths",
+          "tilesheetName": "paths",
+          "imageSource": "paths.png",
+          "columns": 4,
+          "rows": 16,
+          "tileCount": 64,
+          "tileWidth": 16,
+          "tileHeight": 16,
+          "imageInfo": {
+            "imageResolved": true,
+            "imagePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\moonvillage\\tilesheets\\MainMoonvillage-git\\[CP] Moonvillage\\assets\\Maps\\Dungeon\\paths.png",
+            "widthPx": 64,
+            "heightPx": 256,
+            "columns": 4,
+            "rows": 16,
+            "tileCount": 64,
+            "sha256": "4f81df9106d442bd68c688fe0b07111846c270c8d02d754424cc9468cf3c2825"
+          }
+        }
+      ],
+      "canBeParsed": true,
+      "safeToLearnFrom": true,
+      "riskFlags": []
+    }
+  ]
+}

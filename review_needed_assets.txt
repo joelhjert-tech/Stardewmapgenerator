@@ -1,0 +1,3 @@
+No PNG assets were automatically included.
+
+Rendered preview PNGs and atlas/contact-sheet PNGs were excluded because they may contain game art. Review specific small documentation images manually before adding them.

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "requiredFields": [
+    "templateId",
+    "visualTheme",
+    "sourceMap",
+    "sourceCoordinate",
+    "sourceCropId",
+    "role",
+    "width",
+    "height",
+    "anchor",
+    "Back",
+    "Buildings",
+    "Front",
+    "AlwaysFront",
+    "tileIdsByLayer",
+    "floorMask",
+    "wallMask",
+    "voidMask",
+    "shadowMask",
+    "collisionMask",
+    "openingMask",
+    "visualStatus",
+    "generatorStatus",
+    "locked"
+  ]
+}

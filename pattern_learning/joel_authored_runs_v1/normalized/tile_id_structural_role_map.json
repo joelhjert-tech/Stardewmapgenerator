@@ -1,0 +1,7175 @@
+{
+  "generatedAt": "2026-06-17T08:48:30.183702+00:00",
+  "method": "tile-id structural role from geometry + sheet position + tilesheet Type property + corpus role model; NOT layer name.",
+  "referenceMapsUsed": [
+    "refrencemapmines1.tmx",
+    "refrensmap2.tmx"
+  ],
+  "tileCount": 263,
+  "roles": {
+    "0": {
+      "localTileId": 0,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        0,
+        0
+      ],
+      "typeProperty": "Dirt",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "1": {
+      "localTileId": 1,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        0,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "2": {
+      "localTileId": 2,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        0,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "3": {
+      "localTileId": 3,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        0,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "4": {
+      "localTileId": 4,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "5": {
+      "localTileId": 5,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "6": {
+      "localTileId": 6,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "7": {
+      "localTileId": 7,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "8": {
+      "localTileId": 8,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "9": {
+      "localTileId": 9,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "10": {
+      "localTileId": 10,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "11": {
+      "localTileId": 11,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "12": {
+      "localTileId": 12,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "13": {
+      "localTileId": 13,
+      "structuralRole": "decoration",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        0,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "14": {
+      "localTileId": 14,
+      "structuralRole": "decoration",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        0,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "15": {
+      "localTileId": 15,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        0,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "17": {
+      "localTileId": 17,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        1,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "18": {
+      "localTileId": 18,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        1,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "19": {
+      "localTileId": 19,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        1,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "20": {
+      "localTileId": 20,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "21": {
+      "localTileId": 21,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "22": {
+      "localTileId": 22,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "23": {
+      "localTileId": 23,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "24": {
+      "localTileId": 24,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "25": {
+      "localTileId": 25,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "26": {
+      "localTileId": 26,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "27": {
+      "localTileId": 27,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "28": {
+      "localTileId": 28,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "29": {
+      "localTileId": 29,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "30": {
+      "localTileId": 30,
+      "structuralRole": "decoration",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        1,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "31": {
+      "localTileId": 31,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        1,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "32": {
+      "localTileId": 32,
+      "structuralRole": "decoration",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        2,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "33": {
+      "localTileId": 33,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        2,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "34": {
+      "localTileId": 34,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        2,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "35": {
+      "localTileId": 35,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        2,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "36": {
+      "localTileId": 36,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "37": {
+      "localTileId": 37,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "38": {
+      "localTileId": 38,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "39": {
+      "localTileId": 39,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "40": {
+      "localTileId": 40,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "41": {
+      "localTileId": 41,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "42": {
+      "localTileId": 42,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "43": {
+      "localTileId": 43,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "44": {
+      "localTileId": 44,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "45": {
+      "localTileId": 45,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "46": {
+      "localTileId": 46,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "47": {
+      "localTileId": 47,
+      "structuralRole": "top_wall_cap",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        2,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": "top rows of mine sheet = ceiling/top-wall cap art"
+    },
+    "48": {
+      "localTileId": 48,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "50": {
+      "localTileId": 50,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "51": {
+      "localTileId": 51,
+      "structuralRole": "unknown",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 30,
+      "notes": ""
+    },
+    "52": {
+      "localTileId": 52,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        3,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 1,
+        "SE": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "53": {
+      "localTileId": 53,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        3,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 1,
+        "SE": 1,
+        "SW": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "54": {
+      "localTileId": 54,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        3,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 1,
+        "SE": 1,
+        "SW": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "55": {
+      "localTileId": 55,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "56": {
+      "localTileId": 56,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "57": {
+      "localTileId": 57,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "58": {
+      "localTileId": 58,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "59": {
+      "localTileId": 59,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "60": {
+      "localTileId": 60,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "61": {
+      "localTileId": 61,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "62": {
+      "localTileId": 62,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "63": {
+      "localTileId": 63,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        3,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "64": {
+      "localTileId": 64,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "65": {
+      "localTileId": 65,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "66": {
+      "localTileId": 66,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "67": {
+      "localTileId": 67,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "68": {
+      "localTileId": 68,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "NE": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "69": {
+      "localTileId": 69,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "70": {
+      "localTileId": 70,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "71": {
+      "localTileId": 71,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "N": 1,
+        "E": 3,
+        "NE": 2,
+        "SE": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "72": {
+      "localTileId": 72,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "N": 1,
+        "W": 3,
+        "SW": 3,
+        "NW": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "73": {
+      "localTileId": 73,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "74": {
+      "localTileId": 74,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "NW": 1
+      },
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "75": {
+      "localTileId": 75,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "76": {
+      "localTileId": 76,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "77": {
+      "localTileId": 77,
+      "structuralRole": "deep_void",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 95,
+      "notes": ""
+    },
+    "78": {
+      "localTileId": 78,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "79": {
+      "localTileId": 79,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        4,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "80": {
+      "localTileId": 80,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "81": {
+      "localTileId": 81,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "82": {
+      "localTileId": 82,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "83": {
+      "localTileId": 83,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "84": {
+      "localTileId": 84,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "85": {
+      "localTileId": 85,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "86": {
+      "localTileId": 86,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "87": {
+      "localTileId": 87,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 3,
+        "NE": 3,
+        "SE": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "88": {
+      "localTileId": 88,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 3,
+        "SW": 3,
+        "NW": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "89": {
+      "localTileId": 89,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "90": {
+      "localTileId": 90,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "91": {
+      "localTileId": 91,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "92": {
+      "localTileId": 92,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "93": {
+      "localTileId": 93,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "94": {
+      "localTileId": 94,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "95": {
+      "localTileId": 95,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        5,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "96": {
+      "localTileId": 96,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "97": {
+      "localTileId": 97,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "98": {
+      "localTileId": 98,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "99": {
+      "localTileId": 99,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "100": {
+      "localTileId": 100,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "101": {
+      "localTileId": 101,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "102": {
+      "localTileId": 102,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "103": {
+      "localTileId": 103,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 3,
+        "NE": 3,
+        "SE": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "104": {
+      "localTileId": 104,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 4,
+        "SW": 4,
+        "NW": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "105": {
+      "localTileId": 105,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "106": {
+      "localTileId": 106,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "107": {
+      "localTileId": 107,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "108": {
+      "localTileId": 108,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "109": {
+      "localTileId": 109,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "110": {
+      "localTileId": 110,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "111": {
+      "localTileId": 111,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        6,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "112": {
+      "localTileId": 112,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "113": {
+      "localTileId": 113,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "114": {
+      "localTileId": 114,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "115": {
+      "localTileId": 115,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        7,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 2,
+        "SE": 2,
+        "SW": 1
+      },
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "116": {
+      "localTileId": 116,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "SE": 5
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "117": {
+      "localTileId": 117,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "118": {
+      "localTileId": 118,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "SE": 7
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "119": {
+      "localTileId": 119,
+      "structuralRole": "corner",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "left_wall_edge",
+        "right_wall_edge"
+      ],
+      "sheetRowCol": [
+        7,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 3,
+        "S": 3,
+        "NE": 3,
+        "SE": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "120": {
+      "localTileId": 120,
+      "structuralRole": "corner",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "left_wall_edge",
+        "right_wall_edge"
+      ],
+      "sheetRowCol": [
+        7,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 4,
+        "W": 4,
+        "SE": 3,
+        "SW": 4,
+        "NW": 4
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "121": {
+      "localTileId": 121,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        7,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 4,
+        "SE": 3,
+        "SW": 3
+      },
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "122": {
+      "localTileId": 122,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        7,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 6,
+        "SE": 4,
+        "SW": 6
+      },
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "123": {
+      "localTileId": 123,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        7,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 4,
+        "SE": 4,
+        "SW": 4
+      },
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx",
+        "wall_floor_shadow_topwallwithflowingdesign_11x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "124": {
+      "localTileId": 124,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        7,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 5,
+        "SW": 5,
+        "SE": 2
+      },
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "125": {
+      "localTileId": 125,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "SW": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "126": {
+      "localTileId": 126,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "127": {
+      "localTileId": 127,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        7,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "128": {
+      "localTileId": 128,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "NE": 2,
+        "E": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "129": {
+      "localTileId": 129,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "130": {
+      "localTileId": 130,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "131": {
+      "localTileId": 131,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "132": {
+      "localTileId": 132,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 5,
+        "SE": 5,
+        "N": 1,
+        "NE": 2
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "133": {
+      "localTileId": 133,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        8,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 8,
+        "SE": 8,
+        "SW": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "134": {
+      "localTileId": 134,
+      "structuralRole": "corner",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "left_wall_edge",
+        "right_wall_edge"
+      ],
+      "sheetRowCol": [
+        8,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 7,
+        "S": 8,
+        "SE": 8,
+        "SW": 8
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_toppwallrighthardcornerupthenrightsmalltoppwall_3x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "135": {
+      "localTileId": 135,
+      "structuralRole": "deep_void",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 95,
+      "notes": ""
+    },
+    "137": {
+      "localTileId": 137,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        9
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_leftsidewallssoftcornerintobottomwallwithdesign_11x4.tmx",
+        "wall_floor_shadow_leftsidewallstraigdown_4x9.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "138": {
+      "localTileId": 138,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        10
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "139": {
+      "localTileId": 139,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        11
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "140": {
+      "localTileId": 140,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        12
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_leftsidecornerthenbuttomwallslightdownpatherncontinuedendcornergoindown_6x3.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "141": {
+      "localTileId": 141,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "SW": 4,
+        "W": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "142": {
+      "localTileId": 142,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_toppwallwithdesign_10x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "143": {
+      "localTileId": 143,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        8,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "SW": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "144": {
+      "localTileId": 144,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "145": {
+      "localTileId": 145,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "146": {
+      "localTileId": 146,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "147": {
+      "localTileId": 147,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "148": {
+      "localTileId": 148,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 3,
+        "NE": 3,
+        "SE": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidewallstraigdown_4x9.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "149": {
+      "localTileId": 149,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "150": {
+      "localTileId": 150,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "151": {
+      "localTileId": 151,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "152": {
+      "localTileId": 152,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "153": {
+      "localTileId": 153,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        9
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_leftsidewallssoftcornerintobottomwallwithdesign_11x4.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "154": {
+      "localTileId": 154,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        10
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "155": {
+      "localTileId": 155,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        11
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "157": {
+      "localTileId": 157,
+      "structuralRole": "corner",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "left_wall_edge",
+        "right_wall_edge"
+      ],
+      "sheetRowCol": [
+        9,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 5,
+        "W": 4,
+        "SE": 5,
+        "SW": 5,
+        "NW": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "158": {
+      "localTileId": 158,
+      "structuralRole": "lower_wall_face",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "shadow",
+        "floor"
+      ],
+      "sheetRowCol": [
+        9,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "S": 5,
+        "SE": 2,
+        "SW": 5
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "159": {
+      "localTileId": 159,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        9,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 1,
+        "SW": 4
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "160": {
+      "localTileId": 160,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "161": {
+      "localTileId": 161,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "162": {
+      "localTileId": 162,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "163": {
+      "localTileId": 163,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "164": {
+      "localTileId": 164,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 1,
+        "NE": 1,
+        "SE": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_leftsidewallstraigdown_4x9.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "165": {
+      "localTileId": 165,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        5
+      ],
+      "typeProperty": "Dirt",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "166": {
+      "localTileId": 166,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        6
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "167": {
+      "localTileId": 167,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        7
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "168": {
+      "localTileId": 168,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        8
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "169": {
+      "localTileId": 169,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        9
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx",
+        "wall_floor_shadow_leftsidewallssoftcornerintobottomwallwithdesign_11x4.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "170": {
+      "localTileId": 170,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        10
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "171": {
+      "localTileId": 171,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        11
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "172": {
+      "localTileId": 172,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        12
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "173": {
+      "localTileId": 173,
+      "structuralRole": "decoration",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "175": {
+      "localTileId": 175,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        10,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 4,
+        "SW": 4,
+        "N": 1,
+        "NW": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "176": {
+      "localTileId": 176,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "177": {
+      "localTileId": 177,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "180": {
+      "localTileId": 180,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 2,
+        "NE": 2,
+        "SE": 2
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_leftsidecornerthenbuttomwallslightdownpathern_5x3.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_leftsidewallstraigdown_4x9.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "181": {
+      "localTileId": 181,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        5
+      ],
+      "typeProperty": "Dirt",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "182": {
+      "localTileId": 182,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        6
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "183": {
+      "localTileId": 183,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        7
+      ],
+      "typeProperty": "Dirt",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "184": {
+      "localTileId": 184,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        8
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "185": {
+      "localTileId": 185,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        9
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "186": {
+      "localTileId": 186,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        10
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_rightwalldonhardcornerlefttoppwallwithsligtbendup_8x7.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "187": {
+      "localTileId": 187,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        11
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "188": {
+      "localTileId": 188,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        12
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "191": {
+      "localTileId": 191,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        11,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 6,
+        "SW": 6,
+        "NW": 5
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "192": {
+      "localTileId": 192,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "193": {
+      "localTileId": 193,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "194": {
+      "localTileId": 194,
+      "structuralRole": "decoration",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front",
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "195": {
+      "localTileId": 195,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "196": {
+      "localTileId": 196,
+      "structuralRole": "left_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "E": 5,
+        "NE": 4
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "197": {
+      "localTileId": 197,
+      "structuralRole": "unknown",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 30,
+      "notes": ""
+    },
+    "198": {
+      "localTileId": 198,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        6
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "199": {
+      "localTileId": 199,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        7
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "200": {
+      "localTileId": 200,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        8
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "201": {
+      "localTileId": 201,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        9
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "202": {
+      "localTileId": 202,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        10
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "203": {
+      "localTileId": 203,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        11
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "204": {
+      "localTileId": 204,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        12
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "205": {
+      "localTileId": 205,
+      "structuralRole": "unknown",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 30,
+      "notes": ""
+    },
+    "206": {
+      "localTileId": 206,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 2,
+        "NW": 2
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "207": {
+      "localTileId": 207,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        12,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 4,
+        "SW": 4,
+        "NW": 4
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_rightsidecornerdowninstraigwall_4x8.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "209": {
+      "localTileId": 209,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "210": {
+      "localTileId": 210,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "211": {
+      "localTileId": 211,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "212": {
+      "localTileId": 212,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "213": {
+      "localTileId": 213,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx",
+        "wall_floor_shadow_leftsidecornerthenbuttomwallslightdownpathern_5x3.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "214": {
+      "localTileId": 214,
+      "structuralRole": "shadow",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Buildings"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        13,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx",
+        "wall_floor_shadow_leftsidecornerthenbuttomwallslightdownpathern_5x3.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 90,
+      "notes": ""
+    },
+    "215": {
+      "localTileId": 215,
+      "structuralRole": "shadow",
+      "preferredLayer": "Front",
+      "allowedLayers": [
+        "Front"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Buildings"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "top_wall_body"
+      ],
+      "sheetRowCol": [
+        13,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx",
+        "wall_floor_shadow_leftsidecornerthenbuttomwallslightdownpatherncontinuedendcornergoindown_6x3.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 90,
+      "notes": ""
+    },
+    "216": {
+      "localTileId": 216,
+      "structuralRole": "unknown",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidecornerthenbuttomwallslightdownpatherncontinuedendcornergoindown_6x3.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 30,
+      "notes": ""
+    },
+    "217": {
+      "localTileId": 217,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        9
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "218": {
+      "localTileId": 218,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        10
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_2x7_rightwalldownbeforbendatbottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "219": {
+      "localTileId": 219,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        11
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_leftsidetraigtwalldown_3x6.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "220": {
+      "localTileId": 220,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "221": {
+      "localTileId": 221,
+      "structuralRole": "ladder",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "disallowedLayers": [
+        "Back"
+      ],
+      "pairedRoles": [
+        "floor"
+      ],
+      "sheetRowCol": [
+        13,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "N": 1,
+        "W": 1,
+        "NW": 1
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 90,
+      "notes": ""
+    },
+    "223": {
+      "localTileId": 223,
+      "structuralRole": "right_wall_edge",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        13,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "W": 2,
+        "SW": 2,
+        "NW": 2
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_4x8_rightwalldownwithextrudingwallthatretuns.tmx",
+        "wall_floor_shadow_5x7_cornerbendtofalldownright.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_topwallwithhardcornerdownstraigtwallright_3x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "224": {
+      "localTileId": 224,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        0
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "225": {
+      "localTileId": 225,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        1
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "226": {
+      "localTileId": 226,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        2
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "227": {
+      "localTileId": 227,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "228": {
+      "localTileId": 228,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "232": {
+      "localTileId": 232,
+      "structuralRole": "corner",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "left_wall_edge",
+        "right_wall_edge"
+      ],
+      "sheetRowCol": [
+        14,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "N": 6,
+        "E": 6,
+        "NE": 6,
+        "SE": 4,
+        "NW": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_5x7_leftwalldownstraigtwithflowingfalldesign.tmx",
+        "wall_floor_shadow_bottomwallwithsoftcurvebothsides_8x3.tmx",
+        "wall_floor_shadow_leftsidecornerthenbuttomwallslightdownpathern_5x3.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "233": {
+      "localTileId": 233,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        9
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx",
+        "wall_floor_shadow_4x6_slightbenddownbegginingofcornerright.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "234": {
+      "localTileId": 234,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        10
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "entrenceladder_wall_floor_shadow_3x5.tmx",
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_3x7_leftwalldownstraigtaftercorner.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 85,
+      "notes": ""
+    },
+    "235": {
+      "localTileId": 235,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        11
+      ],
+      "typeProperty": "Stone",
+      "floorNeighborDirs": {},
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_3x7_leftwalldbottomcornerintobottomwall.tmx",
+        "wall_floor_shadow_9x7_leftwallfromladderslightbenddownbeforecorner.tmx",
+        "wall_floor_shadow_leftsidebendintostraigtwalldown_3x6.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 60,
+      "notes": ""
+    },
+    "236": {
+      "localTileId": 236,
+      "structuralRole": "corner",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [
+        "lower_wall_face",
+        "left_wall_edge",
+        "right_wall_edge"
+      ],
+      "sheetRowCol": [
+        14,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {
+        "N": 3,
+        "W": 3,
+        "SW": 3,
+        "NW": 3
+      },
+      "examplePatterns": [
+        "wall_floor_shadow_2x7_bottomwalldesignafterrightreturningcorner.tmx",
+        "wall_floor_shadow_downstraigtwallrightwithsoftbendlefttobuttomwall_5x10.tmx",
+        "wall_floor_shadow_shortwalldownhardcornertoleftthenhardcornerdownwonwallwithdesign_7x8.tmx"
+      ],
+      "exampleReferenceMaps": [
+        "refrencemapmines1.tmx",
+        "refrensmap2.tmx"
+      ],
+      "confidence": 80,
+      "notes": ""
+    },
+    "237": {
+      "localTileId": 237,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "238": {
+      "localTileId": 238,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        14
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "239": {
+      "localTileId": 239,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        14,
+        15
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "240": {
+      "localTileId": 240,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        0
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "241": {
+      "localTileId": 241,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        1
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "242": {
+      "localTileId": 242,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        2
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "243": {
+      "localTileId": 243,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "244": {
+      "localTileId": 244,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "245": {
+      "localTileId": 245,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "246": {
+      "localTileId": 246,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "247": {
+      "localTileId": 247,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "248": {
+      "localTileId": 248,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "249": {
+      "localTileId": 249,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "250": {
+      "localTileId": 250,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "251": {
+      "localTileId": 251,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        15,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "256": {
+      "localTileId": 256,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        0
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "257": {
+      "localTileId": 257,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        1
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "258": {
+      "localTileId": 258,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        2
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "259": {
+      "localTileId": 259,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "260": {
+      "localTileId": 260,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "261": {
+      "localTileId": 261,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "262": {
+      "localTileId": 262,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "263": {
+      "localTileId": 263,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "264": {
+      "localTileId": 264,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "265": {
+      "localTileId": 265,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "266": {
+      "localTileId": 266,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "267": {
+      "localTileId": 267,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        16,
+        11
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "272": {
+      "localTileId": 272,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        0
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "273": {
+      "localTileId": 273,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        1
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "274": {
+      "localTileId": 274,
+      "structuralRole": "wood_support",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        2
+      ],
+      "typeProperty": "Wood",
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 80,
+      "notes": ""
+    },
+    "275": {
+      "localTileId": 275,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        3
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "276": {
+      "localTileId": 276,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        4
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "277": {
+      "localTileId": 277,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        5
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "278": {
+      "localTileId": 278,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        6
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "279": {
+      "localTileId": 279,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        7
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "280": {
+      "localTileId": 280,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        8
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "281": {
+      "localTileId": 281,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        9
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "282": {
+      "localTileId": 282,
+      "structuralRole": "floor",
+      "preferredLayer": "Back",
+      "allowedLayers": [
+        "Back"
+      ],
+      "disallowedLayers": [
+        "Buildings",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        10
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 85,
+      "notes": ""
+    },
+    "284": {
+      "localTileId": 284,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        12
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    },
+    "285": {
+      "localTileId": 285,
+      "structuralRole": "wall_body",
+      "preferredLayer": "Buildings",
+      "allowedLayers": [
+        "Buildings"
+      ],
+      "disallowedLayers": [
+        "Back",
+        "Front"
+      ],
+      "pairedRoles": [],
+      "sheetRowCol": [
+        17,
+        13
+      ],
+      "typeProperty": null,
+      "floorNeighborDirs": {},
+      "examplePatterns": [],
+      "exampleReferenceMaps": [],
+      "confidence": 60,
+      "notes": ""
+    }
+  }
+}

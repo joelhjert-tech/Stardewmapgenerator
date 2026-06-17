@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "requiredTemplateFields": [
+    "templateId",
+    "sourceClusterId",
+    "tileIdFamilyId",
+    "role",
+    "structuralDesign",
+    "size",
+    "anchor",
+    "layerStack",
+    "tileIdsByLayer",
+    "sourceEvidence",
+    "productionStatus"
+  ],
+  "productionStatuses": [
+    "prototype_only",
+    "review_needed",
+    "generator_ready",
+    "blocked"
+  ],
+  "rule": "Structural tiles must be placed as complete templates/families, never loose tile IDs."
+}

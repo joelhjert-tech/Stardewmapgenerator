@@ -1,0 +1,84 @@
+# Mine/Dungeon Pattern Cluster Summary
+
+- Clusters: 6448
+
+- `cluster_floor_to_wall_transition_3x1_e2a27111`: floor_to_wall_transition 3x1; occurrences 535; use `generator_template`; sources 1.tbin, 10.tbin
+- `cluster_lower_left_inner_corner_1x3_8ff8265d`: lower_left_inner_corner 1x3; occurrences 316; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin
+- `cluster_lower_left_inner_corner_3x1_ba9a9ddc`: lower_left_inner_corner 3x1; occurrences 266; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin
+- `cluster_lower_right_inner_corner_3x1_9d988458`: lower_right_inner_corner 3x1; occurrences 260; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin
+- `cluster_floor_to_wall_transition_5x1_f295438b`: floor_to_wall_transition 5x1; occurrences 222; use `generator_template`; sources 10.tbin, 12.tbin
+- `cluster_lower_right_inner_corner_1x3_d79da1cf`: lower_right_inner_corner 1x3; occurrences 201; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin, 12.tbin
+- `cluster_right_wall_edge_1x3_989eb760`: right_wall_edge 1x3; occurrences 179; use `generator_template`; sources 11.tbin, 12.tbin, 13.tbin
+- `cluster_lower_right_inner_corner_1x3_fffe971b`: lower_right_inner_corner 1x3; occurrences 152; use `generator_template`; sources 11.tbin, 12.tbin, 14.tbin
+- `cluster_right_wall_edge_1x3_2f9e00e3`: right_wall_edge 1x3; occurrences 146; use `generator_template`; sources 11.tbin, 12.tbin, 13.tbin, 14.tbin
+- `cluster_lower_face_3_tile_stack_1x3_b76c791a`: lower_face_3_tile_stack 1x3; occurrences 137; use `generator_template`; sources 11.tbin, 15.tbin, 2.tbin
+- `cluster_floor_to_wall_transition_1x3_4af88133`: floor_to_wall_transition 1x3; occurrences 125; use `generator_template`; sources 10.tbin, 11.tbin, 12.tbin, 13.tbin
+- `cluster_floor_to_wall_transition_3x1_bac38f9c`: floor_to_wall_transition 3x1; occurrences 116; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin
+- `cluster_lower_left_inner_corner_1x3_cd02cbe8`: lower_left_inner_corner 1x3; occurrences 114; use `generator_template`; sources 11.tbin, 12.tbin, 13.tbin
+- `cluster_floor_to_wall_transition_3x1_2769ebd8`: floor_to_wall_transition 3x1; occurrences 112; use `generator_template`; sources 1.tbin, 11.tbin, 13.tbin
+- `cluster_wall_body_3x1_fd4fa585`: wall_body 3x1; occurrences 112; use `generator_template`; sources 1.tbin, 10.tbin
+- `cluster_floor_to_wall_transition_3x1_032e7c92`: floor_to_wall_transition 3x1; occurrences 111; use `generator_template`; sources 1.tbin, 11.tbin, 12.tbin
+- `cluster_left_wall_edge_1x3_a9e72f57`: left_wall_edge 1x3; occurrences 107; use `generator_template`; sources 11.tbin, 13.tbin, 14.tbin
+- `cluster_lower_left_inner_corner_3x1_a44b2bf7`: lower_left_inner_corner 3x1; occurrences 107; use `generator_template`; sources 11.tbin, 12.tbin, 14.tbin
+- `cluster_lower_right_inner_corner_3x1_6825d74f`: lower_right_inner_corner 3x1; occurrences 105; use `generator_template`; sources 12.tbin, 14.tbin
+- `cluster_floor_to_wall_transition_1x3_4dba02d1`: floor_to_wall_transition 1x3; occurrences 103; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin, 13.tbin
+- `cluster_shaft_opening_1x3_367ff18d`: shaft_opening 1x3; occurrences 102; use `generator_template`; sources 10.tbin, 11.tbin, 120.tbin, 13.tbin
+- `cluster_right_wall_edge_1x3_503888d8`: right_wall_edge 1x3; occurrences 99; use `generator_template`; sources 10.tbin, 15.tbin, 17.tbin
+- `cluster_floor_to_wall_transition_1x3_29a776e2`: floor_to_wall_transition 1x3; occurrences 96; use `generator_template`; sources 13.tbin, 14.tbin, 16.tbin
+- `cluster_floor_to_wall_transition_3x1_99e3e9af`: floor_to_wall_transition 3x1; occurrences 96; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin, 12.tbin
+- `cluster_floor_to_wall_transition_1x3_5159ee44`: floor_to_wall_transition 1x3; occurrences 92; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin, 12.tbin
+- `cluster_floor_to_wall_transition_3x1_3115d565`: floor_to_wall_transition 3x1; occurrences 92; use `generator_template`; sources 1.tbin, 11.tbin, 12.tbin, 13.tbin
+- `cluster_lower_left_inner_corner_1x3_f5730963`: lower_left_inner_corner 1x3; occurrences 92; use `generator_template`; sources 42.tbin, 43.tbin
+- `cluster_floor_to_wall_transition_3x1_11bef6ad`: floor_to_wall_transition 3x1; occurrences 91; use `generator_template`; sources 1.tbin, 12.tbin, 13.tbin, 14.tbin
+- `cluster_lower_face_3_tile_stack_3x1_687d3b4a`: lower_face_3_tile_stack 3x1; occurrences 90; use `generator_template`; sources 10.tbin, 12.tbin, 18.tbin, 19.tbin
+- `cluster_lower_right_inner_corner_1x3_e85c5dba`: lower_right_inner_corner 1x3; occurrences 90; use `generator_template`; sources 1.tbin, 12.tbin, 14.tbin, 15.tbin
+- `cluster_shaft_opening_1x3_238bc458`: shaft_opening 1x3; occurrences 89; use `generator_template`; sources 10.tbin, 11.tbin, 120.tbin, 15.tbin
+- `cluster_lower_right_inner_corner_1x3_0160858f`: lower_right_inner_corner 1x3; occurrences 87; use `generator_template`; sources 1.tbin, 11.tbin, 12.tbin, 13.tbin
+- `cluster_left_wall_edge_1x3_87e09703`: left_wall_edge 1x3; occurrences 84; use `generator_template`; sources 42.tbin, 43.tbin
+- `cluster_lower_right_inner_corner_1x3_8415211e`: lower_right_inner_corner 1x3; occurrences 84; use `generator_template`; sources 13.tbin, 14.tbin, 15.tbin
+- `cluster_right_wall_edge_1x5_80def5c1`: right_wall_edge 1x5; occurrences 82; use `generator_template`; sources 11.tbin, 12.tbin, 14.tbin
+- `cluster_floor_to_wall_transition_3x1_cf6e6199`: floor_to_wall_transition 3x1; occurrences 81; use `generator_template`; sources 1.tbin, 12.tbin, 13.tbin, 14.tbin
+- `cluster_shaft_opening_1x3_1df5b881`: shaft_opening 1x3; occurrences 79; use `generator_template`; sources 10.tbin, 11.tbin, 120.tbin, 13.tbin
+- `cluster_floor_to_wall_transition_1x3_83444b62`: floor_to_wall_transition 1x3; occurrences 78; use `generator_template`; sources 11.tbin, 13.tbin
+- `cluster_floor_to_wall_transition_3x1_090da73e`: floor_to_wall_transition 3x1; occurrences 78; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin
+- `cluster_left_wall_edge_1x3_4909fe09`: left_wall_edge 1x3; occurrences 77; use `generator_template`; sources 11.tbin, 14.tbin
+- `cluster_lower_left_inner_corner_1x3_cef77409`: lower_left_inner_corner 1x3; occurrences 77; use `generator_template`; sources 11.tbin, 12.tbin, 13.tbin, 14.tbin
+- `cluster_lower_face_3_tile_stack_1x3_309e7017`: lower_face_3_tile_stack 1x3; occurrences 76; use `generator_template`; sources 11.tbin, 12.tbin, 14.tbin, 15.tbin
+- `cluster_floor_to_wall_transition_1x3_436f1998`: floor_to_wall_transition 1x3; occurrences 75; use `generator_template`; sources 1.tbin, 11.tbin, 13.tbin, 14.tbin
+- `cluster_floor_to_wall_transition_1x3_864cf3f2`: floor_to_wall_transition 1x3; occurrences 75; use `generator_template`; sources 1.tbin, 120.tbin, 13.tbin, 14.tbin
+- `cluster_lower_face_3_tile_stack_1x3_3b406fea`: lower_face_3_tile_stack 1x3; occurrences 75; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin, 12.tbin
+- `cluster_lower_face_3_tile_stack_1x3_efd41b4a`: lower_face_3_tile_stack 1x3; occurrences 74; use `generator_template`; sources 12.tbin, 14.tbin, 15.tbin
+- `cluster_left_wall_edge_1x5_fa0653a8`: left_wall_edge 1x5; occurrences 73; use `generator_template`; sources 11.tbin, 14.tbin
+- `cluster_floor_to_wall_transition_1x3_c5e3e5b6`: floor_to_wall_transition 1x3; occurrences 71; use `generator_template`; sources 10.tbin, 13.tbin, 14.tbin, 15.tbin
+- `cluster_floor_to_wall_transition_1x3_e3832e8b`: floor_to_wall_transition 1x3; occurrences 71; use `generator_template`; sources 10.tbin, 11.tbin, 13.tbin, 14.tbin
+- `cluster_floor_to_wall_transition_5x1_b4b005f0`: floor_to_wall_transition 5x1; occurrences 71; use `generator_template`; sources 1.tbin, 11.tbin, 12.tbin, 14.tbin
+- `cluster_lower_face_3_tile_stack_1x3_012fa9d7`: lower_face_3_tile_stack 1x3; occurrences 69; use `generator_template`; sources 1.tbin, 11.tbin, 14.tbin, 17.tbin
+- `cluster_deep_void_fill_3x1_4bf899a5`: deep_void_fill 3x1; occurrences 68; use `generator_template`; sources 42.tbin, 43.tbin, 44.tbin
+- `cluster_lower_face_3_tile_stack_1x3_9dace526`: lower_face_3_tile_stack 1x3; occurrences 68; use `generator_template`; sources 17.tbin, 19.tbin, 22.tbin, 27.tbin
+- `cluster_lower_face_3_tile_stack_3x1_56ef2cb8`: lower_face_3_tile_stack 3x1; occurrences 68; use `generator_template`; sources 10.tbin, 11.tbin, 13.tbin, 17.tbin
+- `cluster_lower_face_3_tile_stack_3x1_7ef01df4`: lower_face_3_tile_stack 3x1; occurrences 68; use `generator_template`; sources 11.tbin, 13.tbin, 14.tbin, 15.tbin
+- `cluster_deep_void_fill_1x3_50cdcd4d`: deep_void_fill 1x3; occurrences 66; use `generator_template`; sources 42.tbin, 43.tbin, 44.tbin
+- `cluster_lower_face_3_tile_stack_1x3_89c5478e`: lower_face_3_tile_stack 1x3; occurrences 65; use `generator_template`; sources 14.tbin, 19.tbin, 20.tbin, 22.tbin
+- `cluster_upper_left_outer_corner_1x3_5bbe8972`: upper_left_outer_corner 1x3; occurrences 65; use `generator_template`; sources 11.tbin, 17.tbin, 19.tbin, 2.tbin
+- `cluster_lower_face_3_tile_stack_3x1_2f63817f`: lower_face_3_tile_stack 3x1; occurrences 64; use `generator_template`; sources 14.tbin, 16.tbin, 17.tbin, 18.tbin
+- `cluster_lower_face_3_tile_stack_3x1_7ecf5e34`: lower_face_3_tile_stack 3x1; occurrences 64; use `generator_template`; sources 14.tbin, 15.tbin, 19.tbin
+- `cluster_lower_left_inner_corner_1x5_323d9ca4`: lower_left_inner_corner 1x5; occurrences 64; use `generator_template`; sources 13.tbin, 14.tbin, 15.tbin, 16.tbin
+- `cluster_left_wall_edge_1x3_b6ffac7f`: left_wall_edge 1x3; occurrences 63; use `generator_template`; sources 14.tbin, 27.tbin, 28.tbin, 29.tbin
+- `cluster_floor_to_wall_transition_1x3_a281ca86`: floor_to_wall_transition 1x3; occurrences 62; use `generator_template`; sources 1.tbin, 13.tbin
+- `cluster_lower_right_inner_corner_5x1_92eb3b02`: lower_right_inner_corner 5x1; occurrences 61; use `generator_template`; sources 10.tbin, 11.tbin, 13.tbin, 17.tbin
+- `cluster_right_wall_edge_1x5_c080e493`: right_wall_edge 1x5; occurrences 60; use `generator_template`; sources 13.tbin, 14.tbin, 15.tbin, 17.tbin
+- `cluster_lower_left_inner_corner_3x1_4edb889d`: lower_left_inner_corner 3x1; occurrences 59; use `generator_template`; sources 14.tbin, 16.tbin, 17.tbin
+- `cluster_floor_to_wall_transition_5x1_22fc8da9`: floor_to_wall_transition 5x1; occurrences 58; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin, 12.tbin
+- `cluster_wall_body_5x1_b514d85a`: wall_body 5x1; occurrences 58; use `generator_template`; sources 10.tbin
+- `cluster_lower_face_3_tile_stack_1x3_8f4a41ff`: lower_face_3_tile_stack 1x3; occurrences 57; use `generator_template`; sources 19.tbin, 24.tbin, 25.tbin, 29.tbin
+- `cluster_right_wall_edge_1x3_a76e7f83`: right_wall_edge 1x3; occurrences 57; use `generator_template`; sources 11.tbin, 12.tbin, 13.tbin, 14.tbin
+- `cluster_wall_top_3x1_a3ac51ac`: wall_top 3x1; occurrences 57; use `generator_template`; sources moon_dungeon_early_03.tmx
+- `cluster_floor_to_wall_transition_3x1_9cc690f8`: floor_to_wall_transition 3x1; occurrences 56; use `generator_template`; sources 13.tbin, 14.tbin, 15.tbin
+- `cluster_floor_to_wall_transition_5x1_24859016`: floor_to_wall_transition 5x1; occurrences 56; use `generator_template`; sources 12.tbin, 14.tbin, 15.tbin, 16.tbin
+- `cluster_right_wall_edge_1x3_22f4c1e8`: right_wall_edge 1x3; occurrences 56; use `generator_template`; sources 17.tbin, 22.tbin, 24.tbin, 25.tbin
+- `cluster_right_wall_edge_1x5_e15aa51e`: right_wall_edge 1x5; occurrences 56; use `generator_template`; sources 11.tbin, 12.tbin, 13.tbin, 14.tbin
+- `cluster_floor_to_wall_transition_3x1_f928fd26`: floor_to_wall_transition 3x1; occurrences 55; use `generator_template`; sources 11.tbin, 13.tbin, 14.tbin
+- `cluster_floor_to_wall_transition_5x1_0324aea3`: floor_to_wall_transition 5x1; occurrences 55; use `generator_template`; sources 1.tbin, 10.tbin, 11.tbin, 12.tbin
+- `cluster_left_wall_edge_1x3_27183fca`: left_wall_edge 1x3; occurrences 55; use `generator_template`; sources 13.tbin, 15.tbin, 16.tbin
+- `cluster_left_wall_edge_1x5_979b8240`: left_wall_edge 1x5; occurrences 55; use `generator_template`; sources 42.tbin, 43.tbin
+- `cluster_lower_face_3_tile_stack_1x3_10d1b762`: lower_face_3_tile_stack 1x3; occurrences 55; use `generator_template`; sources 11.tbin, 12.tbin, 13.tbin, 14.tbin
