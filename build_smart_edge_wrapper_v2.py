@@ -18,6 +18,7 @@ sys.path.insert(0, str(ROOT))
 
 import build_dungeon_visual_prototypes as base  # noqa: E402
 from build_smart_edge_wrapper import smooth_mask  # noqa: E402
+from semantic_layout import prototype_from_layout_json  # noqa: E402
 
 LIBRARY_PATH = ROOT / "pattern_learning" / "mine_dungeon_fresh_relearn" / "templates" / "mine_dungeon_fresh_template_library.json"
 FAMILY_PATH = ROOT / "pattern_learning" / "mine_dungeon_fresh_relearn" / "clusters" / "mine_dungeon_tile_id_families.json"
@@ -901,11 +902,20 @@ def main() -> int:
         default="cavern",
         help="Test map layout. 'round' = a single simple round cavern (preferred for gated tests).",
     )
+    parser.add_argument(
+        "--layout-json",
+        type=Path,
+        help="Semantic dungeon layout JSON to render through the existing Smart Edge-Wrapper v2 pipeline.",
+    )
     args = parser.parse_args()
     run = args.run_source == "joel-authored-v1"
     joel = args.block_source == "joel-approved-v1" or run
     round_layout = args.layout == "round"
-    if run and round_layout:
+    p: Optional[base.PrototypeMap] = None
+    if args.layout_json:
+        p = prototype_from_layout_json(args.layout_json)
+        OUT_DIR = OUT_ROOT / p.map_id
+    elif run and round_layout:
         OUT_DIR = OUT_ROOT / "custom_13_round_authored_test"
     elif run:
         OUT_DIR = OUT_ROOT / "custom_12_joel_authored_runs_test"
@@ -914,14 +924,18 @@ def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_ROOT / "tilesheets").mkdir(parents=True, exist_ok=True)
     shutil.copy2(base.TILESET_SRC, TILESET_OUT)
-    if run and round_layout:
+    if p is not None:
+        pass
+    elif run and round_layout:
         p = make_round_test_map(
             "custom_13_round_authored_test", "Custom 13 - Round Authored Test",
             "simple round test cavern rendered with Joel-authored runs (priority) + Joel-approved blocks",
             "Round test layout (Joel's preferred starting shape); single ladder entrance at start, never reused.")
     else:
         p = make_custom_08()
-    if run and round_layout:
+    if args.layout_json:
+        pass  # map id/title/source metadata come from the semantic layout bridge
+    elif run and round_layout:
         pass  # map id/title already set by make_round_test_map
     elif run:
         p.map_id = "custom_12_joel_authored_runs_test"
