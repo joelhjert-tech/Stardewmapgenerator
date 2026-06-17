@@ -1,0 +1,5358 @@
+{
+  "generatedAt": "2026-06-16T12:31:43+00:00",
+  "templates": [
+    {
+      "templateId": "fresh_deep_void_fill_3x1_4bf899a5",
+      "templateName": "Deep Void Fill",
+      "sourceClusterId": "cluster_deep_void_fill_3x1_4bf899a5",
+      "tileIdFamilyId": "fam_deep_void_deep_void_fill",
+      "role": "deep_void_fill",
+      "structuralDesign": "deep_void",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        true,
+        true,
+        true
+      ],
+      "allowedRotations": [
+        "none"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "42.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 2
+          }
+        },
+        {
+          "sourceMap": "42.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 6,
+            "y": 3
+          }
+        },
+        {
+          "sourceMap": "43.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 2
+          }
+        },
+        {
+          "sourceMap": "43.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 46,
+            "y": 23
+          }
+        },
+        {
+          "sourceMap": "43.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 32
+          }
+        },
+        {
+          "sourceMap": "44.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 18,
+            "y": 9
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_deep_void_fill_3x1_4bf899a5.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_floor_base_3x1_4e4d8390",
+      "templateName": "Floor Base",
+      "sourceClusterId": "cluster_floor_base_3x1_4e4d8390",
+      "tileIdFamilyId": "fam_floor_base_floor_base",
+      "role": "floor_base",
+      "structuralDesign": "floor_base",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          138
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        true,
+        true,
+        true
+      ],
+      "wallMask": [
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "none"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 57,
+      "sourceEvidence": [
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 14,
+            "y": 16
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 16,
+            "y": 28
+          }
+        },
+        {
+          "sourceMap": "16.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 23,
+            "y": 10
+          }
+        },
+        {
+          "sourceMap": "16.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 13
+          }
+        },
+        {
+          "sourceMap": "17.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 13
+          }
+        },
+        {
+          "sourceMap": "17.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 10,
+            "y": 18
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_floor_base_3x1_4e4d8390.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_floor_to_wall_transition_3x1_e2a27111",
+      "templateName": "Floor To Wall Transition",
+      "sourceClusterId": "cluster_floor_to_wall_transition_3x1_e2a27111",
+      "tileIdFamilyId": "fam_floor_transition_floor_to_wall_transition",
+      "role": "floor_to_wall_transition",
+      "structuralDesign": "floor_transition",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          234
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          234
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        true,
+        true,
+        true
+      ],
+      "wallMask": [
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 9,
+            "y": 4
+          }
+        },
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 5,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 8,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 9,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 10,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 11,
+            "y": 6
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_floor_to_wall_transition_3x1_e2a27111.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_wall_top_3x1_a3ac51ac",
+      "templateName": "Wall Top",
+      "sourceClusterId": "cluster_wall_top_3x1_a3ac51ac",
+      "tileIdFamilyId": "fam_wall_top_wall_top",
+      "role": "wall_top",
+      "structuralDesign": "wall_top",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "cave",
+              "localTileId": 137
+            },
+            "Buildings": {
+              "tilesheetId": "cave",
+              "localTileId": 79
+            },
+            "Front": {
+              "tilesheetId": "cave",
+              "localTileId": 79
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "cave",
+              "localTileId": 137
+            },
+            "Buildings": {
+              "tilesheetId": "cave",
+              "localTileId": 79
+            },
+            "Front": {
+              "tilesheetId": "cave",
+              "localTileId": 79
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "cave",
+              "localTileId": 137
+            },
+            "Buildings": {
+              "tilesheetId": "cave",
+              "localTileId": 79
+            },
+            "Front": {
+              "tilesheetId": "cave",
+              "localTileId": 79
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          137
+        ],
+        "Buildings": [
+          79
+        ],
+        "Front": [
+          79
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          137
+        ],
+        "Buildings": [
+          79
+        ],
+        "Front": [
+          79
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        true,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "moon_dungeon_early_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 0
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 6,
+            "y": 0
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_wall_top_3x1_a3ac51ac.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_wall_body_3x1_fd4fa585",
+      "templateName": "Wall Body",
+      "sourceClusterId": "cluster_wall_body_3x1_fd4fa585",
+      "tileIdFamilyId": "fam_wall_body_wall_body",
+      "role": "wall_body",
+      "structuralDesign": "wall_body",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Front": [
+          77
+        ]
+      },
+      "tileIdsByLayer": {
+        "Front": [
+          77
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": true,
+        "NE": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 11,
+            "y": 19
+          }
+        },
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 12,
+            "y": 19
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 2,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 5,
+            "y": 15
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_wall_body_3x1_fd4fa585.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_lower_face_3_tile_stack_1x3_b76c791a",
+      "templateName": "Lower Face 3 Tile Stack",
+      "sourceClusterId": "cluster_lower_face_3_tile_stack_1x3_b76c791a",
+      "tileIdFamilyId": "fam_lower_face_lower_face_3_tile_stack",
+      "role": "lower_face_3_tile_stack",
+      "structuralDesign": "lower_face",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 117
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 133
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          218,
+          234
+        ],
+        "Buildings": [
+          117,
+          133
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          218,
+          234
+        ],
+        "Buildings": [
+          117,
+          133
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        true
+      ],
+      "wallMask": [
+        true,
+        true,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": true,
+        "S": true,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 36,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 8,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 27,
+            "y": 17
+          }
+        },
+        {
+          "sourceMap": "15.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 30,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "15.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 21,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "2.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 24,
+            "y": 15
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_lower_face_3_tile_stack_1x3_b76c791a.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_left_wall_edge_1x3_a9e72f57",
+      "templateName": "Left Wall Edge",
+      "sourceClusterId": "cluster_left_wall_edge_1x3_a9e72f57",
+      "tileIdFamilyId": "fam_left_edge_left_wall_edge",
+      "role": "left_wall_edge",
+      "structuralDesign": "left_edge",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 87
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 203
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 103
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 219
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 119
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          138,
+          203,
+          219
+        ],
+        "Buildings": [
+          87,
+          103,
+          119
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          203,
+          219
+        ],
+        "Buildings": [
+          87,
+          103,
+          119
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        true,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 1,
+            "y": 11
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 10,
+            "y": 13
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 13
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 2,
+            "y": 17
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 41,
+            "y": 13
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 20,
+            "y": 23
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_left_wall_edge_1x3_a9e72f57.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_right_wall_edge_1x3_989eb760",
+      "templateName": "Right Wall Edge",
+      "sourceClusterId": "cluster_right_wall_edge_1x3_989eb760",
+      "tileIdFamilyId": "fam_right_edge_right_wall_edge",
+      "role": "right_wall_edge",
+      "structuralDesign": "right_edge",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 88
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 104
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 120
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          218
+        ],
+        "Buildings": [
+          88,
+          104,
+          120
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          218
+        ],
+        "Buildings": [
+          88,
+          104,
+          120
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        true,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 24,
+            "y": 12
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 14
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 26,
+            "y": 16
+          }
+        },
+        {
+          "sourceMap": "12.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 43,
+            "y": 9
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 30,
+            "y": 11
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 31,
+            "y": 15
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_right_wall_edge_1x3_989eb760.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_upper_left_outer_corner_1x3_5bbe8972",
+      "templateName": "Upper Left Outer Corner",
+      "sourceClusterId": "cluster_upper_left_outer_corner_1x3_5bbe8972",
+      "tileIdFamilyId": "fam_outer_corner_upper_left_outer_corner",
+      "role": "upper_left_outer_corner",
+      "structuralDesign": "outer_corner",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 102
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 118
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 186
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 134
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          186,
+          218
+        ],
+        "Buildings": [
+          102,
+          118,
+          134
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          186,
+          218
+        ],
+        "Buildings": [
+          102,
+          118,
+          134
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        true,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": true,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 32,
+            "y": 14
+          }
+        },
+        {
+          "sourceMap": "17.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 31,
+            "y": 4
+          }
+        },
+        {
+          "sourceMap": "19.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 33,
+            "y": 33
+          }
+        },
+        {
+          "sourceMap": "2.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 23,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "27.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 44,
+            "y": 18
+          }
+        },
+        {
+          "sourceMap": "29.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 43,
+            "y": 18
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_upper_left_outer_corner_1x3_5bbe8972.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_upper_right_outer_corner_1x3_f34578a9",
+      "templateName": "Upper Right Outer Corner",
+      "sourceClusterId": "cluster_upper_right_outer_corner_1x3_f34578a9",
+      "tileIdFamilyId": "fam_outer_corner_upper_right_outer_corner",
+      "role": "upper_right_outer_corner",
+      "structuralDesign": "outer_corner",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 125
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 141
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 157
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          218
+        ],
+        "Buildings": [
+          125,
+          141,
+          157
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          218
+        ],
+        "Buildings": [
+          125,
+          141,
+          157
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        true,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": true,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 92,
+      "sourceEvidence": [
+        {
+          "sourceMap": "19.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 22,
+            "y": 34
+          }
+        },
+        {
+          "sourceMap": "23.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 6,
+            "y": 4
+          }
+        },
+        {
+          "sourceMap": "23.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 33,
+            "y": 23
+          }
+        },
+        {
+          "sourceMap": "29.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 9,
+            "y": 19
+          }
+        },
+        {
+          "sourceMap": "42.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 11,
+            "y": 42
+          }
+        },
+        {
+          "sourceMap": "46.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 20,
+            "y": 22
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_upper_right_outer_corner_1x3_f34578a9.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_lower_left_outer_corner_3x1_6a1866ad",
+      "templateName": "Lower Left Outer Corner",
+      "sourceClusterId": "cluster_lower_left_outer_corner_3x1_6a1866ad",
+      "tileIdFamilyId": "fam_outer_corner_lower_left_outer_corner",
+      "role": "lower_left_outer_corner",
+      "structuralDesign": "outer_corner",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            },
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Buildings": [
+          77
+        ],
+        "Front": [
+          77
+        ]
+      },
+      "tileIdsByLayer": {
+        "Buildings": [
+          77
+        ],
+        "Front": [
+          77
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        true
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 71,
+      "sourceEvidence": [
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 6,
+            "y": 19
+          }
+        },
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 13,
+            "y": 19
+          }
+        },
+        {
+          "sourceMap": "17.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 1,
+            "y": 49
+          }
+        },
+        {
+          "sourceMap": "18.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 25,
+            "y": 37
+          }
+        },
+        {
+          "sourceMap": "29.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 32,
+            "y": 23
+          }
+        },
+        {
+          "sourceMap": "29.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 23,
+            "y": 48
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_lower_left_outer_corner_3x1_6a1866ad.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_lower_right_outer_corner_3x1_47684ef5",
+      "templateName": "Lower Right Outer Corner",
+      "sourceClusterId": "cluster_lower_right_outer_corner_3x1_47684ef5",
+      "tileIdFamilyId": "fam_outer_corner_lower_right_outer_corner",
+      "role": "lower_right_outer_corner",
+      "structuralDesign": "outer_corner",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Front": [
+          77
+        ]
+      },
+      "tileIdsByLayer": {
+        "Front": [
+          77
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 87,
+      "sourceEvidence": [
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 11,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 18,
+            "y": 15
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 23,
+            "y": 29
+          }
+        },
+        {
+          "sourceMap": "12.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 78,
+            "y": 12
+          }
+        },
+        {
+          "sourceMap": "120.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 15
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_lower_right_outer_corner_3x1_47684ef5.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_upper_left_inner_corner_1x3_e386f75f",
+      "templateName": "Upper Left Inner Corner",
+      "sourceClusterId": "cluster_upper_left_inner_corner_1x3_e386f75f",
+      "tileIdFamilyId": "fam_inner_corner_upper_left_inner_corner",
+      "role": "upper_left_inner_corner",
+      "structuralDesign": "inner_corner",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 216
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 232
+            },
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 232
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            },
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 213
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77,
+          232
+        ],
+        "Front": [
+          213,
+          216,
+          232
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77,
+          232
+        ],
+        "Front": [
+          213,
+          216,
+          232
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        true,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        true,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        true
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": true,
+        "NE": true,
+        "E": true,
+        "SE": true,
+        "S": false,
+        "SW": true,
+        "W": false,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 73,
+      "sourceEvidence": [
+        {
+          "sourceMap": "12.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 38,
+            "y": 11
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 2,
+            "y": 22
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 24
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 26
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 26,
+            "y": 27
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 27,
+            "y": 29
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_upper_left_inner_corner_1x3_e386f75f.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_upper_right_inner_corner_1x3_ca0ce803",
+      "templateName": "Upper Right Inner Corner",
+      "sourceClusterId": "cluster_upper_right_inner_corner_1x3_ca0ce803",
+      "tileIdFamilyId": "fam_inner_corner_upper_right_inner_corner",
+      "role": "upper_right_inner_corner",
+      "structuralDesign": "inner_corner",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 205
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 221
+            },
+            "Front": {
+              "tilesheetId": "mine",
+              "localTileId": 221
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77,
+          221
+        ],
+        "Front": [
+          205,
+          221
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77,
+          221
+        ],
+        "Front": [
+          205,
+          221
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        true,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        true,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        true
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": true,
+        "NE": true,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": true,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 74,
+      "sourceEvidence": [
+        {
+          "sourceMap": "42.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 12,
+            "y": 36
+          }
+        },
+        {
+          "sourceMap": "44.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 23,
+            "y": 78
+          }
+        },
+        {
+          "sourceMap": "47.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 42,
+            "y": 29
+          }
+        },
+        {
+          "sourceMap": "48.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 21,
+            "y": 22
+          }
+        },
+        {
+          "sourceMap": "50.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 17,
+            "y": 12
+          }
+        },
+        {
+          "sourceMap": "50.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 49,
+            "y": 23
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_upper_right_inner_corner_1x3_ca0ce803.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_lower_left_inner_corner_1x3_8ff8265d",
+      "templateName": "Lower Left Inner Corner",
+      "sourceClusterId": "cluster_lower_left_inner_corner_1x3_8ff8265d",
+      "tileIdFamilyId": "fam_inner_corner_lower_left_inner_corner",
+      "role": "lower_left_inner_corner",
+      "structuralDesign": "inner_corner",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 118
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 186
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 134
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 235
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          186,
+          218,
+          235
+        ],
+        "Buildings": [
+          118,
+          134
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          186,
+          218,
+          235
+        ],
+        "Buildings": [
+          118,
+          134
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        true
+      ],
+      "wallMask": [
+        true,
+        true,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 4
+          }
+        },
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 37,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 14,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 9,
+            "y": 15
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_lower_left_inner_corner_1x3_8ff8265d.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_lower_right_inner_corner_3x1_9d988458",
+      "templateName": "Lower Right Inner Corner",
+      "sourceClusterId": "cluster_lower_right_inner_corner_3x1_9d988458",
+      "tileIdFamilyId": "fam_inner_corner_lower_right_inner_corner",
+      "role": "lower_right_inner_corner",
+      "structuralDesign": "inner_corner",
+      "size": "3x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 185
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 157
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 158
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          185,
+          218
+        ],
+        "Buildings": [
+          157,
+          158
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          185,
+          218
+        ],
+        "Buildings": [
+          157,
+          158
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        true,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 12,
+            "y": 4
+          }
+        },
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 15,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 15,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 40,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 20,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 22,
+            "y": 7
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_lower_right_inner_corner_3x1_9d988458.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_ladder_opening_1x3_2fac88d9",
+      "templateName": "Ladder Opening",
+      "sourceClusterId": "cluster_ladder_opening_1x3_2fac88d9",
+      "tileIdFamilyId": "fam_ladder_opening_ladder_opening",
+      "role": "ladder_opening",
+      "structuralDesign": "ladder_opening",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 67
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 83
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 99
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Buildings": [
+          67,
+          83,
+          99
+        ]
+      },
+      "tileIdsByLayer": {
+        "Buildings": [
+          67,
+          83,
+          99
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        true,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "none"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 59,
+      "sourceEvidence": [
+        {
+          "sourceMap": "1.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 10,
+            "y": 1
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 6,
+            "y": 3
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 2
+          }
+        },
+        {
+          "sourceMap": "120.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 6,
+            "y": 3
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 17,
+            "y": 1
+          }
+        },
+        {
+          "sourceMap": "17.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 8,
+            "y": 2
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_ladder_opening_1x3_2fac88d9.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_shaft_opening_1x3_367ff18d",
+      "templateName": "Shaft Opening",
+      "sourceClusterId": "cluster_shaft_opening_1x3_367ff18d",
+      "tileIdFamilyId": "fam_shaft_opening_shaft_opening",
+      "role": "shaft_opening",
+      "structuralDesign": "shaft_opening",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 175
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 191
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 207
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          218
+        ],
+        "Buildings": [
+          175,
+          191,
+          207
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          218
+        ],
+        "Buildings": [
+          175,
+          191,
+          207
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        true,
+        true,
+        true
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "none"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 17,
+            "y": 8
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 42,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 9
+          }
+        },
+        {
+          "sourceMap": "120.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 17,
+            "y": 8
+          }
+        },
+        {
+          "sourceMap": "13.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 32,
+            "y": 18
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 42,
+            "y": 24
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_shaft_opening_1x3_367ff18d.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_blocked_boundary_1x3_4d6c3715",
+      "templateName": "Blocked Boundary",
+      "sourceClusterId": "cluster_blocked_boundary_1x3_4d6c3715",
+      "tileIdFamilyId": "fam_wall_top_blocked_boundary",
+      "role": "blocked_boundary",
+      "structuralDesign": "wall_top",
+      "size": "1x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 247
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 244
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 263
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          234,
+          247,
+          263
+        ],
+        "Buildings": [
+          244
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          234,
+          247,
+          263
+        ],
+        "Buildings": [
+          244
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        true,
+        false,
+        true
+      ],
+      "wallMask": [
+        false,
+        true,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": true,
+        "NE": true,
+        "E": false,
+        "SE": true,
+        "S": true,
+        "SW": false,
+        "W": false,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 52,
+      "sourceEvidence": [
+        {
+          "sourceMap": "20.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 24,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "20.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 25,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "20.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 26,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "20.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 27,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "20.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 33,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "20.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 34,
+            "y": 7
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_blocked_boundary_1x3_4d6c3715.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_deep_void_fill_3x3_96c8e18a",
+      "templateName": "Deep Void Fill",
+      "sourceClusterId": "cluster_deep_void_fill_3x3_96c8e18a",
+      "tileIdFamilyId": "fam_deep_void_deep_void_fill",
+      "role": "deep_void_fill",
+      "structuralDesign": "deep_void",
+      "size": "3x3",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 1,
+        "y": 1
+      },
+      "layerStack": [
+        {
+          "dx": -1,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 77
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          138
+        ],
+        "Buildings": [
+          77
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "wallMask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "allowedRotations": [
+        "none"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 74,
+      "sourceEvidence": [
+        {
+          "sourceMap": "42.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 4,
+            "y": 2
+          }
+        },
+        {
+          "sourceMap": "43.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 46,
+            "y": 23
+          }
+        },
+        {
+          "sourceMap": "43.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 32
+          }
+        },
+        {
+          "sourceMap": "44.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 20,
+            "y": 10
+          }
+        },
+        {
+          "sourceMap": "44.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 22,
+            "y": 11
+          }
+        },
+        {
+          "sourceMap": "44.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 3,
+            "y": 32
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_deep_void_fill_3x3_96c8e18a.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_lower_face_3_tile_stack_5x5_74c2cc6b",
+      "templateName": "Lower Face 3 Tile Stack",
+      "sourceClusterId": "cluster_lower_face_3_tile_stack_5x5_74c2cc6b",
+      "tileIdFamilyId": "fam_lower_face_lower_face_3_tile_stack",
+      "role": "lower_face_3_tile_stack",
+      "structuralDesign": "lower_face",
+      "size": "5x5",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 2,
+        "y": 2
+      },
+      "layerStack": [
+        {
+          "dx": -2,
+          "dy": -2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 85
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": -2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 154
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 86
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": -2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 139
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 89
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": -2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 155
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 24
+            }
+          }
+        },
+        {
+          "dx": 2,
+          "dy": -2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 171
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 91
+            }
+          }
+        },
+        {
+          "dx": -2,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 154
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 101
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 201
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 102
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 202
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 105
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 202
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 40
+            }
+          }
+        },
+        {
+          "dx": 2,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 202
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 107
+            }
+          }
+        },
+        {
+          "dx": -2,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 171
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 117
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 188
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 118
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 121
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 56
+            }
+          }
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 123
+            }
+          }
+        },
+        {
+          "dx": -2,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 133
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 134
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 186
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": -2,
+          "dy": 2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": 2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 235
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            }
+          }
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 138
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          138,
+          139,
+          154,
+          155,
+          171,
+          186,
+          188,
+          201,
+          202,
+          218,
+          234,
+          235
+        ],
+        "Buildings": [
+          24,
+          40,
+          56,
+          85,
+          86,
+          89,
+          91,
+          101,
+          102,
+          105,
+          107,
+          117,
+          118,
+          121,
+          123,
+          133,
+          134
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          139,
+          154,
+          155,
+          171,
+          186,
+          188,
+          201,
+          202,
+          218,
+          234,
+          235
+        ],
+        "Buildings": [
+          24,
+          40,
+          56,
+          85,
+          86,
+          89,
+          91,
+          101,
+          102,
+          105,
+          107,
+          117,
+          118,
+          121,
+          123,
+          133,
+          134
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "wallMask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": true,
+        "S": true,
+        "SW": false,
+        "W": false,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 47,
+      "sourceEvidence": [
+        {
+          "sourceMap": "77377.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 61,
+            "y": 7
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_crystal_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 31,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_crystal_03.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 13,
+            "y": 9
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_01.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 31,
+            "y": 5
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_01.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 13,
+            "y": 9
+          }
+        },
+        {
+          "sourceMap": "moon_dungeon_early_01_frost.tmx",
+          "sourceCategory": "moonvillage_dungeon",
+          "sourceCoordinate": {
+            "x": 31,
+            "y": 5
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_lower_face_3_tile_stack_5x5_74c2cc6b.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_right_wall_edge_1x5_80def5c1",
+      "templateName": "Right Wall Edge",
+      "sourceClusterId": "cluster_right_wall_edge_1x5_80def5c1",
+      "tileIdFamilyId": "fam_right_edge_right_wall_edge",
+      "role": "right_wall_edge",
+      "structuralDesign": "right_edge",
+      "size": "1x5",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 0,
+        "y": 2
+      },
+      "layerStack": [
+        {
+          "dx": 0,
+          "dy": -2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 72
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": -1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 88
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 104
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 218
+            },
+            "Buildings": {
+              "tilesheetId": "mine",
+              "localTileId": 120
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          218,
+          234
+        ],
+        "Buildings": [
+          72,
+          88,
+          104,
+          120
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          218,
+          234
+        ],
+        "Buildings": [
+          72,
+          88,
+          104,
+          120
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "wallMask": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": false,
+        "SE": false,
+        "S": false,
+        "SW": true,
+        "W": true,
+        "NW": true
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 24,
+            "y": 12
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 7,
+            "y": 14
+          }
+        },
+        {
+          "sourceMap": "11.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 26,
+            "y": 16
+          }
+        },
+        {
+          "sourceMap": "12.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 43,
+            "y": 9
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 11,
+            "y": 25
+          }
+        },
+        {
+          "sourceMap": "14.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 42,
+            "y": 29
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_right_wall_edge_1x5_80def5c1.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    },
+    {
+      "templateId": "fresh_floor_to_wall_transition_5x1_f295438b",
+      "templateName": "Floor To Wall Transition",
+      "sourceClusterId": "cluster_floor_to_wall_transition_5x1_f295438b",
+      "tileIdFamilyId": "fam_floor_transition_floor_to_wall_transition",
+      "role": "floor_to_wall_transition",
+      "structuralDesign": "floor_transition",
+      "size": "5x1",
+      "profile": "mine/dungeon",
+      "anchor": {
+        "x": 2,
+        "y": 0
+      },
+      "layerStack": [
+        {
+          "dx": -2,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": -1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 0,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "stack": {
+            "Back": {
+              "tilesheetId": "mine",
+              "localTileId": 234
+            }
+          }
+        }
+      ],
+      "tilesByLayer": {
+        "Back": [
+          234
+        ]
+      },
+      "tileIdsByLayer": {
+        "Back": [
+          234
+        ]
+      },
+      "requiredOrder": "exact relative cell/layer order from source signature",
+      "emptyMask": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "floorMask": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "wallMask": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "voidMask": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "allowedRotations": [
+        "N",
+        "E",
+        "S",
+        "W",
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "allowedTilesheets": [
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous",
+        "z_mine",
+        "mine",
+        "mine_dangerous",
+        "mine_dark",
+        "mine_dark_dangerous",
+        "mine_desert_dangerous",
+        "mine_desert_dark",
+        "mine_desert_dark_dangerous",
+        "mine_dino",
+        "mine_frost",
+        "mine_frost_dangerous",
+        "mine_frost_dark",
+        "mine_frost_dark_dangerous",
+        "mine_lava_dark",
+        "mine_lava_dark_dangerous",
+        "mine_quarryshaft",
+        "mine_slime",
+        "mine_slime_dangerous"
+      ],
+      "tilesheetCompatibility": "local IDs align only for mine-compatible sheets listed in allowedTilesheets",
+      "collisionMeaning": "blocked where Buildings non-void tiles exist; Front is decorative; Back is floor/support",
+      "placementRules": "place the complete template only; no single structural cell may be emitted outside this layer stack",
+      "neighborRules": {
+        "N": false,
+        "NE": false,
+        "E": true,
+        "SE": true,
+        "S": true,
+        "SW": true,
+        "W": true,
+        "NW": false
+      },
+      "fallbackTemplateId": "marker_only_fallback",
+      "productionStatus": "generator_ready",
+      "confidence": 95,
+      "sourceEvidence": [
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 9,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 10,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "10.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 11,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "12.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 68,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "12.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 69,
+            "y": 6
+          }
+        },
+        {
+          "sourceMap": "12.tbin",
+          "sourceCategory": "vanilla_mine",
+          "sourceCoordinate": {
+            "x": 70,
+            "y": 6
+          }
+        }
+      ],
+      "previewPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\pattern_learning\\mine_dungeon_fresh_relearn\\previews\\fresh_floor_to_wall_transition_5x1_f295438b.png",
+      "notes": "Fresh relearned template. Requires manual visual review before production use unless explicitly promoted later."
+    }
+  ]
+}

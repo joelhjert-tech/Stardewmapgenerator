@@ -1,0 +1,760 @@
+{
+  "generatedAt": "2026-06-16T04:37:34.321543+00:00",
+  "mapId": "remake_02",
+  "title": "Remake 02 - Compact Mine Outpost Room",
+  "profile": "dungeon",
+  "kind": "remake",
+  "sourceMap": "10.tbin",
+  "sourceOrigin": "vanilla base-game unpacked map, read-only: mission_assets/unpacked_basegame/10.tbin",
+  "sourceReason": "Compact mine room with denser Back-layer flooring, a ladder/exit, and wooden/stone structural language.",
+  "size": {
+    "width": 48,
+    "height": 48,
+    "tileWidth": 16,
+    "tileHeight": 16
+  },
+  "tilesheet": {
+    "name": "mine.png",
+    "sourcePath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\mission_assets\\unpacked_basegame\\mine.png",
+    "copiedPath": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\tilesheets\\mine.png",
+    "columns": 16,
+    "rows": 18,
+    "tileCount": 288,
+    "sourceStatus": "vanilla_basegame_tilesheet_read_only_source"
+  },
+  "entrance": {
+    "x": 24,
+    "y": 37
+  },
+  "exit": {
+    "x": 36,
+    "y": 23
+  },
+  "layerNames": [
+    "Back",
+    "Buildings",
+    "Front",
+    "AlwaysFront",
+    "Paths"
+  ],
+  "tileUsageByLayer": {
+    "Back": {
+      "1": 14,
+      "2": 19,
+      "3": 5,
+      "17": 14,
+      "18": 25,
+      "19": 17,
+      "33": 351,
+      "34": 12,
+      "35": 6,
+      "77": 1788,
+      "138": 11,
+      "171": 1,
+      "185": 1,
+      "201": 1,
+      "202": 2,
+      "203": 4,
+      "217": 4,
+      "218": 8,
+      "219": 3,
+      "220": 3,
+      "233": 6,
+      "234": 6,
+      "235": 3
+    },
+    "Buildings": {
+      "20": 1,
+      "21": 1,
+      "37": 1,
+      "38": 1,
+      "67": 1,
+      "69": 3,
+      "70": 2,
+      "71": 2,
+      "72": 3,
+      "73": 2,
+      "74": 4,
+      "75": 4,
+      "76": 2,
+      "83": 1,
+      "85": 79,
+      "86": 2,
+      "87": 9,
+      "89": 10,
+      "91": 10,
+      "93": 9,
+      "94": 7,
+      "99": 1,
+      "101": 6,
+      "105": 9,
+      "106": 1,
+      "107": 10,
+      "108": 3,
+      "109": 7,
+      "110": 4,
+      "115": 1,
+      "121": 4,
+      "122": 9,
+      "123": 12,
+      "124": 9,
+      "125": 9,
+      "126": 9,
+      "238": 1
+    },
+    "Front": {
+      "80": 3,
+      "196": 6,
+      "197": 6,
+      "205": 6,
+      "206": 6,
+      "213": 8,
+      "214": 12,
+      "215": 6,
+      "216": 8,
+      "221": 4,
+      "232": 7
+    },
+    "AlwaysFront": {},
+    "Paths": {}
+  },
+  "tileUsageTotal": {
+    "1": 14,
+    "2": 19,
+    "3": 5,
+    "17": 14,
+    "18": 25,
+    "19": 17,
+    "20": 1,
+    "21": 1,
+    "33": 351,
+    "34": 12,
+    "35": 6,
+    "37": 1,
+    "38": 1,
+    "67": 1,
+    "69": 3,
+    "70": 2,
+    "71": 2,
+    "72": 3,
+    "73": 2,
+    "74": 4,
+    "75": 4,
+    "76": 2,
+    "77": 1788,
+    "80": 3,
+    "83": 1,
+    "85": 79,
+    "86": 2,
+    "87": 9,
+    "89": 10,
+    "91": 10,
+    "93": 9,
+    "94": 7,
+    "99": 1,
+    "101": 6,
+    "105": 9,
+    "106": 1,
+    "107": 10,
+    "108": 3,
+    "109": 7,
+    "110": 4,
+    "115": 1,
+    "121": 4,
+    "122": 9,
+    "123": 12,
+    "124": 9,
+    "125": 9,
+    "126": 9,
+    "138": 11,
+    "171": 1,
+    "185": 1,
+    "196": 6,
+    "197": 6,
+    "201": 1,
+    "202": 2,
+    "203": 4,
+    "205": 6,
+    "206": 6,
+    "213": 8,
+    "214": 12,
+    "215": 6,
+    "216": 8,
+    "217": 4,
+    "218": 8,
+    "219": 3,
+    "220": 3,
+    "221": 4,
+    "232": 7,
+    "233": 6,
+    "234": 6,
+    "235": 3,
+    "238": 1
+  },
+  "prototypeOnly": true,
+  "provisionalUsage": [
+    {
+      "localTileId": 1,
+      "role": "mine_plank_or_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 2,
+      "role": "mine_plank_or_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 3,
+      "role": "mine_plank_or_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 17,
+      "role": "mine_plank_or_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 18,
+      "role": "mine_plank_or_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 19,
+      "role": "mine_plank_or_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 33,
+      "role": "mine_cobbled_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 34,
+      "role": "mine_cobbled_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 35,
+      "role": "mine_cobbled_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Used on Back in vanilla 10.tbin as compact mine-room flooring."
+    },
+    {
+      "localTileId": 77,
+      "role": "black_void_fill",
+      "layer": "Back",
+      "collision": "blocked_outside_floor",
+      "confidence": 80,
+      "reason": "Frequent vanilla mine void/black fill tile."
+    },
+    {
+      "localTileId": 138,
+      "role": "cave_floor_base",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Most common Back floor tile in vanilla 1.tbin/10.tbin."
+    },
+    {
+      "localTileId": 171,
+      "role": "cave_floor_variation",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Repeated vanilla Back floor variation."
+    },
+    {
+      "localTileId": 185,
+      "role": "cave_floor_variation",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Repeated vanilla Back floor variation."
+    },
+    {
+      "localTileId": 201,
+      "role": "cave_floor_variation",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Repeated vanilla Back floor variation."
+    },
+    {
+      "localTileId": 202,
+      "role": "cave_floor_variation",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Repeated vanilla Back floor variation."
+    },
+    {
+      "localTileId": 203,
+      "role": "cave_floor_variation",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Repeated vanilla Back floor variation."
+    },
+    {
+      "localTileId": 217,
+      "role": "cave_floor_detail",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Common vanilla Back floor detail."
+    },
+    {
+      "localTileId": 218,
+      "role": "cave_floor_detail",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Common vanilla Back floor detail."
+    },
+    {
+      "localTileId": 219,
+      "role": "cave_floor_detail",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Common vanilla Back floor detail."
+    },
+    {
+      "localTileId": 220,
+      "role": "cave_floor_detail",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Common vanilla Back floor detail."
+    },
+    {
+      "localTileId": 233,
+      "role": "cave_floor_detail",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Common vanilla Back floor detail."
+    },
+    {
+      "localTileId": 234,
+      "role": "cave_floor_detail",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Common vanilla Back floor detail."
+    },
+    {
+      "localTileId": 235,
+      "role": "cave_floor_detail",
+      "layer": "Back",
+      "collision": "walkable",
+      "confidence": 80,
+      "reason": "Common vanilla Back floor detail."
+    },
+    {
+      "localTileId": 67,
+      "role": "ladder_or_exit",
+      "layer": "Buildings",
+      "collision": "walkable_special",
+      "confidence": 80,
+      "reason": "Vanilla mine ladder candidate; prototype review only."
+    },
+    {
+      "localTileId": 69,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 70,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 71,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 72,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 73,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 74,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 75,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 76,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock boundary candidate."
+    },
+    {
+      "localTileId": 83,
+      "role": "ladder_or_exit",
+      "layer": "Buildings",
+      "collision": "walkable_special",
+      "confidence": 80,
+      "reason": "Vanilla mine ladder candidate; prototype review only."
+    },
+    {
+      "localTileId": 85,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 86,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 87,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 89,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 91,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 93,
+      "role": "cave_wall_corner",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock corner/cap candidate."
+    },
+    {
+      "localTileId": 94,
+      "role": "cave_wall_corner",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock corner/cap candidate."
+    },
+    {
+      "localTileId": 99,
+      "role": "ladder_or_exit",
+      "layer": "Buildings",
+      "collision": "walkable_special",
+      "confidence": 80,
+      "reason": "Vanilla mine ladder candidate; prototype review only."
+    },
+    {
+      "localTileId": 101,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 105,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 106,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 107,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 108,
+      "role": "cave_wall_body",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock body candidate."
+    },
+    {
+      "localTileId": 109,
+      "role": "cave_wall_corner",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock corner/cap candidate."
+    },
+    {
+      "localTileId": 110,
+      "role": "cave_wall_corner",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock corner/cap candidate."
+    },
+    {
+      "localTileId": 115,
+      "role": "ladder_or_exit",
+      "layer": "Buildings",
+      "collision": "walkable_special",
+      "confidence": 80,
+      "reason": "Vanilla mine ladder candidate; prototype review only."
+    },
+    {
+      "localTileId": 121,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock lower edge candidate."
+    },
+    {
+      "localTileId": 122,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock lower edge candidate."
+    },
+    {
+      "localTileId": 123,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock lower edge candidate."
+    },
+    {
+      "localTileId": 124,
+      "role": "cave_wall_edge",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock lower edge candidate."
+    },
+    {
+      "localTileId": 125,
+      "role": "cave_wall_corner",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock corner/cap candidate."
+    },
+    {
+      "localTileId": 126,
+      "role": "cave_wall_corner",
+      "layer": "Buildings",
+      "collision": "blocked",
+      "confidence": 80,
+      "reason": "Vanilla mine Buildings rock corner/cap candidate."
+    },
+    {
+      "localTileId": 238,
+      "role": "treasure_chest",
+      "layer": "Buildings",
+      "collision": "blocked_or_interactive",
+      "confidence": 80,
+      "reason": "Vanilla mine chest/treasure candidate; prototype review only."
+    },
+    {
+      "localTileId": 80,
+      "role": "wall_torch",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine torch/light decoration candidate."
+    },
+    {
+      "localTileId": 196,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 197,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 205,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 206,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 213,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 214,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 215,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 216,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 221,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    },
+    {
+      "localTileId": 232,
+      "role": "cave_shadow_or_front_edge",
+      "layer": "Front",
+      "collision": "decorative_front",
+      "confidence": 80,
+      "reason": "Vanilla mine Front rock/shadow edge candidate."
+    }
+  ],
+  "paths": {
+    "tmx": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\remake_02\\remake_02.tmx",
+    "tmj": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\remake_02\\remake_02.tmj",
+    "preview_clean": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\remake_02\\preview_clean.png",
+    "preview_labeled": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\remake_02\\preview_labeled.png",
+    "source_reference_preview": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\remake_02\\source_reference_preview.png",
+    "source_vs_remake_preview": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\remake_02\\source_vs_remake_preview.png",
+    "validation_report": "C:\\Users\\Joel_\\Documents\\Stardew Moonvillage\\tools\\tiled-map-assistant\\prototype_visual_maps\\dungeon_review\\remake_02\\validation_report.md"
+  },
+  "validation": {
+    "status": "PASS",
+    "issues": [],
+    "warnings": [],
+    "warningCount": 0,
+    "checks": {
+      "tmxParsed": true,
+      "tmjParsed": true,
+      "tilesheetResolved": true,
+      "entranceExitReachable": true,
+      "boundarySealed": true,
+      "tile946Absent": true,
+      "alwaysFrontEmpty": true
+    },
+    "reachableTileCount": 515,
+    "walkableTileCount": 515
+  },
+  "tile946Status": "not_used"
+}

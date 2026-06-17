@@ -1,0 +1,96 @@
+{
+  "reviewType": "mine_dungeon_visual_canon_v1",
+  "reviewer": "Joel",
+  "selectedTheme": "vanilla_earth_mine",
+  "instructions": "Approve only templates that visually match real Stardew mine structure and are safe for generator use.",
+  "decisions": [
+    {
+      "templateId": "canon_earth_deep_void_blocked_boundary_12",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_straight_wall_01",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_lower_wall_face_14",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_left_edge_03",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_right_edge_04",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_outer_corner_05",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_inner_corner_06",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_wall_shadow_strip_17",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_ladder_opening_18",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_shaft_opening_09",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    },
+    {
+      "templateId": "canon_earth_floor_to_wall_transition_11",
+      "decision": "unsure",
+      "visualStatus": "needs_review",
+      "generatorStatus": "marker_fallback_only",
+      "locked": false,
+      "notes": ""
+    }
+  ]
+}

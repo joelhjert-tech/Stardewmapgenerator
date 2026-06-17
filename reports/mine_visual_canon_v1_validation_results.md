@@ -1,0 +1,27 @@
+# Mine/Dungeon Visual Canon v1 Validation Results
+
+- Mode: locked
+- Status: **FAIL**
+- Templates checked: 18
+- Source crops checked: 18
+- Negative rules checked: 8
+- Issues: 18
+
+- canon_earth_straight_wall_01 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_straight_wall_01_combined.png
+- canon_earth_lower_wall_face_02 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_lower_wall_face_02_combined.png
+- canon_earth_left_edge_03 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_left_edge_03_combined.png
+- canon_earth_right_edge_04 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_right_edge_04_combined.png
+- canon_earth_outer_corner_05 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_outer_corner_05_combined.png
+- canon_earth_inner_corner_06 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_inner_corner_06_combined.png
+- canon_earth_angled_wall_07 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_angled_wall_07_combined.png
+- canon_earth_ladder_opening_08 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_ladder_opening_08_combined.png
+- canon_earth_shaft_opening_09 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_shaft_opening_09_combined.png
+- canon_earth_wall_shadow_strip_10 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_wall_shadow_strip_10_combined.png
+- canon_earth_floor_to_wall_transition_11 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_floor_to_wall_transition_11_combined.png
+- canon_earth_deep_void_blocked_boundary_12 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_deep_void_blocked_boundary_12_combined.png
+- canon_earth_small_complete_room_corner_13 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_small_complete_room_corner_13_combined.png
+- canon_earth_lower_wall_face_14 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_lower_wall_face_14_combined.png
+- canon_earth_inner_corner_15 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_inner_corner_15_combined.png
+- canon_earth_outer_corner_16 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_outer_corner_16_combined.png
+- canon_earth_wall_shadow_strip_17 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_wall_shadow_strip_17_combined.png
+- canon_earth_ladder_opening_18 preview missing: pattern_learning/mine_dungeon_visual_canon_v1/previews/earth_ladder_opening_18_combined.png

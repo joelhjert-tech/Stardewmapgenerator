@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-06-17T04:06:08.232403+00:00",
+  "pack": "opening_blocks",
+  "instruction": "Set each item's 'decision' to true (approve) or false (reject). Approved items are later promoted by promote_cleaned_blocks; nothing is auto-approved.",
+  "itemCount": 1,
+  "items": [
+    {
+      "blockId": "mbb_mine_wall_body_3x3_d540e1c5724a9224",
+      "cleanedBlockId": "mbb_mine_wall_body_3x3_d540e1c5724a9224__rc5x5_85cae5e97e7eb3dd",
+      "blockType": "mine_wall_body",
+      "sourceMap": "50.tbin",
+      "sourceCoordinate": {
+        "x": 46,
+        "y": 18
+      },
+      "previewPath": "pattern_learning/map_building_blocks/cleaned_blocks/previews/mbb_mine_wall_body_3x3_d540e1c5724a9224__rc5x5_85cae5e97e7eb3dd.png",
+      "contactSheet": "review_openings_large.png",
+      "size": "5x5",
+      "layers": [
+        "Back",
+        "Buildings",
+        "Front"
+      ],
+      "tileIdsByLayer": {
+        "Back": [
+          138,
+          218,
+          219
+        ],
+        "Buildings": [
+          85,
+          86,
+          87,
+          101,
+          102,
+          103,
+          117,
+          118,
+          119
+        ],
+        "Front": []
+      },
+      "qualityScores": {
+        "structureCompletenessScore": 1.0,
+        "classificationConfidence": 0.792,
+        "floorPurityScore": 0.24,
+        "wallPurityScore": 0.72,
+        "voidPurityScore": 1.0,
+        "frontPairingScore": 1.0,
+        "edgeCompletenessScore": 0.6,
+        "cornerCompletenessScore": 1.0,
+        "cropQualityScore": 1.0,
+        "decorationContaminationScore": 0.96,
+        "objectContaminationScore": 1.0,
+        "reusableGeneratorScore": 0.919
+      },
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "cleaningDecision": "recut_for_review",
+      "decision": null,
+      "notes": ""
+    }
+  ]
+}

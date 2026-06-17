@@ -1,0 +1,2881 @@
+{
+  "generatedAt": "2026-06-17T06:29:52.184767+00:00",
+  "quarantinedCount": 155,
+  "dispositionCounts": {
+    "reclassify_candidate": 92,
+    "propose_decoration_variant": 33,
+    "recut_larger_context": 22,
+    "remain_quarantined": 6,
+    "reject_permanently": 2
+  },
+  "reasonByDisposition": {
+    "misclassified": {
+      "reclassify_candidate": 41,
+      "reject_permanently": 2
+    },
+    "below the type quality bar": {
+      "propose_decoration_variant": 4,
+      "reclassify_candidate": 51,
+      "recut_larger_context": 3,
+      "remain_quarantined": 6
+    },
+    "forbidden contamination": {
+      "propose_decoration_variant": 29
+    },
+    "cropped; re-cut could not resolve the structure (needs larger/variable context)": {
+      "recut_larger_context": 19
+    }
+  },
+  "note": "Analysis only. No block is moved out of quarantine automatically; entries marked reclassify_candidate / recut_larger_context / propose_decoration_variant are FUTURE work.",
+  "blocks": [
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_7675419f42935223",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_4dd23115f60e1396",
+      "blockType": "mine_inner_corner",
+      "cleaningReason": "below the type quality bar: reusable-generator score below threshold",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_d11e1fc0d8933a40",
+      "blockType": "mine_inner_corner",
+      "cleaningReason": "below the type quality bar: reusable-generator score below threshold",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_81f915849339a432",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_f4d12da5ddd8ed3b",
+      "blockType": "mine_inner_corner",
+      "cleaningReason": "below the type quality bar: reusable-generator score below threshold",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_inner_corner_3x3_3c46f0cd9ace442b",
+      "blockType": "mine_inner_corner",
+      "cleaningReason": "below the type quality bar: reusable-generator score below threshold",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_62e920988b008b34",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_45bd3c206b3dc50d",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 0,
+        "void": 0,
+        "object": 2,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_8501fca9d2bbfc05",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_9801dce3fedc27ae",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 1,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_0f660eb0b31044b0",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_4ab43f8f0b5e0409",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 0,
+        "void": 0,
+        "object": 2,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_bce463a9b8aa9fbd",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_f3abe714c6d52c73",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_4f4c998464d0b774",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_f63579f97148d6ea",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_d6bb9c9f45a0c819",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 1,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_f15021031f8e71a8",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_4a8203e072fb31e3",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_4cd93d7330ef7d36",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_776afa46354b32ab",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 0,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_195fd76daa80a11c",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 1,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_6ce9dc71edb382f7",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_42091533ca925eb6",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 0,
+        "void": 0,
+        "object": 2,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_682ef0c517aac367",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_3b6a50b40b77af36",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_07f21098d2142d18",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_3438013232ed8628",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_4c4485dd396127b4",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 0,
+        "void": 0,
+        "object": 2,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_34c48a4cc3a98364",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 7,
+        "wall": 1,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_b00aae3e1fa9113a",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_463995e6034da7c5",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_211d003587346441",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_da29b2b56bb39e43",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_ecee79c467e761d9",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 0,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_db9749a8b8673e28",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_ce1b295f548cc61c",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_05546ec12216d20e",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_dfd28cbac85198a9",
+      "blockType": "mine_outer_corner",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 1,
+        "wall": 8,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_ae3ed39870eb55a8",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_d3a9e80f9cb7f28c",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_093994c9ac0cad29",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_417800d0396dafad",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_467288b96b9efbc7",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_65c1f8a05cf306b3",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_1e18398ad5bc150b",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_6dd1039da3aa0ce0",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_a5a2c0820d55cae7",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 0,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_9513287e8d29724f",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_6e610fe7e9863d61",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_e7f013a30cfb8d8b",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_a81acebece675569",
+      "blockType": "mine_wall_right_edge",
+      "cleaningReason": "below the type quality bar: edge block carries too much void",
+      "riskFlags": [
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 2,
+        "wall": 4,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_0e963c62b1dbc118",
+      "blockType": "mine_wall_right_edge",
+      "cleaningReason": "below the type quality bar: edge block carries too much void",
+      "riskFlags": [
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 3,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_d4fbb79ae50e1f6a",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_f1bd526826e8c504",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "below the type quality bar: floor block contains void",
+      "riskFlags": [
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "remain_quarantined",
+      "rationale": "void in a floor block; not usable as floor",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_1a55569344ec2d1b",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_fc40a41b28671442",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_39eb2989f8e52f45",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_5d4b660ef3c8e017",
+      "blockType": "mine_wall_forward_lower_face",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 2,
+        "wall": 7,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_d3fdfbcacea8aef9",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_82396753117606ec",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_852b1fec6367ade9",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_6dba54adf98a5d74",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 0,
+        "void": 0,
+        "object": 2,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_5x5_d51140ced60a598c",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 21,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_81b2eedd26f7a879",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_5x5_690386d327683bb9",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 21,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_79a14f907eb33cf0",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_7dd8842739605ee1",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_16268e2c556808e6",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_2adaf2cbe2b18c54",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_e781a0bfd7bd95ae",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_dadc526e27875a55",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_a48c954661427c9d",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: reusable-generator score below threshold",
+      "riskFlags": [],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 0,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "remain_quarantined",
+      "rationale": "low overall quality; keep quarantined",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_17db8d22ed0de4ed",
+      "blockType": "mine_outer_corner",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_void",
+        "mixed_unrelated_structures"
+      ],
+      "roleCounts": {
+        "floor": 1,
+        "wall": 5,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reject_permanently",
+      "rationale": "geometry does not match any clean block type",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_98523aa0ab98248b",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_f089ec6b8bd3ca00",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_671d43fd431e3bd9",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_29c4067e8e0af38a",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_c03fcab2e838a4de",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_d863ccf7ad3ea977",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_6b8219939efe07f5",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_84aa4b40400c721b",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_125abc48abc4b1da",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_5x5_c289cad740b34bff",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 21,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_c5417a53c6302155",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_6ea5682158578de1",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_c13a6787cdc0762e",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_right_edge_3x3_dce5d49a73419769",
+      "blockType": "mine_wall_right_edge",
+      "cleaningReason": "below the type quality bar: edge block carries too much void",
+      "riskFlags": [
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 3,
+        "wall": 3,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_2b3d2f1a80c1085f",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 8,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_823b1820bfd19f2b",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_bb0f8e16307ee7d8",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: reusable-generator score below threshold",
+      "riskFlags": [],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 0,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "remain_quarantined",
+      "rationale": "low overall quality; keep quarantined",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_28cfd640e35dcfb6",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_d397372055ef802d",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_c2cf6de93cd3546c",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_2c747c620f4f575b",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_237ce6bdfc1e7c1c",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 3,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_54b0907085924336",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_bae4fcc4219b7c7c",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_03100bb7e6dc1754",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_12daf3f11f220601",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_e3af20eacb0bcf6a",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_7d6eb62a1567608f",
+      "blockType": "mine_outer_corner",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 1,
+        "wall": 8,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_outer_corner_3x3_1f73615c487435a1",
+      "blockType": "mine_outer_corner",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_void",
+        "mixed_unrelated_structures"
+      ],
+      "roleCounts": {
+        "floor": 1,
+        "wall": 5,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reject_permanently",
+      "rationale": "geometry does not match any clean block type",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_2ee201f83147c4b0",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_1b5a37fcbbff83ef",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_8992520de5486486",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_5899324f3cc4bb8b",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_770ba72c6428984b",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_0e551f225c3fc9c0",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_61c8b0da290a1829",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration"
+      ],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 0,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_a87d7bcfa0d1e87f",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "below the type quality bar: floor block contains void",
+      "riskFlags": [
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "remain_quarantined",
+      "rationale": "void in a floor block; not usable as floor",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_f773f460cc82cf57",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_5630618283ce1a3b",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_67223a3e6f3249f2",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_8241343165e987c1",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_0528e360e1130f01",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "cropped_structure",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 4,
+        "wall": 5,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_d68973367482f2e5",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_3574686da0349fed",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_33dbce0a12cee89a",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_03fa001c427c40b0",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_e10c914837d0afe8",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_fd44892bbbbbba43",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: non-shadow Front decoration",
+      "riskFlags": [
+        "contains_decoration",
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "non-shadow Front decor -> decoration variant",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_3x3_b051236ce6ca737d",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: reusable-generator score below threshold",
+      "riskFlags": [],
+      "roleCounts": {
+        "floor": 9,
+        "wall": 0,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "remain_quarantined",
+      "rationale": "low overall quality; keep quarantined",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_7c50196690ee1f9d",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "below the type quality bar: floor block contains void",
+      "riskFlags": [
+        "contains_unexpected_void"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 0,
+        "void": 3,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "remain_quarantined",
+      "rationale": "void in a floor block; not usable as floor",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_52ca113b070be73c",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "contains_decoration",
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_37e7597192920f6e",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_forward_lower_face_3x3_a6127781e11fbaa5",
+      "blockType": "mine_wall_forward_lower_face",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 2,
+        "wall": 7,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_fad3bd651f53a8f0",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_05d32f963d172468",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_ed450dde272adacb",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_bb106ee06eed499e",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 3,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_blocked_boundary_3x3_46c28c112bff4cd6",
+      "blockType": "mine_blocked_boundary",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "contains_unexpected_floor",
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 6,
+        "wall": 3,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_42190b6a26b9dc47",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_c1183df18c345aac",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_3bfa9f98cbbf1590",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_628018001111fcd3",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_8577c28edbd6c5e3",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_6514b371757fdf9a",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_19c9ade43967cd07",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_6621d155b6989098",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 0,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_84a965d8b6ae60d7",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 0,
+        "void": 0,
+        "object": 2,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_a3ef3484e1d6d6fc",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_ced83cc6cf74fdf8",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_523c3eaa06ec0080",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 0,
+        "void": 0,
+        "object": 1,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_5x5_bd86b288d2fc9a9a",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 21,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_5x5_657e25ba63518093",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "forbidden contamination: contains ladder/object/light",
+      "riskFlags": [
+        "contains_light_or_object"
+      ],
+      "roleCounts": {
+        "floor": 21,
+        "wall": 1,
+        "void": 0,
+        "object": 3,
+        "opening": 0
+      },
+      "disposition": "propose_decoration_variant",
+      "rationale": "object/ladder/light -> decoration variant, never core",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_348bfb3c4b75d953",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_d9e79748294831a0",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_500c95e56b33cffe",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_3cf7fc87529b2e35",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_7b3c0acebd99083b",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_0629a19f3875c9ad",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 24,
+        "wall": 1,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_base_5x5_cbf5a66a4497d08b",
+      "blockType": "mine_floor_base",
+      "cleaningReason": "below the type quality bar: floor block clips wall cells (not pure floor)",
+      "riskFlags": [
+        "good_review_candidate"
+      ],
+      "roleCounts": {
+        "floor": 23,
+        "wall": 2,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "near-pure floor clipping a wall -> revisit as floor_with_transition / edge",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_floor_variation_3x3_8bc69e3432e319bd",
+      "blockType": "mine_floor_variation",
+      "cleaningReason": "misclassified: geometry does not match block type",
+      "riskFlags": [
+        "wrong_block_type"
+      ],
+      "roleCounts": {
+        "floor": 5,
+        "wall": 4,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "reclassify_candidate",
+      "rationale": "floor+wall fragment -> revisit as transition, not a boundary",
+      "movedOutOfQuarantine": false
+    },
+    {
+      "blockId": "mbb_mine_wall_body_3x3_ecd9a9fcbcaea932",
+      "blockType": "mine_wall_body",
+      "cleaningReason": "cropped; re-cut could not resolve the structure (needs larger/variable context)",
+      "riskFlags": [
+        "cropped_structure",
+        "needs_larger_context",
+        "too_small_for_structure"
+      ],
+      "roleCounts": {
+        "floor": 0,
+        "wall": 9,
+        "void": 0,
+        "object": 0,
+        "opening": 0
+      },
+      "disposition": "recut_larger_context",
+      "rationale": "structure incomplete at 5x5/7x7 -> try variable-rectangle re-cut",
+      "movedOutOfQuarantine": false
+    }
+  ]
+}
