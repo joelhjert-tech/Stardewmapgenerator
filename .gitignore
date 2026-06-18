@@ -16,6 +16,15 @@ pattern_learning/**/atlases/**/*.png
 pattern_learning/**/review_contact_sheets/**/*.png
 pattern_learning/**/approved_by_joel/**/*.png
 
+# Generated dungeon outputs
+generated_layouts/*.json
+prototype_visual_maps/
+prototype_visual_maps/**
+
+# Broad local image safety net
+*.png
+**/*.png
+
 # Third-party repos / binaries
 working_mod_mining/reference_repos/
 working_mod_mining/reference_repos_tmp/

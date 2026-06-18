@@ -24,6 +24,7 @@ class SemanticLayout:
     floor_mask: set[tuple[int, int]]
     special_markers: dict[str, list[tuple[int, int]]] = field(default_factory=dict)
     graph_debug: dict = field(default_factory=dict)
+    route_locks: list[dict[str, Any]] = field(default_factory=list)
 
 
 def _require(data: dict[str, Any], key: str) -> Any:
@@ -86,6 +87,9 @@ def load_semantic_layout_json(path: str | Path) -> SemanticLayout:
     graph_debug = data.get("graphDebug", {})
     if not isinstance(graph_debug, dict):
         raise ValueError("graphDebug must be an object")
+    route_locks = data.get("routeLocks", [])
+    if not isinstance(route_locks, list):
+        raise ValueError("routeLocks must be a list when present")
 
     return SemanticLayout(
         map_id=map_id,
@@ -98,6 +102,7 @@ def load_semantic_layout_json(path: str | Path) -> SemanticLayout:
         floor_mask=floor_mask,
         special_markers=special_markers,
         graph_debug=graph_debug,
+        route_locks=route_locks,
     )
 
 
