@@ -29,6 +29,33 @@ def torches_from_layout_json(path: str | Path) -> list[tuple[int, int]]:
     return [tuple(map(int, pair)) for pair in markers.get("torches", [])]
 
 
+def route_marker_counts_from_layout_json(path: str | Path) -> tuple[dict[str, int], list[str]]:
+    doc = read_json(path)
+    markers = doc.get("specialMarkers") or doc.get("special_markers") or {}
+    route_locks = doc.get("routeLocks") or []
+    errors: list[str] = []
+    counts = {
+        "gates": len(markers.get("gates", [])),
+        "switches": len(markers.get("switches", [])),
+        "keys": len(markers.get("keys", [])),
+        "routeLocks": len(route_locks),
+    }
+    for lock in route_locks:
+        if not isinstance(lock, dict):
+            errors.append("routeLocks entries must be objects")
+            continue
+        style = lock.get("style")
+        if counts["gates"] < 1:
+            errors.append("semantic JSON has routeLocks but no specialMarkers.gates")
+        if style == "switch" and counts["switches"] < 1:
+            errors.append("switch route lock exists but specialMarkers.switches is empty")
+        elif style == "key" and counts["keys"] < 1:
+            errors.append("key route lock exists but specialMarkers.keys is empty")
+        elif style not in {"switch", "key"}:
+            errors.append(f"unknown route lock style: {style!r}")
+    return counts, errors
+
+
 def tile_layer(tmj: dict, name: str) -> dict:
     for layer in tmj.get("layers", []):
         if layer.get("name") == name and layer.get("type") == "tilelayer":
@@ -102,12 +129,16 @@ def main() -> int:
     parser.add_argument("--require-authored-ladder", action="store_true")
     args = parser.parse_args()
 
+    route_counts = {"gates": 0, "switches": 0, "keys": 0, "routeLocks": 0}
     if args.layout_json:
         expected = torches_from_layout_json(args.layout_json)
+        route_counts, route_errors = route_marker_counts_from_layout_json(args.layout_json)
     else:
         expected = parse_expected_torches(args.expected_torches)
+        route_errors = []
 
     errors = check_torches(Path(args.tmj), expected)
+    errors.extend(route_errors)
 
     if args.require_authored_ladder:
         errors.extend(check_authored_ladder(Path(args.metadata)))
@@ -120,6 +151,11 @@ def main() -> int:
 
     print("PASS: rendered markers verified")
     print(f"- torches verified: {len(expected)}")
+    if args.layout_json and route_counts["routeLocks"]:
+        print(f"- route locks: {route_counts['routeLocks']}")
+        print(f"- gates declared: {route_counts['gates']}")
+        print(f"- switches declared: {route_counts['switches']}")
+        print(f"- keys declared: {route_counts['keys']}")
     if args.require_authored_ladder:
         print("- authored ladder entrance verified")
     return 0

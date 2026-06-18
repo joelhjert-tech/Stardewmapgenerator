@@ -10,6 +10,7 @@ from typing import Any
 
 from dungeon_graph import DungeonEdge, DungeonGraph
 from dungeon_layout_planner import plan_layout
+from dungeon_locking import select_route_locks
 from dungeon_rasterizer import rasterize_layout
 from dungeon_spec import DungeonSpec
 from dungeon_topology_generator import generate_topology
@@ -29,12 +30,22 @@ def _sorted_edges(edges: list[DungeonEdge]) -> list[dict[str, str]]:
     ]
 
 
-def build_semantic_layout_data(spec: DungeonSpec, allow_partial_loops: bool = False) -> dict[str, Any]:
+def build_semantic_layout_data(
+    spec: DungeonSpec,
+    allow_partial_loops: bool = False,
+    locks: int = 0,
+    lock_style: str = "switch",
+) -> dict[str, Any]:
     rng = random.Random(spec.seed)
     graph = generate_topology(spec, rng, allow_partial_loops=allow_partial_loops)
     rooms = plan_layout(graph, spec, rng)
     floor_mask, special_markers, entrance, exit = rasterize_layout(graph, rooms, spec, rng)
-    return {
+    route_locks = select_route_locks(graph, rooms, floor_mask, locks, lock_style)
+    if route_locks:
+        special_markers.setdefault("gates", []).extend(tuple(lock["gateMarker"]) for lock in route_locks)
+        marker_name = "switches" if lock_style == "switch" else "keys"
+        special_markers.setdefault(marker_name, []).extend(tuple(lock["keyMarker"]) for lock in route_locks)
+    data = {
         "schema": SCHEMA,
         "mapId": f"generated_seed_{spec.seed}",
         "title": f"Generated Dungeon Seed {spec.seed}",
@@ -48,8 +59,11 @@ def build_semantic_layout_data(spec: DungeonSpec, allow_partial_loops: bool = Fa
             name: [[x, y] for x, y in sorted(points, key=lambda p: (p[1], p[0]))]
             for name, points in sorted(special_markers.items())
         },
-        "graphDebug": _graph_debug(graph, rooms, spec, floor_mask),
+        "graphDebug": _graph_debug(graph, rooms, spec, floor_mask, route_locks),
     }
+    if route_locks:
+        data["routeLocks"] = route_locks
+    return data
 
 
 def _graph_debug(
@@ -57,6 +71,7 @@ def _graph_debug(
     rooms: dict,
     spec: DungeonSpec,
     floor_mask: set[tuple[int, int]],
+    route_locks: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     loop_edges = sorted(
         (item for item in graph.loop_debug if "a" in item),
@@ -85,6 +100,7 @@ def _graph_debug(
             for node_id, room in sorted(rooms.items())
         ],
         "edges": _sorted_edges(graph.edges),
+        "routeLocks": route_locks or [],
     }
     if warnings:
         debug["warnings"] = warnings
@@ -105,6 +121,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--corridor-width", type=int, default=2)
     parser.add_argument("--margin", type=int, default=8)
     parser.add_argument("--torch-count", type=int, default=8)
+    parser.add_argument("--locks", type=int, default=0)
+    parser.add_argument("--lock-style", choices=["switch", "key"], default="switch")
     parser.add_argument("--allow-partial-loops", action="store_true")
     parser.add_argument("--out", type=Path, required=True)
     return parser.parse_args()
@@ -130,14 +148,27 @@ def spec_from_args(args: argparse.Namespace) -> DungeonSpec:
 def main() -> int:
     args = parse_args()
     spec = spec_from_args(args)
+    if args.locks > 1:
+        print(json.dumps({
+            "status": "FAIL",
+            "issue": "Only --locks 0 and --locks 1 are supported; multi-lock dependency ordering is deferred.",
+            "requestedLocks": args.locks,
+        }, indent=2, sort_keys=True))
+        return 1
     try:
-        data = build_semantic_layout_data(spec, allow_partial_loops=args.allow_partial_loops)
-    except ValueError as exc:
+        data = build_semantic_layout_data(
+            spec,
+            allow_partial_loops=args.allow_partial_loops,
+            locks=args.locks,
+            lock_style=args.lock_style,
+        )
+    except (NotImplementedError, ValueError) as exc:
         print(json.dumps({
             "status": "FAIL",
             "issue": str(exc),
             "requestedLoops": spec.loops,
             "minLoopHops": spec.min_loop_hops,
+            "requestedLocks": args.locks,
         }, indent=2, sort_keys=True))
         return 1
     write_semantic_layout_json(data, args.out)
@@ -155,6 +186,7 @@ def main() -> int:
         "floorCellCount": len(data["floorMask"]),
         "entrance": data["entrance"],
         "exit": data["exit"],
+        "routeLockCount": len(data.get("routeLocks", [])),
     }, indent=2, sort_keys=True))
     return 0
 
