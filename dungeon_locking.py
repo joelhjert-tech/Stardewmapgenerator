@@ -189,10 +189,12 @@ def select_route_locks(
 
         branch_candidates = _branch_key_candidates(graph, entrance_side)
         main_candidates = _main_key_candidates(main_nodes, entrance_side, (earlier, later))
-        key_candidates = branch_candidates + [node for node in main_candidates if node not in branch_candidates]
-        if not key_candidates:
+        if branch_candidates:
+            key_node = branch_candidates[0]
+        elif main_candidates:
+            key_node = max(main_candidates, key=lambda node_id: (main_index(node_id) or -1, node_id))
+        else:
             continue
-        key_node = key_candidates[0]
         gate_marker = _marker_for_edge(rooms, floor_mask, earlier, later)
         key_marker = _marker_for_node(rooms, floor_mask, key_node)
         proof = {
